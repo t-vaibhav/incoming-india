@@ -18,6 +18,7 @@ function Footer() {
       .then(
         (result) => {
           console.log(result.text);
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -75,7 +76,11 @@ function Footer() {
             className="w-[200px] px-2 py-1 h-10 bg-slate-600 rounded-sm"
             placeholder="Query"
           />
-          <button className="bg-slate-700 hover:bg-slate-800 px-2 py-1 rounded-lg" onClick={sendEmail}>Send</button>
+          <input
+            type="submit"
+            value="Send"
+            className="bg-slate-700 hover:bg-slate-800 px-2 py-1 rounded-lg hover:cursor-pointer"
+          />
         </form>
         <div>
           <span className="footer-title">Address</span>
