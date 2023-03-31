@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Footer from "../components/Footer";
+
 import Review from "../components/Review"
+import Review from "../components/Review";
+
 
 export default function Home() {
   return (

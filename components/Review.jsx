@@ -1,10 +1,12 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import Image from "next/image";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
+
 
 // import required modules
 import { Pagination, Autoplay } from "swiper";
@@ -19,12 +21,30 @@ export default function Review() {
         autoplay={{
           delay: 2000,
           pauseOnMouseEnter: true,
+
+import "swiper/css/autoplay";
+
+// import required modules
+
+export default function Review() {
+  return (
+    <>
+      <Swiper
+        modules={[Autoplay, Pagination, Navigation]}
+        spaceBetween={30}
+        centeredSlides={true}
+        slidesPerView={3}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+
         }}
         pagination={{
           clickable: true,
         }}
         className="mySwiper"
       >
+
         <SwiperSlide className="flex items-center mb-4">
           <div className="card bg-base-100 bg-opacity-80 rounded-xl backdrop-blur-lg w-auto drop-shadow-2xl mx-2 my-4 h-auto">
             <figure className="px-10 pt-10 h-auto">
@@ -129,5 +149,9 @@ export default function Review() {
         </SwiperSlide>
       </Swiper>
     </div>
+
+        <SwiperSlide></SwiperSlide>
+      </Swiper>
+    </>
   );
 }
