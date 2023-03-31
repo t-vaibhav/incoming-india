@@ -1,7 +1,10 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "../components/Footer";
+
+import Review from "../components/Review"
 import Review from "../components/Review";
+
 
 export default function Home() {
   return (
