@@ -10,11 +10,11 @@ export default function Hero() {
         <section className='relative '>
             <div>
                 <video autoPlay muted loop id="myVideo" className='h-[100vh] w-[100vw] object-cover opacity-100  top-0 -z-50 relative' >
-                    <source src="/media/india.mp4" type="video/mp4" />
+                    <source src="/media/india3.mp4" type="video/mp4" />
                     Your browser does not support HTML5 video.
                 </video>
             </div>
-            <div className=' absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center text-white text-center'>
+            <div className='bg-black/20 absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center text-white text-center'>
                 <div className=' max-w-[600px] space-y-4'>
                     <h1 className='text-5xl font-bold font-tillana tracking-widhero-shadow'>INCOMING INDIA</h1>
                     <p className='text-xl font-alkatra hero-shadow'>Discover The Magic Of India With Incoming India - Your Ultimate Travel Partner!</p>

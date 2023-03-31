@@ -24,7 +24,12 @@ export default function Navbar() {
         }
     }
 
-    // window.addEventListener('scroll', changeColor)
+
+    React.useEffect(() => {
+        window.addEventListener('scroll', changeColor)
+        // window is accessible here.
+
+    }, []);
 
     return (
         <nav className={`h-24 ${color ? 'bg-black h-[70px]' : 'bg-transparent'} fixed top-0 left-0 right-0 z-10 px-16 flex items-center justify-between text-white`}>
