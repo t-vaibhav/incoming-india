@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "../components/Footer";
+import Hero from "@/components/Hero";
+import Welcome from "@/components/Welcome";
+import Explore from "@/components/Explore";
+
 
 import Review from "../components/Review"
 import Review from "../components/Review";
@@ -17,7 +21,13 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
+
+        <Hero />
+        <Welcome />
+        <Explore />
+
         <Review />
+
         <Footer />
       </main>
     </>

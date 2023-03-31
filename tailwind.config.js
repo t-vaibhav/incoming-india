@@ -8,6 +8,12 @@ module.exports = {
       fontFamily: {
         'kanit': ['Kanit', 'sans-serif'],
         'molengo': ['Molengo', 'sans-serif'],
+        'alkatra': ['Alkatra', 'cursive'],
+        'fasthand': ['Fasthand', 'cursive'],
+        'handdrawn': ['Delicious Handrawn', 'cursive'],
+        'tillana': ['Tillana', 'cursive'],
+        'serifjp': ['Noto Serif JP', 'serif'],
+
       },
     },
   },
