@@ -7,6 +7,7 @@ const nextConfig = {
       "assets.vogue.com",
       "m.media-amazon.com",
       "images.unsplash.com",
+      "flowbite.s3.amazonaws.com"
     ],
   },
 }
