@@ -13,6 +13,7 @@ module.exports = {
         'handdrawn': ['Delicious Handrawn', 'cursive'],
         'tillana': ['Tillana', 'cursive'],
         'serifjp': ['Noto Serif JP', 'serif'],
+        'EBG': ['EB Garamond', 'serif'],
 
       },
     },

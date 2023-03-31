@@ -81,22 +81,25 @@ export default function Explore() {
     }
     )
 
-
+    const mystyle = {
+        backgroundImage: 'url(/media/ebg2.jpg)'
+    }
 
     return (
-        <section className='bg-rose-50'>
-
-            <section className='max-w-screen-xl text-center mx-auto py-20'>
-                {/* <h1 className='text-5xl font-serifjp font-bold text-gray-900'>Let Us take you to an adventure you'll never forget</h1> */}
-                <h2 className='text-5xl font-serifjp py-16 text-gray-900 font-bold '>Explore The Indian Subcontinent</h2>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-                    {record1}
-                </div>
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-20 '>
-                    {record2}
-                </div>
-            </section>
-        </section>
+        <section className=' bg-gradient-to-br from-orange-200 to-rose-200 bg-cover bg-no-repeat bg-center' style={mystyle}>
+            <div className=''>
+                < section className=' max-w-screen-xl text-center mx-auto py-20' >
+                    {/* <h1 className='text-5xl font-serifjp font-bold text-gray-900'>Let Us take you to an adventure you'll never forget</h1> */}
+                    < h2 className='text-5xl font-serifjp py-16 text-gray-900 font-bold ' > Explore The Indian Subcontinent</h2 >
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+                        {record1}
+                    </div>
+                    <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-20 '>
+                        {record2}
+                    </div>
+                </section >
+            </div>
+        </section >
     )
 
 }

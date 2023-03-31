@@ -108,7 +108,7 @@ export default function Navbar() {
                 </div>
             </div>
 
-            <div className={`fixed top-0 right-0 ${burger ? '-translate-x-0' : 'translate-x-full'} ease-in-out block lg:hidden duration-1000 h-full w-[100vw] bg-no-repeat bg-cover bg-center`} style={mystyle}>
+            <div className={`fixed top-0 right-0 ${burger ? '-translate-x-0' : 'translate-x-full'} ease-in-out block lg:hidden duration-1000 h-full w-[100vw] bg-no-repeat bg-cover bg-center`} >
                 <div className='flex pt-32 justify-center bg-black/20 backdrop-blur-sm h-full w-full'>
                     <ul className=' space-y-8 text-2xl text-center font-medium'>
                         <li className={`${burger ? '' : ''} duration-`}><a href="#">ABOUT US</a></li >
