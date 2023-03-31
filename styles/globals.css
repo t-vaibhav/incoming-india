@@ -8,6 +8,14 @@
   text-align: right;
   /* right: 0; */
   /* left: 0; */
+}
+
+.listitem:hover .sublist {
+  display: block;
+  position: absolute;
+  text-align: right;
+  /* right: 0; */
+  /* left: 0; */
 
 }
 
@@ -18,6 +26,11 @@
 .hero-shadow {
   text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
+
+.hero-shadow {
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
 
 .swiper {
   width: 100%;
