@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Footer from "../components/Footer";
 import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import Explore from "@/components/Explore";
 
+import Review from "../components/Review";
 
 export default function Home() {
   return (
@@ -23,6 +21,7 @@ export default function Home() {
         <Hero />
         <Welcome />
         <Explore />
+        <Review />
         <Footer />
       </main>
     </>
