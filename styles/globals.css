@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.listitem:hover .sublist {
+    display: block;
+    position: absolute;
+    text-align: right;
+    /* right: 0; */
+    /* left: 0; */
+
+}
+
+.listitem:hover .down-arrow {
+    rotate: 180deg;
+}
+
+.hero-shadow {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
