@@ -57,7 +57,7 @@ export default function Explore() {
         }
 
         return (
-            <div key={index} className='flex justify-center '>
+            <div key={index} className='flex justify-center'>
                 <FlipCard height='25rem' width='20rem' rounded={true}>
                     <FlipCard.Front style={style1} className='bg-cover bg-center bg-no-repeat relative'>
                         <div className='absolute text-white bottom-4 bg-black/70 w-full py-1 text-3xl font-serifjp'>
@@ -86,13 +86,15 @@ export default function Explore() {
     }
 
     return (
-        <section className=' bg-gradient-to-br from-orange-200 to-rose-200 bg-cover bg-no-repeat bg-center' style={mystyle}>
+        <section className=' bg-gradient-to-br from-orange-200 to-rose-200 bg-cover bg-no-repeat bg-center' >
             <div className=''>
-                < section className=' max-w-screen-xl text-center mx-auto py-20' >
+                < section className=' max-w-screen-xl text-center mx-auto pb-32' >
                     {/* <h1 className='text-5xl font-serifjp font-bold text-gray-900'>Let Us take you to an adventure you'll never forget</h1> */}
-                    < h2 className='text-5xl font-serifjp py-16 text-gray-900 font-bold ' > Explore The Indian Subcontinent</h2 >
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-                        {record1}
+                    < h2 className='text-5xl font-serifjp py-16 pb-24 text-gray-900 font-bold ' > Explore The Indian Subcontinent</h2 >
+                    <div className=''>
+                        <div className='grid grid-cols-1 md:grid-cols-3 mx-auto gap-10'>
+                            {record1}
+                        </div>
                     </div>
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-20 '>
                         {record2}
