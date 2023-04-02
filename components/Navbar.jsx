@@ -65,7 +65,7 @@ export default function Navbar() {
                         <span className='cursor-pointer' href="#"><a href="https://www.youtube.com"> DESTINATIONS</a>
                             <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'}`} >
                                 <div className='w-full flex-row justify-center'>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">India</a></li>
+                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/india">India</a></li>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">Nepal</a></li>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">Bhutan</a></li>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">Sri Lanka</a></li>
