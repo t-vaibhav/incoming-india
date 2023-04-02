@@ -35,3 +35,7 @@ export const list2 = [
         content: "Nepal, the land of the Himalayas, boasts a breathtaking scenery of snow-capped peaks, lush valleys, and ancient temples. Discover its rich culture, indulge in its hearty cuisine, and trek to the base camp of Mount Everest - an adventure like no other awaits you in Nepal.",
     },
 ]
+
+export const destRecInd = [
+
+]
