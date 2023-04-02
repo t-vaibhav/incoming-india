@@ -14,29 +14,32 @@ export default function Review() {
     }
   }, [controls, inView]);
   return (
-    <div>
+    <div className="bg-gradient-to-r from-[#e3cea4] via-[#d2c0a0] to-[#f3e6cb] pt-6">
       <section>
-        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <h1 className="text-center font-alkatra text-[#82704c] font-bold text-xl md:text-4xl mb-8">
+          Words From Our Delighted Customers
+        </h1>
+        <div class="mx-auto max-w-screen-xl px-4 pb-16 pt-0 sm:px-6 lg:px-8">
           <div class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
             <motion.div
               ref={ref}
               animate={controls}
               initial="hidden"
-              transition={{ duration: 0.4 }}
+              transition={{ duration: 1 }}
               variants={{
-                visible: { x: 0 },
-                hidden: { x: "-100vh" },
+                visible: { opacity: 1 },
+                hidden: { opacity: 0 },
               }}
               class="mb-8 sm:break-inside-avoid"
             >
               <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                <p class="leading-relaxed text-gray-700">
-                  I had an incredible trip to India thanks to the team at
+                <p class="leading-relaxed text-gray-700 font-lora">
+                &ldquo; I had an incredible trip to India thanks to the team at
                   Incoming India! As a solo traveler, I was a bit nervous about
                   navigating such a large and culturally different country, but
                   the agency took care of everything for me. I highly recommend
                   their services to anyone looking for a stress-free and
-                  enjoyable travel experience.
+                  enjoyable travel experience. &rdquo;
                 </p>
               </blockquote>
 
@@ -50,8 +53,8 @@ export default function Review() {
                 />
 
                 <div class="text-sm">
-                  <p class="font-medium">Sarah</p>
-                  <p class="mt-1">Freelance Writer</p>
+                  <p class="font-bold text-white">Sarah</p>
+                  <p class="mt-1 text-white">Freelance Writer</p>
                 </div>
               </div>
             </motion.div>
@@ -61,20 +64,20 @@ export default function Review() {
               ref={ref}
               animate={controls}
               initial="hidden"
-              transition={{ duration: 0.7 }}
+              transition={{ duration: 1 }}
               variants={{
-                visible: { x: 0 },
-                hidden: { x: "-100vh" },
+                visible: { opacity: 1 },
+                hidden: { opacity: 0 },
               }}
             >
               <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                <p class="leading-relaxed text-gray-700">
-                  Incoming India exceeded all of my expectations. From the
+                <p class="leading-relaxed text-gray-700 font-lora">
+                &ldquo; Incoming India exceeded all of my expectations. From the
                   moment I landed in Delhi, their team took care of everything -
                   transportation, accommodations, and sightseeing. They even
                   arranged for me to meet with local artisans and learn about
                   traditional crafts. It was an unforgettable experience that I
-                  will treasure for a lifetime.
+                  will treasure for a lifetime. &rdquo;
                 </p>
               </blockquote>
 
@@ -88,8 +91,8 @@ export default function Review() {
                 />
 
                 <div class="text-sm">
-                  <p class="font-medium">David</p>
-                  <p class="mt-1"> Marketing Executive</p>
+                  <p class="font-bold text-white">David</p>
+                  <p class="mt-1 text-white"> Marketing Executive</p>
                 </div>
               </div>
             </motion.div>
@@ -100,16 +103,16 @@ export default function Review() {
               initial="hidden"
               transition={{ duration: 1 }}
               variants={{
-                visible: { x: 0 },
-                hidden: { x: "-100vh" },
+                visible: { opacity: 1 },
+                hidden: { opacity: 0 },
               }}
               class="mb-8 sm:break-inside-avoid"
             >
               <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                <p class="leading-relaxed text-gray-700">
-                  As a first-time traveler to India, I was a bit overwhelmed by
+                <p class="leading-relaxed text-gray-700 font-lora">
+                &ldquo; As a first-time traveler to India, I was a bit overwhelmed by
                   the cultural differences and language barriers. But Incoming
-                  India s team put me at ease and made me feel at home.
+                  India s team put me at ease and made me feel at home. &rdquo;
                 </p>
               </blockquote>
 
@@ -123,8 +126,8 @@ export default function Review() {
                 />
 
                 <div class="text-sm">
-                  <p class="font-medium">Maria</p>
-                  <p class="mt-1">University Student</p>
+                  <p class="font-bold text-white">Maria</p>
+                  <p class="mt-1 text-white">University Student</p>
                 </div>
               </div>
             </motion.div>

@@ -10,7 +10,12 @@ module.exports = withMT({
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        alkatra: ['Alkatra', 'cursive'],
+        lora: ['Lora', 'serif']
+      }
+    },
   },
   plugins: [require("daisyui", "flowbite/plugin")],
 });

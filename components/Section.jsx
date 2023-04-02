@@ -25,8 +25,10 @@ export default function Section() {
   ];
   
   return (
-    <div className="h-screen bg-[#00052a] text-white flex items-center justify-center">
-      <div className="max-w-5xl ">
+    <div className="flex flex-col" id="sectionDiv">
+      <h1 className="text-white text-2xl font-serif md:text-5xl font-bold text-center mt-8 mb-0">WonderLust India</h1>
+    <div className="h-screen text-white flex items-center justify-center mt-0">
+      <div className="max-w-5xl mt-0">
         <Swiper
           spaceBetween={50}
           slidesPerView={3}
@@ -63,6 +65,7 @@ export default function Section() {
           ))}{" "}
         </Swiper>
       </div>
+    </div>
     </div>
   );
 }
