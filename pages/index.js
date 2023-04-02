@@ -1,10 +1,8 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "../components/Footer";
-
-import Review from "../components/Review"
 import Review from "../components/Review";
-
+import Section from "../components/Section";
 
 export default function Home() {
   return (
@@ -17,6 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
+        <Section />
         <Review />
         <Footer />
       </main>

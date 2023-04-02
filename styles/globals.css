@@ -2,27 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-=
-.swiper {
-  width: 100%;
-  height: 100%;
+* {
+  @apply font-sans;
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card {
+  @apply w-72 cursor-pointer border-b-4 rounded-md bg-gradient-to-t
+   from-white/20 h-44 text-center px-3 py-7 self-end duration-500 delay-100;
+}
+.card-active {
+  @apply h-96;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+/* .logo {
+  @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full text-red-600 grid place-items-center;
+} */
+
+.para {
+  @apply mt-3;
 }
 
+.card .skill-level {
+    @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem]
+    grid place-items-center rounded-full max-w-[3rem] absolute right-0
+    scale-0;
+}
+ 

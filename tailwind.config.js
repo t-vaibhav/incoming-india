@@ -1,16 +1,16 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",],
-  theme: {
-    extend: {
-      fontFamily: {
-        'kanit': ['Kanit', 'sans-serif'],
-        'molengo': ['Molengo', 'sans-serif'],
-      },
-    },
-  },
-  plugins: [require("daisyui")],
-}
+const withMT = require("@material-tailwind/react/utils/withMT");
 
+module.exports = withMT({
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("daisyui", "flowbite/plugin")],
+});
