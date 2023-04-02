@@ -14,7 +14,7 @@ export default function Review() {
     }
   }, [controls, inView]);
   return (
-    <div className="bg-gradient-to-r tt from-[#e3cea4] via-[#d2c0a0] to-[#f3e6cb] pt-6">
+    <div className="bg-gradient-to-r from-[#e3cea4] via-[#d2c0a0] to-[#f3e6cb] pt-6">
       <section>
         <h1 className="text-center font-alkatra text-[#82704c] font-bold text-xl md:text-4xl mb-8">
           Words From Our Delighted Customers
