@@ -19,8 +19,8 @@ export default function Review() {
         <h1 className="text-center font-alkatra text-[#82704c] font-bold text-xl md:text-4xl mb-8">
           Words From Our Delighted Customers
         </h1>
-        <div class="mx-auto max-w-screen-xl px-4 pb-16 pt-0 sm:px-6 lg:px-8">
-          <div class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+        <div className="mx-auto max-w-screen-xl px-4 pb-16 pt-0 sm:px-6 lg:px-8">
+          <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
             <motion.div
               ref={ref}
               animate={controls}
@@ -30,10 +30,10 @@ export default function Review() {
                 visible: { opacity: 1 },
                 hidden: { opacity: 0 },
               }}
-              class="mb-8 sm:break-inside-avoid"
+              className="mb-8 sm:break-inside-avoid"
             >
-              <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                <p class="leading-relaxed text-gray-700 font-lora">
+              <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
+                <p className="leading-relaxed text-gray-700 font-lora">
                 &ldquo; I had an incredible trip to India thanks to the team at
                   Incoming India! As a solo traveler, I was a bit nervous about
                   navigating such a large and culturally different country, but
@@ -43,24 +43,24 @@ export default function Review() {
                 </p>
               </blockquote>
 
-              <div class="mt-4 flex items-center gap-4">
+              <div className="mt-4 flex items-center gap-4">
                 <Image
                   width={48}
                   height={48}
                   alt="Woman"
                   src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-                  class="h-12 w-12 rounded-full object-cover"
+                  className="h-12 w-12 rounded-full object-cover"
                 />
 
-                <div class="text-sm">
-                  <p class="font-bold text-white">Sarah</p>
-                  <p class="mt-1 text-white">Freelance Writer</p>
+                <div className="text-sm">
+                  <p className="font-bold text-white">Sarah</p>
+                  <p className="mt-1 text-white">Freelance Writer</p>
                 </div>
               </div>
             </motion.div>
 
             <motion.div
-              class="mb-8 sm:break-inside-avoid"
+              className="mb-8 sm:break-inside-avoid"
               ref={ref}
               animate={controls}
               initial="hidden"
@@ -70,8 +70,8 @@ export default function Review() {
                 hidden: { opacity: 0 },
               }}
             >
-              <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                <p class="leading-relaxed text-gray-700 font-lora">
+              <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
+                <p className="leading-relaxed text-gray-700 font-lora">
                 &ldquo; Incoming India exceeded all of my expectations. From the
                   moment I landed in Delhi, their team took care of everything -
                   transportation, accommodations, and sightseeing. They even
@@ -81,18 +81,18 @@ export default function Review() {
                 </p>
               </blockquote>
 
-              <div class="mt-4 flex items-center gap-4">
+              <div className="mt-4 flex items-center gap-4">
                 <Image
                   width={48}
                   height={48}
                   alt="Woman"
                   src="https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2ZpbGUlMjBhdmF0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                  class="h-12 w-12 rounded-full object-cover"
+                  className="h-12 w-12 rounded-full object-cover"
                 />
 
-                <div class="text-sm">
-                  <p class="font-bold text-white">David</p>
-                  <p class="mt-1 text-white"> Marketing Executive</p>
+                <div className="text-sm">
+                  <p className="font-bold text-white">David</p>
+                  <p className="mt-1 text-white"> Marketing Executive</p>
                 </div>
               </div>
             </motion.div>
@@ -106,28 +106,28 @@ export default function Review() {
                 visible: { opacity: 1 },
                 hidden: { opacity: 0 },
               }}
-              class="mb-8 sm:break-inside-avoid"
+              className="mb-8 sm:break-inside-avoid"
             >
-              <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                <p class="leading-relaxed text-gray-700 font-lora">
+              <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
+                <p className="leading-relaxed text-gray-700 font-lora">
                 &ldquo; As a first-time traveler to India, I was a bit overwhelmed by
                   the cultural differences and language barriers. But Incoming
                   India s team put me at ease and made me feel at home. &rdquo;
                 </p>
               </blockquote>
 
-              <div class="mt-4 flex items-center gap-4">
+              <div className="mt-4 flex items-center gap-4">
                 <Image
                   width={48}
                   height={48}
                   alt="Woman"
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMGF2YXRhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                  class="h-12 w-12 rounded-full object-cover"
+                  className="h-12 w-12 rounded-full object-cover"
                 />
 
-                <div class="text-sm">
-                  <p class="font-bold text-white">Maria</p>
-                  <p class="mt-1 text-white">University Student</p>
+                <div className="text-sm">
+                  <p className="font-bold text-white">Maria</p>
+                  <p className="mt-1 text-white">University Student</p>
                 </div>
               </div>
             </motion.div>

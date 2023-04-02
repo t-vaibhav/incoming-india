@@ -9,6 +9,7 @@ const nextConfig = {
       "images.unsplash.com",
       "flowbite.s3.amazonaws.com",
       "plus.unsplash.com",
+      "encrypted-tbn0.gstatic.com"
     ],
   },
 }

@@ -51,14 +51,14 @@ export default function Section() {
                     <Image alt=""
                       width={96}
                       height={96}
-                      src={langs.url}
+                      src={Lang.url}
                       className="logo h-24 w-24 rounded-full mx-auto"
                     />
                   </div>
                   <h2 className="text-3xl mt-2 font-semibold">
-                    {langs.name}
+                    {Lang.name}
                   </h2>
-                  <p className="para">{langs.des}</p>
+                  <p className="para">{Lang.des}</p>
                 </div>
               </div>
             </SwiperSlide>
