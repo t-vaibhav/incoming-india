@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import Explore from "@/components/Explore";
 import Review from "../components/Review";
+import Section from "@/components/Section";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero />
         <Welcome />
         <Explore />
+        <Section />
         <Review />
         <Footer />
       </main>

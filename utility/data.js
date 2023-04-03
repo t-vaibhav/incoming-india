@@ -37,5 +37,19 @@ export const list2 = [
 ]
 
 export const destRecInd = [
+    {
 
+        title: 'Red Fort',
+        description: 'sb shih aajayo bss jyada mt socho ab'
+    },
+    {
+
+        title: 'Red Fort',
+        description: 'sb shih aajayo bss jyada mt socho ab'
+    },
+    {
+
+        title: 'Red Fort',
+        description: 'sb shih aajayo bss jyada mt socho ab'
+    },
 ]

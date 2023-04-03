@@ -41,8 +41,8 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-10 px-16 flex items-center justify-between text-gray-200 hover:text-white`}>
-            <div className='pl-16'>
+        <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-10 px-10 flex items-center justify-between text-gray-200 hover:text-white`}>
+            <div className='pl-10'>
                 <a href=""><Image src={"/media/logo.png"} height={"50"} width={"50"} alt={"logo"} /></a>
             </div>
 
@@ -135,7 +135,8 @@ export default function Navbar() {
                                     </li >
                                     <li className={`${dest ? '' : ''} w-[15rem] z-10 duration-500 cursor-pointer`} onClick={() => { setDest(!dest) }}>
                                         <div className={`flex justify-between border-b-2 py-2 ${dest ? 'border-b-emerald-300' : ''}`}>
-                                            DESTINATIONS <RiArrowDropDownLine className={`text-4xl ${dest ? 'rotate-180' : ''} duration-500`} />
+                                            DESTINATIONS
+                                            {/* <RiArrowDropDownLine className={`text-4xl ${dest ? 'rotate-180' : ''} duration-500`} /> */}
                                         </div>
                                         <ul className={`${dest ? 'block' : 'hidden '} -z-10 duration-500 text-xl text-left py-2 space-y-2`}>
                                             <li>India</li>
@@ -148,7 +149,8 @@ export default function Navbar() {
 
                                     <li className={`${exp ? '' : ''} w-[15rem] z-10 duration-500 cursor-pointer`} onClick={() => { setExp(!exp) }}>
                                         <div className={`flex justify-between border-b-2 py-2 ${exp ? 'border-b-emerald-300' : ''}`}>
-                                            EXPERIENCES <RiArrowDropDownLine className={`text-4xl ${exp ? 'rotate-180' : ''} duration-500`} />
+                                            EXPERIENCES
+                                            {/* <RiArrowDropDownLine className={`text-4xl ${exp ? 'rotate-180' : ''} duration-500`} /> */}
                                         </div>
                                         <ul className={`${exp ? 'block' : 'hidden '} -z-10 duration-500 text-xl text-left py-2 space-y-2`}>
                                             <li>Luxury</li>

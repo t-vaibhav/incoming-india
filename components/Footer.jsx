@@ -83,7 +83,7 @@ function Footer() {
           />
         </form>
         <div>
-          <span className="footer-title text-[#9b7a39]">Address</span>
+          <span className="footer-title text-[#9b7a39] from-blue-50/20">Address</span>
           <p className="w-[300px]">
             Unit No 701 to 708, Tower D, Global Business Park, Sector-26,
             Gurugram, Haryana, 122002

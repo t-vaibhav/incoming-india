@@ -88,7 +88,7 @@ export default function Explore() {
     return (
         <section className=' bg-gradient-to-br from-orange-200 to-rose-200 bg-cover bg-no-repeat bg-center' >
             <div className=''>
-                < section className=' max-w-screen-xl text-center mx-auto pb-32' >
+                < section className=' max-w-screen-lg text-center mx-auto pb-32' >
                     {/* <h1 className='text-5xl font-serifjp font-bold text-gray-900'>Let Us take you to an adventure you'll never forget</h1> */}
                     < h2 className='text-5xl font-serifjp py-16 pb-24 text-gray-900 font-bold ' > Explore The Indian Subcontinent</h2 >
                     <div className=''>
