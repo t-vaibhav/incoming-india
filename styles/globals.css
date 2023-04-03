@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,8 +11,7 @@
 }
 
 .card {
-  @apply w-72 cursor-pointer border-b-4 rounded-md bg-gradient-to-t
-   from-white/20 h-44 text-center px-3 py-7 self-end duration-500 delay-100;
+  @apply w-72 cursor-pointer border-b-4 rounded-xl bg-gradient-to-t from-blue-gray-50/20 to-[#dedd81]/10 h-56 text-center px-3 py-7 self-end duration-500 delay-100;
 }
 .card-active {
   @apply h-96;
@@ -24,11 +25,11 @@
   @apply mt-3;
 }
 
-.card .skill-level {
+/* .card .skill-level {
   @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem]
     grid place-items-center rounded-full max-w-[3rem] absolute right-0
     scale-0;
-}
+} */
 
 #sectionDiv {
   background-image: url(https://i.ibb.co/WfMy9W2/1315439.jpg);

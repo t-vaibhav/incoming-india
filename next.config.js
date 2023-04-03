@@ -9,8 +9,11 @@ const nextConfig = {
       "images.unsplash.com",
       "flowbite.s3.amazonaws.com",
       "plus.unsplash.com",
+      "encrypted-tbn0.gstatic.com",
+      "unsplash.com",
+      "media.istockphoto.com",
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
