@@ -41,7 +41,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-20 px-10 flex items-center justify-between text-gray-200 hover:text-white`}>
+        <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-20 px-10 flex w-screen items-center justify-between text-gray-200 hover:text-white`}>
             <div className=''>
                 <a href="/"><Image src={"/media/logo.png"} height={"50"} width={"50"} alt={"logo"} /></a>
             </div>
