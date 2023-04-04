@@ -6,6 +6,7 @@ import Welcome from "@/components/Welcome";
 import Explore from "@/components/Explore";
 import Review from "../components/Review";
 import Section from "@/components/Section";
+import Insights from "@/components/Insights";
 
 
 

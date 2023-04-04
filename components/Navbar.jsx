@@ -41,44 +41,44 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-10 px-10 flex items-center justify-between text-gray-200 hover:text-white`}>
-            <div className='pl-10'>
-                <a href=""><Image src={"/media/logo.png"} height={"50"} width={"50"} alt={"logo"} /></a>
+        <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-20 px-10 flex items-center justify-between text-gray-200 hover:text-white`}>
+            <div className=''>
+                <a href="/"><Image src={"/media/logo.png"} height={"50"} width={"50"} alt={"logo"} /></a>
             </div>
 
             <div className='hidden lg:block'>
                 <ul className={`flex items-center text-sm space-x-10 font-medium`}>
-                    <li className='flex items-center listitem relative '>
+                    <li className='flex items-center listitem relative  hover:text-orange-300'>
                         <span className='cursor-pointer' href="#">ABOUT US
-                            <ul className={`hidden sublist bg-black/60 ${color ? ' pt-5' : 'pt-0'}`}>
+                            {/* <ul className={`hidden sublist bg-black/60 ${color ? ' pt-5' : 'pt-0'}`}>
                                 <div className='w-full flex-row justify-center'>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[7rem] border-b-2'><a href="#">Why Us</a></li>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[7rem] border-b-2'><a href="#">Our Team</a></li>
                                 </div>
-                            </ul>
+                            </ul> */}
                         </span >
                         {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
 
-                    </li>
-
-                    <li className='flex items-center listitem relative'>
-                        <span className='cursor-pointer' href="#"><a href="https://www.youtube.com"> DESTINATIONS</a>
-                            <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'}`} >
-                                <div className='w-full flex-row justify-center'>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/india">India</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">Nepal</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">Bhutan</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">Sri Lanka</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="#">Maldives</a></li>
-                                </div>
-                            </ul>
-                        </span >
-                        {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
                     </li>
 
                     <li className='flex items-center listitem relative '>
-                        <span className='cursor-pointer' href="#">EXPERIENCES
-                            <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'} z-20`}>
+                        <span className='cursor-pointer ' href="#"><a href="https://www.youtube.com" className='hover:text-orange-300'> DESTINATIONS</a>
+                            <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'}`} >
+                                <div className='w-full flex-row justify-center'>
+                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/india">India</a></li>
+                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/nepal">Nepal</a></li>
+                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/bhutan">Bhutan</a></li>
+                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/lanka">Sri Lanka</a></li>
+                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/maldives">Maldives</a></li>
+                                </div>
+                            </ul>
+                        </span >
+                        <RiArrowDropDownLine className='text-3xl down-arrow duration-500' />
+                    </li>
+
+                    <li className='flex items-center listitem relative  hover:text-orange-300'>
+                        <span className='cursor-pointer'>EXPERIENCES
+                            {/* <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'} z-20`}>
                                 <div className='w-full flex-row justify-center'>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[11rem] border-b-2'><a href="#">Luxury</a></li>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[11rem] border-b-2'><a href="#">Photo Tours</a></li>
@@ -89,20 +89,20 @@ export default function Navbar() {
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[11rem] border-b-2'><a href="#">Adventure</a></li>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[11rem] border-b-2'><a href="#">Leisure & Culture</a></li>
                                 </div>
-                            </ul>
+                            </ul> */}
                         </span >
                         {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
                     </li>
 
-                    <li className='flex items-center listitem relative '>
+                    <li className='flex items-center listitem relative  hover:text-orange-300'>
                         <span className='cursor-pointer' href="#"><a href="#">PRESENCE</a>
 
                         </span >
                     </li>
 
 
-                    <li className='flex '><a href="#">INSIGHTS</a></li >
-                    <li className='flex '><a href="#">CONTACT US</a></li >
+                    <li className='flex  hover:text-orange-300'><a href="/insights">INSIGHTS</a></li >
+                    <li className='flex  hover:text-orange-300'><a href="#">CONTACT US</a></li >
                 </ul >
 
             </div >
@@ -126,19 +126,20 @@ export default function Navbar() {
 
                                     <li className={`${about ? '' : ''} w-[15rem] z-10 duration-500 cursor-pointer `} onClick={() => { setAbout(!about) }}>
                                         <div className={`flex justify-between border-b-2 py-2 ${about ? 'border-b-emerald-300' : ''}`}>
-                                            ABOUT US<RiArrowDropDownLine className={`text-4xl ${about ? 'rotate-180 ' : ''} duration-500`} />
+                                            ABOUT US
+                                            {/* <RiArrowDropDownLine className={`text-4xl ${about ? 'rotate-180 ' : ''} duration-500`} /> */}
                                         </div>
-                                        <ul className={`${about ? 'block' : 'hidden '} space-y-2 -z-10 duration-500 text-xl py-2`}>
+                                        {/* <ul className={`${about ? 'block' : 'hidden '} space-y-2 -z-10 duration-500 text-xl py-2`}>
                                             <li className='text-left'>Why Us</li>
                                             <li className='text-left'>Our team</li>
-                                        </ul>
+                                        </ul> */}
                                     </li >
                                     <li className={`${dest ? '' : ''} w-[15rem] z-10 duration-500 cursor-pointer`} onClick={() => { setDest(!dest) }}>
-                                        <div className={`flex justify-between border-b-2 py-2 ${dest ? 'border-b-emerald-300' : ''}`}>
+                                        <div className={`flex justify-between border-b-2 py-2 ${dest ? 'border-b-emerald-300 text-emerald-300' : ''}`}>
                                             DESTINATIONS
-                                            {/* <RiArrowDropDownLine className={`text-4xl ${dest ? 'rotate-180' : ''} duration-500`} /> */}
+                                            <RiArrowDropDownLine className={`text-4xl ${dest ? 'rotate-180' : ''} duration-500`} />
                                         </div>
-                                        <ul className={`${dest ? 'block' : 'hidden '} -z-10 duration-500 text-xl text-left py-2 space-y-2`}>
+                                        <ul className={`${dest ? 'block text-emerald-300' : 'hidden '} -z-10 duration-500 text-xl text-left py-2 space-y-2`}>
                                             <li>India</li>
                                             <li>Nepal</li>
                                             <li>Bhutan</li>
@@ -152,16 +153,6 @@ export default function Navbar() {
                                             EXPERIENCES
                                             {/* <RiArrowDropDownLine className={`text-4xl ${exp ? 'rotate-180' : ''} duration-500`} /> */}
                                         </div>
-                                        <ul className={`${exp ? 'block' : 'hidden '} -z-10 duration-500 text-xl text-left py-2 space-y-2`}>
-                                            <li>Luxury</li>
-                                            <li>Photo Tours</li>
-                                            <li>Yoga & Meditaion</li>
-                                            <li>Art & Culture</li>
-                                            <li>Culinary</li>
-                                            <li>Spa & Wellness</li>
-                                            <li>Adventure</li>
-                                            <li>Leisure & Tourism</li>
-                                        </ul>
                                     </li >
 
                                     <li className={`${dest ? '' : ''} w-[15rem] z-10 duration-500 cursor-pointer`} >

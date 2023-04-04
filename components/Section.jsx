@@ -28,21 +28,21 @@ export default function Section() {
           >
             {langs.map((Lang, i) => (
               <SwiperSlide key={i}>
-                <div className="h-96 flex">
-                  <div className={`card bg-black ${active === i && "card-active"} 0`}>
-                    <div className="logo flex">
+                <div className="h-96 flex no-bg bg-gradient-to-tr from-gray-50/20 to-[#dedd81]/10 justify-center rounded-md">
+                  <div className={`w-72 cursor-pointer border-b-4 rounded-xl h-56 text-center px-3 py-7 self-end duration-500 delay-100  ${active === i && "h-96"} 0`}>
+                    <div className="logo text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full text-red-600 grid place-items-center">
                       <Image
                         alt=""
                         width={144}
                         height={144}
                         src={Lang.url}
-                        className="logo h-5 w-5 rounded-full mx-auto"
+                        className="logo text-5xl mt-2 mx-auto min-w-[5rem] rounded-full text-red-600 grid place-items-center h-5 w-5 "
                       />
                     </div>
                     <h2 className="text-3xl mt-2 font-semibold font-josefin">
                       {Lang.name}
                     </h2>
-                    <p className="para font-oswald text-lg">{Lang.des}</p>
+                    <p className="para mt-3 font-oswald text-lg">{Lang.des}</p>
                   </div>
                 </div>
               </SwiperSlide>

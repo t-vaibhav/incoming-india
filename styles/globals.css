@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 96px;
 }
 
 
@@ -46,7 +47,7 @@ html {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  /* background: #fff; */
 
   /* Center slide text vertically */
   display: flex;
@@ -69,9 +70,12 @@ html {
 
 * {
   /* @apply font-sans; */
+  border-style: none;
 }
 
-.card {
+
+
+/* .card {
   @apply w-72 cursor-pointer border-b-4 rounded-xl h-56 text-center px-3 py-7 self-end duration-500 delay-100;
 }
 
@@ -85,7 +89,7 @@ html {
 
 .para {
   @apply mt-3;
-}
+} */
 
 /* .card .skill-level {
   @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem]
@@ -96,4 +100,16 @@ html {
 #sectionDiv {
   background-image: url(https://i.ibb.co/WfMy9W2/1315439.jpg);
   background-size: cover;
+}
+
+#insights {
+  background-image: url(https://iili.io/HORUoej.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#insight-section {
+  background-image: url(https://www.linkpicture.com/q/wallpaperflare.com_wallpaper_63.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
 }

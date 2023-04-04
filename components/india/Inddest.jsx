@@ -156,7 +156,7 @@ export default function Inddest() {
 
                         {/* slider section starts */}
 
-                        <div className={`h-full w-full backdrop-blur-sm z-50 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${open1 ? '-translate-x-0' : '-translate-y-full'} duration-1000`}>
+                        <div className={`h-full w-full backdrop-blur-sm z-50 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${open1 ? '-translate-x-0' : '-translate-y-[150vh]'} duration-1000`}>
                             <div className='bg-white bg-gradient-to-bl from-orange-200 to-pink-200 text-center font-serifjp md:p-10 px-2 py-10 lg:w-[80vw] md:w-[80vw] xl:w-[60vw] w-[90vw] relative md:h-[70vh] h-[90vh] shadow-xl rounded-md'>
                                 <h1 className='text-4xl md:text-5xl'>The Taj Mahal</h1>
                                 <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] max-h-[55vh]'>
@@ -207,7 +207,7 @@ export default function Inddest() {
                                         </Swiper>
                                     </div>
 
-                                    <div className='md:w-3/5 overflow-y-auto max-h-[44vh] pt-4 p-2'>
+                                    <div className='md:w-3/5 overflow-y-auto max-h-[40vh] pt-4 p-2'>
                                         The Taj Mahal is a breathtaking beauty, an architectural wonder crafted with stunning white marble and adorned with intricate carvings and precious stones. Its grandeur and magnificence will leave you speechless, and the story of its creation, as a symbol of love and devotion, will touch your heart. As you walk through the gates and catch your first glimpse of this masterpiece, you will understand why it is considered one of the most beautiful buildings in the world.
                                     </div>
                                 </div>
@@ -243,7 +243,7 @@ export default function Inddest() {
 
                         {/* slider section starts */}
 
-                        <div className={`h-full w-full backdrop-blur-sm z-50 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${open2 ? '-translate-x-0' : '-translate-y-full'} duration-1000`}>
+                        <div className={`h-full w-full backdrop-blur-sm z-50 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${open2 ? '-translate-x-0' : '-translate-y-[150vh]'} duration-1000`}>
                             <div className='bg-white bg-gradient-to-bl from-orange-200 to-pink-200 text-center font-serifjp md:p-10 px-2 py-10 lg:w-[80vw] md:w-[80vw] xl:w-[60vw] w-[90vw] relative md:h-[70vh] h-[90vh] shadow-xl rounded-md'>
                                 <h1 className='text-4xl md:text-5xl'>Udaipur</h1>
                                 <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] max-h-[55vh]'>
@@ -307,7 +307,7 @@ export default function Inddest() {
                                         </Swiper>
                                     </div>
 
-                                    <div className='md:w-3/5 overflow-y-auto max-h-[44vh] pt-4 p-2'>
+                                    <div className='md:w-3/5 overflow-y-auto max-h-[40vh] pt-4 p-2'>
                                         Udaipur, also known as the "City of Lakes" is a mesmerizing destination in the Indian state of Rajasthan. It offers a perfect blend of natural beauty, rich culture, and regal heritage. The city boasts of stunning palaces, tranquil lakes, colorful bazaars, and vibrant festivals. It is also home to some of the finest luxury hotels in India. A visit to Udaipur is a must for anyone seeking an immersive experience of India's royal past and a taste of its vibrant present.                            </div>
                                 </div>
                                 <div className='transition ease-in-out hover:scale-125 hover:opacity-90 duration-200  text-blue-500 text-xl my-3 mx-3 font-molengo hover:underline hover:text-blue-700 cursor-pointer absolute top-0 right-0' onClick={() => setOpen2(!open2)}>
@@ -343,9 +343,9 @@ export default function Inddest() {
 
                         {/* slider section starts */}
 
-                        <div className={`h-full w-full backdrop-blur-sm z-50 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${open3 ? '-translate-x-0' : '-translate-y-full'} duration-1000`}>
+                        <div className={`h-full w-full backdrop-blur-sm z-50 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${open3 ? '-translate-x-0' : '-translate-y-[150vh]'} duration-1000`}>
                             <div className='bg-white bg-gradient-to-bl from-orange-200 to-pink-200 text-center font-serifjp md:p-10 px-2 py-10 lg:w-[80vw] md:w-[80vw] xl:w-[60vw] w-[90vw] relative md:h-[70vh] h-[90vh] shadow-xl rounded-md'>
-                                <h1 className='text-4xl md:text-5xl'>The Statue Of Unity</h1>
+                                <h1 className='text-4xl md:text-5xl'>Statue Of Unity</h1>
                                 <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] max-h-[55vh]'>
                                     <div className='xl:w-2/5 md:w-1/2 w-full flex'>
                                         <Swiper
@@ -403,7 +403,7 @@ export default function Inddest() {
                                         </Swiper>
                                     </div>
 
-                                    <div className='md:w-3/5 overflow-y-auto max-h-[44vh] pt-4 p-2'>
+                                    <div className='md:w-3/5 overflow-y-auto max-h-[40vh] pt-4 p-2'>
                                         The Statue of Unity is a towering monument located in the western Indian state of Gujarat. It is the world's tallest statue, standing at a height of 182 meters. The statue is dedicated to Sardar Vallabhbhai Patel, a prominent Indian freedom fighter and the first Deputy Prime Minister of India. It offers breathtaking panoramic views of the surrounding landscape and the Narmada River. Visitors can also explore the museum and exhibition hall located within the monument to learn about Sardar Patel's life and contribution to India's history. A visit to the Statue of Unity is a must for anyone visiting India.                                    </div>
                                 </div>
                                 <div className='transition ease-in-out hover:scale-125 hover:opacity-90 duration-200  text-blue-500 text-xl my-3 mx-3 font-molengo hover:underline hover:text-blue-700 cursor-pointer absolute top-0 right-0' onClick={() => setOpen3(!open3)}>

@@ -29,7 +29,7 @@ import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, 
 
 
 
-export default function Indhero() {
+export default function Lankahero() {
 
     return (
         <section>

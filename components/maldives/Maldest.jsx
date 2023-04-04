@@ -16,7 +16,7 @@ import { destRecInd } from '@/utility/data';
 
 
 
-export default function Inddest() {
+export default function Maldest() {
 
     const { ref, inView } = useInView({
         triggerOnce: true,
