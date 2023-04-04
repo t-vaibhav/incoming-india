@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,21 +17,17 @@
   @apply h-96;
 }
 
-/* .logo {
-  @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full text-red-600 grid place-items-center;
-} */
-
 .para {
   @apply mt-3;
 }
 
-/* .card .skill-level {
-  @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem]
-    grid place-items-center rounded-full max-w-[3rem] absolute right-0
-    scale-0;
-} */
-
 #sectionDiv {
   background-image: url(https://i.ibb.co/WfMy9W2/1315439.jpg);
   background-size: cover;
+}
+
+#insights {
+  background-image: url(https://i.ibb.co/fvLwtcc/yashasvi-Qow2jev-Xdl-I-unsplash-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

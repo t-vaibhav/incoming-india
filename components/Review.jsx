@@ -31,7 +31,7 @@ export default function Review() {
             hidden: { opacity: 0 },
           }}
         >
-          <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+          <div className="[column-fill:_balance] sm:columns-3 sm:gap-6 lg:columns-3 lg:gap-8" id="review-section">
             {Reviews.map((review, i) => (
               <div className="mb-8 sm:break-inside-avoid">
                 <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
