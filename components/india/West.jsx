@@ -75,9 +75,9 @@ export default function West() {
                     </SwiperSlide>
 
 
-                    <SwiperSlide className="relative">
+                    {/* <SwiperSlide className="relative">
                         <img src="/media/india/westernind/05.jpg" alt="taj" className="object-cover" />
-                    </SwiperSlide>
+                    </SwiperSlide> */}
 
 
                     <SwiperSlide className="relative">
@@ -96,12 +96,12 @@ export default function West() {
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/westernind/09.jpeg" alt="taj" className="object-cover" />
+                        <img src="/media/india/westernind/09.jpg" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/westernind/10.jpeg" alt="taj" className="object-cover" />
+                        <img src="/media/india/westernind/10.jpg" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

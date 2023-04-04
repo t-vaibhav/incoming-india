@@ -85,9 +85,9 @@ export default function South() {
                     </SwiperSlide>
 
 
-                    <SwiperSlide className="relative">
+                    {/* <SwiperSlide className="relative">
                         <img src="/media/india/southernind/08.jpg" alt="taj" className="object-cover" />
-                    </SwiperSlide>
+                    </SwiperSlide> */}
 
 
                     <SwiperSlide className="relative">
