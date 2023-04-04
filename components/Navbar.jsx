@@ -57,7 +57,7 @@ export default function Navbar() {
                                 </div>
                             </ul>
                         </span >
-                        <RiArrowDropDownLine className='text-3xl down-arrow duration-500' />
+                        {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
 
                     </li>
 
@@ -73,7 +73,7 @@ export default function Navbar() {
                                 </div>
                             </ul>
                         </span >
-                        <RiArrowDropDownLine className='text-3xl down-arrow duration-500' />
+                        {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
                     </li>
 
                     <li className='flex items-center listitem relative '>
@@ -91,7 +91,7 @@ export default function Navbar() {
                                 </div>
                             </ul>
                         </span >
-                        <RiArrowDropDownLine className='text-3xl down-arrow duration-500' />
+                        {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
                     </li>
 
                     <li className='flex items-center listitem relative '>

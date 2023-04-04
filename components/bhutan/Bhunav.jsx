@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import { list1, list2 } from '@/utility/data'
 import { FlipCard } from "react-flipme"
 import Image from 'next/image'
-import Inddest from './Inddest'
-import Indiaoverview from './Indiaoverview'
+import Inddest from './Bhudest'
+import Indiaoverview from './Bhuoverview'
+import Bhuoverview from './Bhuoverview'
+import Bhudest from './Bhudest'
 
 
 
-export default function Indnav() {
+export default function Bhunav() {
     const [ind, setInd] = useState(true)
     const [dest, setDest] = useState(false)
     const [act, setAct] = useState(false)
@@ -41,8 +43,8 @@ export default function Indnav() {
                 </ul>
             </nav >
 
-            <Indiaoverview />
-            <Inddest />
+            <Bhuoverview />
+            <Bhudest />
 
         </section >
     )

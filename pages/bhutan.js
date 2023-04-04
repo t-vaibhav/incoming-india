@@ -1,11 +1,10 @@
-import Head from "next/head";
+import Footer from "@/components/Footer";
+import Bhuexp from "@/components/bhutan/Bhuexp";
+import Bhuhero from "@/components/bhutan/Bhuhero";
+import Bhunav from "@/components/bhutan/Bhunav";
+import Moretovisitbhu from "@/components/bhutan/Moretovisitbhu";
 import Navbar from "@/components/Navbar";
-import Footer from "../components/Footer";
-import Indhero from "@/components/india/Indhero";
-import Indnav from "@/components/india/Indnav";
-import Indexp from "@/components/india/Indexp";
-import Moretovisit from "@/components/india/Moretovisit";
-
+import Head from "next/head";
 
 
 
@@ -19,11 +18,12 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
+
                 <Navbar />
-                <Indhero />
-                <Indnav />
-                <Indexp />
-                <Moretovisit />
+                <Bhuhero />
+                <Bhunav />
+                <Bhuexp />
+                <Moretovisitbhu />
                 <Footer />
             </main>
         </>

@@ -16,7 +16,7 @@ import { destRecInd } from '@/utility/data';
 
 
 
-export default function Inddest() {
+export default function Bhudest() {
 
     const { ref, inView } = useInView({
         triggerOnce: true,

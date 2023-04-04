@@ -29,14 +29,14 @@ export default function Section() {
             {langs.map((Lang, i) => (
               <SwiperSlide key={i}>
                 <div className="h-96 flex">
-                  <div className={`card ${active === i && "card-active"} 0`}>
-                    <div className="logo">
+                  <div className={`card bg-black ${active === i && "card-active"} 0`}>
+                    <div className="logo flex">
                       <Image
                         alt=""
                         width={144}
                         height={144}
                         src={Lang.url}
-                        className="logo h-36 w-36 rounded-full mx-auto"
+                        className="logo h-5 w-5 rounded-full mx-auto"
                       />
                     </div>
                     <h2 className="text-3xl mt-2 font-semibold font-josefin">
