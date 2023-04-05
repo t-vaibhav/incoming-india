@@ -31,7 +31,7 @@ export default function Inddest() {
     }
 
     return (
-        <section className='bg-center bg-no-repeat bg-cover' style={mystyle1} id='inddest'>
+        <section className='bg-center bg-no-repeat bg-cover text-gray-900' style={mystyle1} id='inddest'>
 
             <div className='h-full font-serifjp text-center bg-red-400/50' >
                 <h1 className='md:text-5xl text-4xl  font-semibold pt-5 md:pt-10'>THE MOST LOVED DESTINATIONS</h1>
@@ -89,7 +89,7 @@ export default function Inddest() {
 
                             <div className='md:w-3/5  '>
                                 <h1 className='text-3xl md:text-4xl py-3'>The Taj Mahal</h1>
-                                <div className='overflow-y-auto px-2 max-h-[40vh]'>
+                                <div className='overflow-y-auto text-lg px-2 max-h-[40vh]'>
                                     The Taj Mahal is a breathtaking beauty, an architectural wonder crafted with stunning white marble and adorned with intricate carvings and precious stones. Its grandeur and magnificence will leave you speechless, and the story of its creation, as a symbol of love and devotion, will touch your heart. As you walk through the gates and catch your first glimpse of this masterpiece, you will understand why it is considered one of the most beautiful buildings in the world.
                                 </div>
                             </div>

@@ -29,6 +29,7 @@ export default function Moretovisit() {
                             slidesPerView={2}
                             spaceBetween={20}
                             centeredSlides={true}
+                            loop={true}
 
                             autoplay={{
                                 delay: 2500,
