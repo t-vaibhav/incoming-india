@@ -25,7 +25,7 @@ export default function Itenary() {
             className='w-auto h-[60px] pl-1'
           />
         </div>
-        <div className=" px-4 bg-[#ede2af] mx-0 w-auto block align py-2">
+        <div className=" px-4 bg-[#ede2af] mx-0 w-auto block align py-2 text-gray-800 -z-50">
           <h1 className="font-rajdhani">TOUR PACKAGES</h1>
           <h3 className="text-xs block">UNIQUE ITINERARIES & CULTURAL GEMS</h3>
         </div>

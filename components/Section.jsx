@@ -28,20 +28,20 @@ export default function Section() {
           >
             {langs.map((Lang, i) => (
               <SwiperSlide key={i}>
-                <div className="h-96 flex no-border bg-gradient-to-tr from-blue-100/20 to-[#dedd81]/10 justify-center rounded-t-xl">
-                  <div className={`w-72 no-border cursor-pointer border-b-4 rounded-xl h-56 text-center px-2 py-2 self-end duration-500 delay-100  ${active === i && "h-96"} `}>
-                    <div className="relative text-5xl mt-2 mx-auto text-white flex place-items-center h-1/2 ">
+                <div className="h-96 w-72 flex no-border bg-gradient-to-tr from-blue-100/20 to-[#dedd81]/10 justify-evenly rounded-t-xl">
+                  <div className={`w-72 no-border cursor-pointer border-b-4 rounded-xl h-56 object-cover text-center self-end rounded-t-xl duration-500 delay-100  ${active === i && "h-96"} `}>
+                    <div className="relative text-5xl w-full text-white flex  h-1/2 ">
                       <Image
                         alt=""
                         width={184}
                         height={144}
                         src={Lang.url}
-                        className=" text-5xl mx-auto grid place-items-center h-full w-full object-cover"
+                        className=" text-5xl grid place-items-center h-full w-full object-cover rounded-t-xl"
                       />
-                      <h2 className="text-2xl absolute bottom-0 w-full bg-black/90 mt-2 font-semibold font-josefin">
-                        {Lang.name}
-                      </h2>
                     </div>
+                    <h2 className={`text-2xl  mt-2 font-semibold font-josefin ${active === i && "text-white"}`}>
+                      {Lang.name}
+                    </h2>
                     <p className={`para mt-3 font-oswald text-lg   ${active === i && "h-96"}`}>{Lang.des}</p>
                   </div>
                 </div>
@@ -50,6 +50,6 @@ export default function Section() {
           </Swiper>
         </div>
       </div>
-    </div>
+    </div >
   );
 }

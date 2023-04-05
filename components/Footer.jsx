@@ -27,7 +27,7 @@ function Footer() {
   };
   return (
     <div>
-      <footer className="footer p-10 font-semibold  bg-[#000] text-[#b9b4b4]">
+      <footer className="footer w-full p-10 font-semibold  bg-[#000] text-[#b9b4b4]">
         <div>
           <svg
             width="50"
