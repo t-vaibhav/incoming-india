@@ -26,6 +26,7 @@ export default function South() {
                     mousewheel={true}
                     grabCursor={true}
                     centeredSlides={true}
+                    loop={true}
 
                     // navigation={true}
                     autoplay={{

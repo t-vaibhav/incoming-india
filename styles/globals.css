@@ -6,7 +6,7 @@
 html {
   width: 100vw;
   scroll-behavior: smooth;
-  scroll-padding: 96px;
+  scroll-padding: 89px;
 }
 
 
@@ -75,6 +75,9 @@ html {
 
 }
 
+.no-border {
+  border-style: none !important;
+}
 
 
 /* .card {
@@ -108,10 +111,11 @@ html {
   background-image: url(https://iili.io/HORUoej.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #insight-section {
-  background-image: url(https://www.linkpicture.com/q/wallpaperflare.com_wallpaper_63.jpg);
+  background-image: url("/media/insightsbg2.png");
   background-size: contain;
   background-repeat: repeat-y;
 }

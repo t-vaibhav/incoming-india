@@ -27,7 +27,7 @@ function Footer() {
   };
   return (
     <div>
-      <footer className="footer p-10 bg-[#e3dbcb] text-[#D3AA58]">
+      <footer className="footer p-10 font-semibold  bg-[#000] text-[#b9b4b4]">
         <div>
           <svg
             width="50"
@@ -42,7 +42,7 @@ function Footer() {
           </svg>
         </div>
         <div>
-          <span className="footer-title text-[#9b7a39]">Destinations</span>
+          <span className="footer-title text-[#ffffff]">Destinations</span>
           <a className="link link-hover">India</a>
           <a className="link link-hover">Bhutan</a>
           <a className="link link-hover">Nepal</a>
@@ -50,7 +50,7 @@ function Footer() {
           <a className="link link-hover">Maldive</a>
         </div>
         <div>
-          <span className="footer-title text-[#9b7a39]">Quick Links</span>
+          <span className="footer-title text-[#ffffff]">Quick Links</span>
           <a className="link link-hover">Home</a>
           <a className="link link-hover">Destinations</a>
           <a className="link link-hover">Experiences</a>
@@ -58,32 +58,32 @@ function Footer() {
           <a className="link link-hover">Insights</a>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <span className="footer-title text-[#9b7a39]">Contact Us</span>
+          <span className="footer-title text-[#ffffff]">Contact Us</span>
           <input
             type="text"
-            className="w-[200px] px-2 h-6 bg-[#cbc1aa] rounded-sm placeholder-gray-600"
+            className="w-[200px] px-2 h-6 bg-[#fff] rounded-sm placeholder-gray-800 text-gray-900"
             placeholder="Name"
             name="user_name"
           />
           <input
             type="email"
-            className="w-[200px] px-2 h-6 bg-[#cbc1aa] rounded-sm placeholder-gray-600"
+            className="w-[200px] px-2 h-6 bg-[#fff] rounded-sm placeholder-gray-800 text-gray-900"
             placeholder="E-Mail Id"
             name="user_email"
           />
           <textarea
             name="message"
-            className="w-[200px] px-2 py-1 h-10 bg-[#cbc1aa] rounded-sm placeholder-gray-600"
+            className="w-[200px] px-2 py-1 h-10 bg-[#fff] rounded-sm placeholder-gray-900 text-gray-900 max-h-[60px]"
             placeholder="Query"
           />
           <input
             type="submit"
             value="Send"
-            className="bg-slate-700 hover:bg-[#cbc1aa] px-2 py-1 rounded-lg hover:cursor-pointer"
+            className="bg-slate-700 hover:bg-slate-800 hover:text-white px-2 py-1 rounded-lg hover:cursor-pointer"
           />
         </form>
         <div>
-          <span className="footer-title text-[#9b7a39] from-blue-50/20">Address</span>
+          <span className="footer-title text-[#ffffff] ">Address</span>
           <p className="w-[300px]">
             Unit No 701 to 708, Tower D, Global Business Park, Sector-26,
             Gurugram, Haryana, 122002

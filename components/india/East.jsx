@@ -30,6 +30,7 @@ export default function East() {
                     mousewheel={true}
                     grabCursor={true}
                     centeredSlides={true}
+                    loop={true}
 
                     // navigation={true}
                     autoplay={{

@@ -32,7 +32,7 @@ import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, 
 export default function Indhero() {
 
     return (
-        <section>
+        <section id="indgallery">
 
 
             <div className=''>

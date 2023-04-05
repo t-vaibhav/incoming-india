@@ -10,6 +10,7 @@ import Insights from "@/components/Insights";
 
 
 
+
 export default function Home() {
   return (
     <>

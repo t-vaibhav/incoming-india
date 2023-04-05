@@ -9,7 +9,7 @@ export default function Indiaoverview() {
 
 
     return (
-        <div style={mystyle} className='bg-center bg-cover bg-no-repeat'>
+        <div style={mystyle} className='bg-center bg-cover bg-no-repeat' id='indover'>
             <div className='bg-orange-100/80 md:h-[100vh] h-full font-serifjp pt-10'>
                 <div className=' max-w-screen-lg mx-auto text-center'>
 
