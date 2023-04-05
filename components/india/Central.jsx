@@ -61,27 +61,27 @@ export default function Central() {
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/01.jpg" alt="taj" className="object-cover" />
+                        <Image height={500} width={750} src="/media/india/centralind/01.jpg" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/02" alt="taj" className="object-cover" />
+                        <Image height={500} width={750} src="/media/india/centralind/02" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/07.jpg" alt="taj" className="object-cover" />
+                        <Image height={500} width={750} src="/media/india/centralind/07.jpg" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/03.jpg" alt="taj" className="object-cover" />
+                        <Image height={500} width={750} src="/media/india/centralind/03.jpg" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/03.jpeg" alt="taj" className="object-cover" />
+                        <Image height={500} width={750} src="/media/india/centralind/03.jpeg" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

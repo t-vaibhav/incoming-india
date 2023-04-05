@@ -61,47 +61,47 @@ export default function East() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/01.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/easternind/01.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/07.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/easternind/07.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/02.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/easternind/02.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/03.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/easternind/03.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/05.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/easternind/05.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/04.jpg" alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-
-
-                    <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/06.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/easternind/04.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/08.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/easternind/06.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+
+
+                    <SwiperSlide className="relative">
+                        <Image src="/media/india/easternind/08.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

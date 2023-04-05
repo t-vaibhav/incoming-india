@@ -57,57 +57,57 @@ export default function North() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/01.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/01.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/02.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/02.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/03.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/03.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/04.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/04.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/05.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/05.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/06.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/06.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/07.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/07.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/08.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/08.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/09.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/india/northernind/09.jpg" alt="taj" height={500} width={800} className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/10.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/10.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/11.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/northernind/11.jpg" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

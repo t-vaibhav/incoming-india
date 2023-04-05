@@ -57,32 +57,32 @@ export default function South() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/01.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/01.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/02.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/02.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/03.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/03.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/04.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/04.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/05.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/05.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/06.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/06.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
@@ -92,12 +92,12 @@ export default function South() {
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/09.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/09.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/southernind/11.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/southernind/11.jpg" height={400} width={700} alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

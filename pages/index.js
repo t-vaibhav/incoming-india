@@ -7,6 +7,7 @@ import Explore from "@/components/Explore";
 import Review from "../components/Review";
 import Section from "@/components/Section";
 import Insights from "@/components/Insights";
+import Itenary from "@/components/pages/Itenaries";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Welcome />
+        <Itenary />
         <Explore />
         <Section />
         <Review />
