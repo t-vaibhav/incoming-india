@@ -70,13 +70,15 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 
 * {
-  /* @apply font-sans; */
+  /* @apply font-poppins; */
+  /* font-family: 'poppins' !important; */
   /* border-style: none; */
 
 }
 
 .no-border {
   border-style: none !important;
+
 }
 
 

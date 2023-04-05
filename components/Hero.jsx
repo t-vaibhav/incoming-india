@@ -16,8 +16,8 @@ export default function Hero() {
             </div>
             <div className='bg-black/50 absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center text-white text-center'>
                 <div className=' max-w-[600px] space-y-4'>
-                    <h1 className='text-6xl font-bold font-EBG tracking-widhero-shadow'>INCOMING INDIA</h1>
-                    <p className='text-2xl font-serifjp hero-shadow'>Discover The Magic Of India With Your Ultimate Travel Partner!</p>
+                    <h1 className='text-6xl font-semibold font-poppins tracking-widhero-shadow '>INCOMING INDIA</h1>
+                    <p className='text-2xl font-poppins hero-shadow'>Discover The Magic Of India With Your Ultimate Travel Partner!</p>
                 </div>
             </div>
             <div className='absolute bottom-0 text-white left-0 right-0 flex items-center justify-center'>

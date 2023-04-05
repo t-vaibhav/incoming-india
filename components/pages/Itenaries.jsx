@@ -53,7 +53,7 @@ export default function Itenary() {
             width={1920}
             height={1080}
             className=''
-            layout="responsive"
+          // layout="responsive"
           />
 
         </SwiperSlide>
@@ -64,7 +64,7 @@ export default function Itenary() {
             width={1920}
             height={1080}
             className=''
-            layout="responsive"
+          // layout="responsive"
           />
 
         </SwiperSlide>
@@ -75,7 +75,7 @@ export default function Itenary() {
             width={1920}
             height={1080}
             className=''
-            layout="responsive"
+          // layout="responsive"
           />
 
         </SwiperSlide>

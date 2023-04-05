@@ -15,6 +15,7 @@ module.exports = {
         'tillana': ['Tillana', 'cursive'],
         'serifjp': ['Noto Serif JP', 'serif'],
         'EBG': ['EB Garamond', 'serif'],
+        'poppins': ['Poppins', 'sans-serif'],
 
       },
     },

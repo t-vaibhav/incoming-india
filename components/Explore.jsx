@@ -90,7 +90,7 @@ export default function Explore() {
             <div className=''>
                 < section className=' max-w-screen-lg text-center mx-auto pb-20' >
                     {/* <h1 className='text-5xl font-serifjp font-bold text-gray-900'>Let Us take you to an adventure you'll never forget</h1> */}
-                    < h2 className='text-5xl font-serifjp py-10 pb-16 text-gray-900 font-semibold ' > Explore The Indian Subcontinent</h2 >
+                    < h2 className='text-5xl font-poppins py-10 pb-16 text-gray-900 font-semibold ' > Explore The Indian Subcontinent</h2 >
                     <div className=''>
                         <div className='grid grid-cols-1 md:grid-cols-3 mx-auto gap-10'>
                             {record1}

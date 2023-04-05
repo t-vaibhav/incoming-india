@@ -30,19 +30,19 @@ export default function Review() {
   const records =
     Reviews.map((review, i) => (
 
-      <div className="mb-8">
-        <blockquote className="rounded-xl h-full text-lg bg-gray-50 px-4 py-3 shadow">
+      <div className="mb-8 mt-8 space-y-4">
+        <blockquote className="rounded-xl h-full text-lg bg-gray-50 px-4 py-3 shadow ">
           <p className="leading-relaxed text-gray-700 font-lora">
             &ldquo;{review.review} &rdquo;
           </p>
         </blockquote>
-        <div className="mt-4 flex items-center gap-4">
+        <div className="mt-4 flex items-center mb-4">
           <Image
             width={48}
             height={48}
             alt="Woman"
             src={review.image}
-            className="h-12 w-12 rounded-full object-cover"
+            className="h-12 w-12 rounded-full mr-4 object-cover"
           />
           <div className="text-sm">
             <p className="font-bold text-white">{review.name}</p>
@@ -57,7 +57,7 @@ export default function Review() {
   return (
     <div className="bg-gradient-to-r from-[#e3cea4] via-[#d2c0a0] to-[#f3e6cb] pt-6">
       <section>
-        <h1 className="text-center font-alkatra text-[#82704c] font-bold text-xl md:text-4xl mb-8">
+        <h1 className="text-center font-poppins font-semibold  text-[#82704c] text-xl md:text-4xl mb-8">
           Words From Our Delighted Customers
         </h1>
         <motion.div
