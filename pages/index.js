@@ -8,6 +8,7 @@ import Review from "../components/Review";
 import Section from "@/components/Section";
 import Insights from "@/components/Insights";
 import Itenary from "@/components/pages/Itenaries";
+import Test from "@/components/Test";
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
         <Welcome />
         <Itenary />
         <Explore />
+        {/* <Test /> */}
         <Section />
         <Review />
         <Footer />
