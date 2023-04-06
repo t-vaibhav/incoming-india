@@ -114,7 +114,7 @@ export default function North() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='max-h-[35vh] text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Welcome to Northern India, a land of diverse cultures, traditions, and landscapes. Explore the grandeur of the Taj Mahal, witness the serene Ganges river, savor the spicy street food, and get enchanted by the vibrant colors of the local bazaars. Immerse yourself in the rich history of forts and palaces, soak in the spiritual aura of temples and ashrams, and indulge in the warm hospitality of the locals. Experience the thrill of adventure sports in the Himalayas, or simply relax in the tranquil hill stations. Come, discover the magic of Northern India, a truly unforgettable destination.
             </div>
         </div>

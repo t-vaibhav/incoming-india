@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.jpg"
+import logo from "./logo.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image"
 import slider1 from "./slider1.jpg"
@@ -13,9 +13,8 @@ import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 
 export default function Itenary() {
   return (
-    <div className="relative">
-
-      <div className="flex flex-row top-[-30px] md:scale-[140%] z-50 md:left-[120px] left-[calc(50vw-160px)] absolute bg-[#ede2af] font-semibold h-[60px] md:h-[60px]w-fit">
+    <div className="relative h-[50vh] lg:h-[100vh]">
+      <div className="flex flex-row top-[-30px] md:scale-[140%] z-10 md:left-[120px] left-[calc(50vw-160px)] absolute bg-[#e7cb4e] font-semibold h-[60px] md:h-[60px]w-fit">
         <div className="w-auto h-auto">
           <Image
             src={logo}
@@ -25,7 +24,7 @@ export default function Itenary() {
             className='w-auto h-[60px] pl-1'
           />
         </div>
-        <div className=" px-4 bg-[#ede2af] mx-0 w-auto block align py-2 text-gray-800 -z-50">
+        <div className=" px-4 bg-[#ffffff] mx-0 w-auto block align py-2 text-slate-700">
           <h1 className="font-rajdhani">TOUR PACKAGES</h1>
           <h3 className="text-xs block">UNIQUE ITINERARIES & CULTURAL GEMS</h3>
         </div>
@@ -40,7 +39,7 @@ export default function Itenary() {
           clickable: true,
         }}
         autoplay={{
-          delay: 5000,
+          delay: 2000,
           disableOnInteraction: true
         }}
         modules={[EffectFade, Navigation, Pagination, Autoplay]}
@@ -53,9 +52,7 @@ export default function Itenary() {
             width={1920}
             height={1080}
             className=''
-          // layout="responsive"
           />
-
         </SwiperSlide>
         <SwiperSlide>
           <Image
@@ -64,9 +61,7 @@ export default function Itenary() {
             width={1920}
             height={1080}
             className=''
-          // layout="responsive"
           />
-
         </SwiperSlide>
         <SwiperSlide>
           <Image
@@ -75,9 +70,7 @@ export default function Itenary() {
             width={1920}
             height={1080}
             className=''
-          // layout="responsive"
           />
-
         </SwiperSlide>
       </Swiper >
     </div>

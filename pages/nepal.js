@@ -5,6 +5,7 @@ import Nephero from "@/components/nepal/Nephero";
 import Nepnav from "@/components/nepal/Nepnav";
 import Nepexp from "@/components/nepal/Nepexp";
 import Moretovisitnep from "@/components/nepal/Moretovisitnep";
+import Nepgallery from "@/components/nepal/Nepgallery";
 
 export default function Home() {
     return (
@@ -18,10 +19,11 @@ export default function Home() {
             <main>
 
                 <Navbar />
-                {/* <Nephero />
+                <Nephero />
                 <Nepnav />
                 <Nepexp />
-                <Moretovisitnep /> */}
+                <Nepgallery />
+                <Moretovisitnep />
                 <Footer />
             </main>
         </>

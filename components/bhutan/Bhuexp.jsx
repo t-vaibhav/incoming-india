@@ -40,7 +40,7 @@ export default function Bhuexp() {
     }
 
     return (
-        <section className='bg-cover bg-center bg-no-repeat' style={mystyle}>
+        <section className='bg-cover bg-center bg-no-repeat' style={mystyle} id='bhutanexp'>
             <div>
                 <h1 className='text-4xl md:py-8 text-center font-serifjp py-3 font-semibold'>Experiences</h1>
                 <div className='flex-row px-4 sm:flex space-x-5 max-w-screen-lg mx-auto'>
@@ -48,10 +48,10 @@ export default function Bhuexp() {
 
                         <div>
                             <div className='grid-cols-2 grid sm:block'>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-lg  ${west ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(false), setCentral(false), setWest(true) }}>Western Bhutan</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-lg  ${east ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(true), setCentral(false), setWest(false) }}>Eastern Bhutan</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${west ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(false), setCentral(false), setWest(true) }}>Western Bhutan</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${east ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(true), setCentral(false), setWest(false) }}>Eastern Bhutan</div>
                             </div>
-                            <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-lg  ${central ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(false), setCentral(true), setWest(false) }}>Central Bhutan</div>
+                            <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${central ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(false), setCentral(true), setWest(false) }}>Central Bhutan</div>
                         </div>
 
                     </div>

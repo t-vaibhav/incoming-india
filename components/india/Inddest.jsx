@@ -25,9 +25,9 @@ export default function Inddest() {
     });
 
     const mystyle1 = {
-        backgroundImage: 'url("/media/indbg1.png")',
+        backgroundImage: 'url("/media/destbg.jpg")',
         height: '100%',
-        // backgroundAttachment: 'fixed',
+        backgroundAttachment: 'fixed',
     }
 
     return (
@@ -230,7 +230,7 @@ export default function Inddest() {
 
                             <div className='md:w-3/5 overflow-y-auto px-2'>
                                 <h1 className='text-3xl md:text-4xl py-3'>Statue Of Unity</h1>
-                                <div className=' max-h-[40vh] text-lg'>
+                                <div className=' max-h-[41vh] text-lg'>
                                     The Statue of Unity is a towering monument located in the western Indian state of Gujarat. It is the world's tallest statue, standing at a height of 182 meters. The statue is dedicated to Sardar Vallabhbhai Patel, a prominent Indian freedom fighter and the first Deputy Prime Minister of India. It offers breathtaking panoramic views of the surrounding landscape and the Narmada River. Visitors can also explore the museum and exhibition hall located within the monument to learn about Sardar Patel's life and contribution to India's history. A visit to the Statue of Unity is a must for anyone visiting India.
                                 </div>
                             </div>

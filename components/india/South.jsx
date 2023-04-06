@@ -104,7 +104,7 @@ export default function South() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='max-h-[35vh] text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Welcome to South India, where every corner is a sensory delight! Discover ancient temples, pristine beaches, lush greenery, and mouth-watering cuisine. Lose yourself in the intricate designs of the famous Hampi ruins or the awe-inspiring Meenakshi Temple. Take a houseboat ride through the serene backwaters of Kerala or explore the bustling city of Bangalore. Indulge in the flavors of dosas, idlis, and spicy curries while sipping on a refreshing coconut water. Come experience the warmth and hospitality of South India and create memories that will last a lifetime!            </div>
         </div>
 

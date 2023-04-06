@@ -72,8 +72,8 @@ export default function South() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
-                This is south
+            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2 md:text-lg'>
+                The south coast regions of Sri Lanka are a paradise for beach lovers and adventure seekers. The stunning beaches, turquoise waters, and towering palm trees offer a breathtaking view that will leave you spellbound. The region boasts a variety of water sports and activities, including surfing, diving, and snorkeling. The seafood is freshly caught and delicious, while the nightlife is vibrant and lively. With a mix of luxury resorts and budget-friendly guesthouses, the south coast regions of Sri Lanka offer a perfect balance of relaxation and excitement, making it a must-visit destination for any traveler.
             </div>
         </div>
     )

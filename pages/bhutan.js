@@ -5,6 +5,7 @@ import Bhunav from "@/components/bhutan/Bhunav";
 import Moretovisitbhu from "@/components/bhutan/Moretovisitbhu";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import Bhutangallery from "@/components/bhutan/Bhutangallery";
 
 
 
@@ -20,10 +21,11 @@ export default function Home() {
             <main>
 
                 <Navbar />
-                {/* <Bhuhero />
+                <Bhuhero />
                 <Bhunav />
                 <Bhuexp />
-                <Moretovisitbhu /> */}
+                <Bhutangallery />
+                <Moretovisitbhu />
                 <Footer />
             </main>
         </>

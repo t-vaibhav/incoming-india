@@ -19,7 +19,7 @@ export default function Moretovisitlanka() {
     }
 
     return (
-        <section className='bg-center bg-cover bg-no-repeat py-5' style={mystyle}>
+        <section className='bg-center bg-cover bg-no-repeat py-5' style={mystyle} id='lankamore'>
             <div>
                 <div className='max-w-screen-lg mx-auto'>
                     <h1 className='text-center text-4xl font-serifjp py-5 font-semibold'>More to Explore!</h1>
@@ -29,6 +29,7 @@ export default function Moretovisitlanka() {
                             slidesPerView={2}
                             spaceBetween={20}
                             centeredSlides={true}
+                            loop={true}
 
                             autoplay={{
                                 delay: 2500,
@@ -61,9 +62,9 @@ export default function Moretovisitlanka() {
 
                             <SwiperSlide>
                                 <div className="relative object-cover h-full">
-                                    <Image src='/media/lanka.jpg' fill={true} className="object-cover" />
+                                    <Image src='/media/india.jpg' fill={true} className="object-cover" />
                                     <div className="bg-black/80 w-full  text-white absolute bottom-6">
-                                        <h3 className="text-3xl">Sri Lanka</h3>
+                                        <h3 className="text-3xl">India</h3>
                                     </div>
                                 </div>
                             </SwiperSlide>

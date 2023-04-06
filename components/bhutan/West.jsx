@@ -75,8 +75,8 @@ export default function West() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
-                this is west
+            <div className='max-h-[35vh] md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+                Western Bhutan is a region of stunning natural beauty, dotted with picturesque towns and villages that are steeped in tradition and culture. The area is home to some of the most important historical and cultural landmarks of the country, including the Punakha Dzong, a fortress-monastery that is a UNESCO World Heritage Site. The region is also famous for its traditional crafts, such as weaving and wood carving, and its vibrant festivals, which showcase the country's unique culture and traditions. With its stunning scenery, rich culture, and warm hospitality, western Bhutan is a must-visit destination for any traveler seeking an authentic and unforgettable experience.
             </div>
         </div>
     )

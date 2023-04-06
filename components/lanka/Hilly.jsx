@@ -72,8 +72,8 @@ export default function Hilly() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
-                This is hilly
+            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2 md:text-lg'>
+                The hilly regions of Sri Lanka are a natural wonder that offers a breathtaking experience to visitors. The lush greenery, cascading waterfalls, and scenic vistas make it an ideal destination for nature lovers. The cooler climate in the hill country, with its misty mornings and chilly evenings, is a welcome change from the tropical heat of the coastal areas. The region is also home to some of the best tea plantations in the world, offering visitors an opportunity to witness the tea-making process and taste some of the finest teas. Overall, the hilly regions of Sri Lanka are a must-visit destination for anyone looking to experience the country's natural beauty and charm.
             </div>
         </div>
     )

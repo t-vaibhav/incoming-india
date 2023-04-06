@@ -27,131 +27,32 @@ import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, 
 
 
 
-
+const mystyle = {
+    backgroundImage: 'url("/media/india-cover.jpg")',
+    height: '100vh',
+    backgroundAttachment: 'fixed',
+}
 
 export default function Indhero() {
 
     return (
-        <section id="indgallery">
+        <section id="indhero" className="bg-center bg-cover bg-no-repeat" style={mystyle}>
+            <div className="h-screen bg-black/40 flex justify-center items-center relative">
 
-
-            <div className=''>
-                <div className=" flex justify-center items-center h-[100vh]">
-
-                    <Swiper
-                        effect={"fade"}
-                        mousewheel={true}
-                        grabCursor={true}
-                        navigation={true}
-                        autoplay={{
-                            delay: 3500,
-                            disableOnInteraction: false,
-                        }}
-                        modules={[Navigation, EffectFade, Autoplay, EffectFlip]}
-                        className="swiper "
-                        spaceBetween={0}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-
-                    >
-
-                        <SwiperSlide className="relative">
-                            <img src="/media/india.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
-                                <div className='text-center text-white'>
-                                    <p className="">Scroll Down!</p>
-                                    <div className='flex justify-center animate-bounce py'>
-                                        <RiArrowDropDownLine className='text-5xl font-extrathin' />
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-
-                        <SwiperSlide className="relative">
-                            <img src="/media/india1.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
-                                <div className='text-center text-white'>
-                                    <p className="">Scroll Down!</p>
-                                    <div className='flex justify-center animate-bounce py'>
-                                        <RiArrowDropDownLine className='text-5xl font-extrathin' />
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-
-                        <SwiperSlide className="relative">
-                            <img src="/media/india2.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
-                                <div className='text-center text-white'>
-                                    <p className="">Scroll Down!</p>
-                                    <div className='flex justify-center animate-bounce py'>
-                                        <RiArrowDropDownLine className='text-5xl font-extrathin' />
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-
-                        <SwiperSlide className="relative">
-                            <img src="/media/india3.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
-                                <div className='text-center text-white'>
-                                    <p className="">Scroll Down!</p>
-                                    <div className='flex justify-center animate-bounce py'>
-                                        <RiArrowDropDownLine className='text-5xl font-extrathin' />
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-
-                    </Swiper>
+                <div>
+                    <h1 className="text-4xl md:text-7xl text-white font-semibold font-poppins  tracking-normal text-center">INDIA</h1>
+                    <p className="text-2xl text-white font-poppins font-semibold">The tapestry of vibrant colors, cultures, and traditions.</p>
+                </div>
+                <div className='text-center text-white absolute bottom-1'>
+                    <p className="">Scroll Down!</p>
+                    <div className='flex justify-center animate-bounce py'>
+                        <RiArrowDropDownLine className='text-5xl font-extrathin' />
+                    </div>
                 </div>
             </div>
 
-            {/* <Carousel showThumbs={false} infiniteLoop={true} swipeable={true} autoPlay={true} showStatus={false}>
-                <div className='h-[100vh] w-[100vw]'>
-                    <Image src="/media/india.jpg" fill={true} className='object-cover' alt='text' />
-                    <div className='relative flex justify-center w-full '>
-                        <p className=" absolute text-center lg:text-xl mg:text-lg sm:text-sm md:bottom-10 bottom-8 bg-black/60 py-1 min-w-full font-semibold text-slate-100">Legend 1</p>
-                    </div>
-                </div>
 
 
-                <div className='h-[100vh] w-[100vw]'>
-                    <Image src="/media/bhutan.jpg " fill={true} className='object-cover' alt='text' />
-                    <div className='relative flex justify-center w-full '>
-                        <p className=" absolute text-center lg:text-xl mg:text-lg sm:text-sm md:bottom-10 bottom-8 bg-black/60 py-1 min-w-full font-semibold text-slate-100">Legend 2</p>
-                    </div>
-                </div>
-
-
-                <div className='h-[100vh] w-[100vw]'>
-                    <Image src="/media/nepal.jpg" fill={true} className='object-cover' alt='text' />
-                    <div className='relative flex justify-center w-full '>
-                        <p className=" absolute text-center lg:text-xl mg:text-lg sm:text-sm md:bottom-10 bottom-8 bg-black/60 py-1 min-w-full font-semibold text-slate-100">Legend 3</p>
-                    </div>
-                </div>
-
-
-                <div className='h-[100vh] w-[100vw]'>
-                    <Image src="/media/lanka.jpg" fill={true} className='object-cover' alt='text' />
-                    <div className='relative flex justify-center w-full '>
-                        <p className=" absolute text-center lg:text-xl mg:text-lg sm:text-sm md:bottom-10 bottom-8 bg-black/60 py-1 min-w-full font-semibold text-slate-100">Legend 3</p>
-                    </div>
-                </div>
-
-
-                <div className='h-[100vh] w-[100vw]'>
-                    <Image src="/media/maldives.jpg" fill={true} className='object-cover' alt='text' />
-                    <div className='relative flex justify-center w-full '>
-                        <p className=" absolute text-center lg:text-xl mg:text-lg sm:text-sm md:bottom-10 bottom-8 bg-black/60 py-1 min-w-full font-semibold text-slate-100">Legend 3</p>
-                    </div>
-                </div>
-            </Carousel> */}
 
 
 

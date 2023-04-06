@@ -72,8 +72,8 @@ export default function Colombo() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
-                The Western Province in Sri Lanka is a fascinating blend of old-world charm and modernity. Its capital, Colombo, is a bustling metropolis with a rich colonial heritage and a vibrant culture. Visitors can explore historic landmarks like the Fort, Galle Face Green, and the National Museum, as well as indulge in shopping, dining, and nightlife in the city. The province is also home to some of Sri Lanka's most beautiful beaches, including Negombo, Mount Lavinia, and Bentota, where visitors can soak up the sun and indulge in water sports. With its diverse attractions and warm hospitality, the Western Province is a must-visit destination for foreign tourists.
+            <div className='max-h-[35vh] md:max-h-[35vh] md:text-lg overflow-y-auto py-2'>
+                The Colombo or Western Province in Sri Lanka is a fascinating blend of old-world charm and modernity. Its capital, Colombo, is a bustling metropolis with a rich colonial heritage and a vibrant culture. Visitors can explore historic landmarks like the Fort, Galle Face Green, and the National Museum, as well as indulge in shopping, dining, and nightlife in the city. The province is also home to some of Sri Lanka's most beautiful beaches, including Negombo, Mount Lavinia, and Bentota, where visitors can soak up the sun and indulge in water sports. With its diverse attractions and warm hospitality, the Western Province is a must-visit destination for foreign tourists.
             </div>
         </div>
     )

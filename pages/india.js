@@ -5,6 +5,7 @@ import Indhero from "@/components/india/Indhero";
 import Indnav from "@/components/india/Indnav";
 import Indexp from "@/components/india/Indexp";
 import Moretovisit from "@/components/india/Moretovisit";
+import Indgallery from "@/components/india/Indgallery";
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
                 <Indhero />
                 <Indnav />
                 <Indexp />
+                <Indgallery />
                 <Moretovisit />
                 <Footer />
             </main>

@@ -10,11 +10,11 @@ export default function Section() {
   const langs = Data;
 
   return (
-    <div className="flex flex-col" id="sectionDiv">
+    <div className="flex flex-col max-w-full" id="sectionDiv">
       <h1 className="text-white text-4xl font-poppins font-semibold md:text-5xl text-center mt-8 mb-0">
         WonderLust India
       </h1>
-      <div className="h-[500px] text-white flex items-center justify-center mt-4 mb-24">
+      <div className="h-[500px] text-white flex items-center justify-center mt-4 mb-24 max-w-full">
         <div className="max-w-5xl my-0">
           <Swiper
             spaceBetween={50}

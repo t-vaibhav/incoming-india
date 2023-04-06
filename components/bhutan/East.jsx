@@ -75,8 +75,8 @@ export default function East() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
-                this is east
+            <div className='max-h-[35vh] md:max-h-[35vh] md:text-lg overflow-y-auto py-2'>
+                Eastern Bhutan is a hidden gem that is just waiting to be discovered by adventurous travelers. The region is home to some of the most untouched landscapes in the country, including dense forests, rolling hills, and cascading waterfalls. Visitors can also immerse themselves in the local culture by attending traditional festivals, trying their hand at local crafts, and sampling the delicious cuisine. With its natural beauty, rich culture, and friendly locals, eastern Bhutan is the perfect destination for those seeking an off-the-beaten-path adventure.
             </div>
         </div>
     )

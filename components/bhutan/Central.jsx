@@ -75,8 +75,8 @@ export default function Central() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
-                this is central
+            <div className='max-h-[35vh] md:max-h-[35vh] md:text-lg overflow-y-auto py-2'>
+                Central Bhutan is a region of immense natural beauty that is often referred to as the spiritual heartland of the country. It is home to some of the most important Buddhist sites in the country, including the sacred Tiger's Nest monastery. The region is also known for its pristine forests, crystal-clear rivers, and stunning mountain ranges, making it a paradise for nature lovers. With its rich cultural heritage, scenic beauty, and warm hospitality, central Bhutan offers visitors an unforgettable experience that is sure to leave them with lasting memories.
             </div>
         </div>
     )

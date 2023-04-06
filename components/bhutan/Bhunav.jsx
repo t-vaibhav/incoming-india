@@ -36,15 +36,15 @@ export default function Bhunav() {
 
             <nav className={`${color ? 'fixed top-[60px] h-[30px] bg-white right-0 left-0' : 'h-[60px]'} z-10  flex justify-center items-center font-serifjp`}>
                 <ul className='flex sm:space-x-12 space-x-5'>
-                    <li className={`${ind ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(true), setDest(false), setGallery(false), setAct(false) }}>Bhutan</li>
-                    <li className={`${dest ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(false), setDest(true), setGallery(false), setAct(false) }}>Destinations</li>
-                    <li className={`${act ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(false), setDest(false), setGallery(false), setAct(true) }}>Experiences</li>
-                    <li className={`${gallery ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(false), setDest(false), setGallery(true), setAct(false) }}>Gallery</li>
+                    <a href="#bhutanover"><li className={`${ind ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(true), setDest(false), setGallery(false), setAct(false) }}>Bhutan</li></a>
+                    <a href="#bhutanexp"><li className={`${act ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(false), setDest(false), setGallery(false), setAct(true) }}>Explore</li></a>
+                    <a href="#bhutangallery"><li className={`${gallery ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(false), setDest(false), setGallery(true), setAct(false) }}>Gallery</li></a>
+                    <a href="#bhutanmore"><li className={`${dest ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(false), setDest(true), setGallery(false), setAct(false) }}>Destinations</li></a>
                 </ul>
             </nav >
 
             <Bhuoverview />
-            <Bhudest />
+            {/* <Bhudest /> */}
 
         </section >
     )

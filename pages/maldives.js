@@ -18,10 +18,10 @@ export default function Home() {
             <main>
 
                 <Navbar />
-                {/* <Malhero />
+                <Malhero />
                 <Malnav />
                 <Malexp />
-                <Moretovisitmal /> */}
+                <Moretovisitmal />
                 <Footer />
             </main>
         </>

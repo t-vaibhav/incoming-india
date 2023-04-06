@@ -5,6 +5,7 @@ import Moretovisitlanka from "@/components/lanka/Moretovisitlanka";
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Lankagallery from "@/components/lanka/Lankagallery";
 
 export default function Home() {
     return (
@@ -18,10 +19,11 @@ export default function Home() {
             <main>
 
                 <Navbar />
-                {/* <Lankahero />
+                <Lankahero />
                 <Lankanav />
                 <Lankaexp />
-                <Moretovisitlanka /> */}
+                <Lankagallery />
+                <Moretovisitlanka />
                 <Footer />
             </main>
         </>
