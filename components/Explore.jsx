@@ -95,17 +95,17 @@ export default function Explore() {
     // }
 
     return (
-        <section className='bg-gradient-to-tl from-orange-300 to-rose-300 bg-cover bg-no-repeat bg-center' >
+        <section className='bg-gradient-to-tl from-green-300 to-orange-300 bg-cover bg-no-repeat bg-center' >
             <div className=''>
                 < section className=' max-w-screen-lg text-center mx-auto pb-20' >
                     {/* <h1 className='text-5xl font-serifjp font-bold text-gray-900'>Let Us take you to an adventure you'll never forget</h1> */}
-                    < h2 className='text-5xl font-poppins py-10 pb-16 text-gray-900 font-semibold ' > Explore The Indian Subcontinent</h2 >
+                    < h2 className='text-4xl md:text-5xl font-poppins py-10 text-gray-900 font-semibold ' > Explore The Indian Subcontinent</h2 >
                     <div className=''>
                         <div className='grid grid-cols-2 md:grid-cols-6 mx-auto gap-10 '>
                             {record1}
                         </div>
                     </div>
-                    <div className='grid  md:grid-cols-6 grid-cols-2 gap-10  pt-10 '>
+                    <div className='grid  md:grid-cols-6 grid-cols-2 gap-10  md:pt-10 '>
                         <div></div>
                         {record2}
                         <div></div>
