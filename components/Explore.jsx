@@ -97,10 +97,10 @@ export default function Explore() {
                     {/* <h1 className='text-5xl font-serifjp font-bold text-gray-900'>Let Us take you to an adventure you'll never forget</h1> */}
                     < h2 className='text-5xl font-poppins py-10 pb-16 text-gray-900 font-semibold ' > Explore The Indian Subcontinent</h2 >
                     <div className=''>
-                        <div className='grid grid-cols-1 md:grid-cols-3 mx-auto gap-10'>
+                        <div className='grid grid-cols-1 md:grid-cols-3 mx-auto gap-10 '>
 
-                            <div className='flex justify-center md:col-span-2'>
-                                <FlipCard height='25rem' width='21rem' className='w-[42rem]' rounded={true}>
+                            <div className='flex justify-center md:col-span-2 md:w-full'>
+                                <FlipCard height='25rem' width='40rem' className='w-[21rem] mx-5 md:mx-0 md:w-[42rem]' rounded={true}>
                                     <FlipCard.Front style={mystyle} className='bg-cover bg-center bg-no-repeat relative'>
                                         <div className='absolute text-white bottom-4 bg-black/70 w-full py-1 text-3xl font-serifjp'>
                                             <p>INDIA</p>
@@ -123,7 +123,7 @@ export default function Explore() {
                             {record1}
                         </div>
                     </div>
-                    <div className='grid lg:grid-cols-3 md:grid-cols-3 gap-10 pt-10 '>
+                    <div className='grid lg:grid-cols-3 md:grid-cols-3 gap-10  pt-12 '>
                         {record2}
                     </div>
                 </section >
