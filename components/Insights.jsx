@@ -68,7 +68,7 @@ export default function Insights() {
         </div> */}
 
 
-        <nav className={`${color ? ' fixed top-[60px] lg:h-[30px] h-[50px] bg-white right-0 left-0' : 'h-[60px]'} bg-white z-10 w-screen flex justify-center items-center font-serifjp`}>
+        <nav className={`${color ? ' fixed top-[60px] lg:h-[30px] h-[50px] bg-white right-0 left-0' : 'h-[60px]'} bg-white z-10 w-[100vw] flex justify-center items-center font-serifjp`}>
           <ul className='lg:flex flex-row justify-center md:space-x-12 text-sm sm:text-md lg:text-lg'>
             <div className='justify-center flex '>
               <div className='lg:space-x-12 space-x-5 flex'>

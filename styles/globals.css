@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  width: 100vw;
+  /* width: 100vw; */
   scroll-behavior: smooth;
   scroll-padding: 89px;
 }
@@ -119,4 +119,25 @@ html {
   background-image: url("/media/insightsbg2.png");
   background-size: contain;
   background-repeat: repeat-y;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+  /* padding: 0 2px !important; */
+  /* margin: 2px; */
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  padding: 2px;
+  /* background: #f1f1f1; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, hsla(31, 100%, 50%, 1) 0%, hsla(31, 100%, 91%, 1) 38%, hsla(0, 0%, 100%, 1) 53%, hsla(122, 100%, 93%, 1) 68%, hsla(122, 100%, 50%, 1) 100%);
+  border-radius: 10px;
 }
