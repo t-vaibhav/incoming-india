@@ -57,53 +57,53 @@ export default function West() {
                 >
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/01.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/india/westernind/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/02.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/india/westernind/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/03.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/india/westernind/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/04.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/india/westernind/04.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/india/westernind/05.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/india/westernind/06.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/india/westernind/07.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/india/westernind/08.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/india/westernind/09.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     {/* <SwiperSlide className="relative">
-                        <img src="/media/india/westernind/05.jpg" alt="taj" className="object-cover" />
+                        <Image src="/media/india/westernind/10.webp" height={500} width={800} alt="taj" className="object-cover" />
                     </SwiperSlide> */}
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/06.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/07.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/08.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/09.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/westernind/10.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
 
 
 
