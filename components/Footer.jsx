@@ -85,12 +85,11 @@ function Footer() {
         <div>
           <span className="footer-title text-[#ffffff] ">Address</span>
           <p className="w-[300px]">
-            Unit No 701 to 708, Tower D, Global Business Park, Sector-26,
-            Gurugram, Haryana, 122002
+            DSM-439, 4th Floor, DLF Towers, Shivaji Marg, New Delhi - 110015 (India)
           </p>
-          <p>+91 9818-401-791</p>
-          <p>+91 9971-466-955</p>
-          <p>info@distinctdestinations.in</p>
+          <p>+91 9891242028</p>
+          <p>+91 11 40196111/222/333</p>
+          <p>sundeep@aaiedutourz.com</p>
         </div>
       </footer>
     </div>

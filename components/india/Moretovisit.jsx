@@ -44,7 +44,7 @@ export default function Moretovisit() {
                         >
                             <SwiperSlide>
                                 <div className="relative object-cover h-full">
-                                    <Image src='/media/bhutan.jpg' fill={true} className="object-cover" />
+                                    <Image src='/media/bhutan1.webp' fill={true} className="object-cover" />
                                     <div className="bg-black/80 w-full  text-white absolute bottom-6">
                                         <h3 className="text-3xl">Bhutan</h3>
                                     </div>
@@ -53,7 +53,7 @@ export default function Moretovisit() {
 
                             <SwiperSlide>
                                 <div className="relative object-cover h-full">
-                                    <Image src='/media/maldives.jpg' fill={true} className="object-cover" />
+                                    <Image src='/media/maldives1.webp' fill={true} className="object-cover" />
                                     <div className="bg-black/80 w-full  text-white absolute bottom-6">
                                         <h3 className="text-3xl">Maldives</h3>
                                     </div>
@@ -62,7 +62,7 @@ export default function Moretovisit() {
 
                             <SwiperSlide>
                                 <div className="relative object-cover h-full">
-                                    <Image src='/media/lanka.jpg' fill={true} className="object-cover" />
+                                    <Image src='/media/lanka1.webp' fill={true} className="object-cover" />
                                     <div className="bg-black/80 w-full  text-white absolute bottom-6">
                                         <h3 className="text-3xl">Sri Lanka</h3>
                                     </div>
@@ -71,7 +71,7 @@ export default function Moretovisit() {
 
                             <SwiperSlide>
                                 <div className="relative object-cover h-full">
-                                    <Image src='/media/nepal.jpg' fill={true} className="object-cover" />
+                                    <Image src='/media/nepal1.webp' fill={true} className="object-cover" />
                                     <div className="bg-black/80 w-full  text-white absolute bottom-6">
                                         <h3 className="text-3xl">Nepal</h3>
                                     </div>

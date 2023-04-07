@@ -34,7 +34,7 @@ export default function Inddest() {
         <section className='bg-center bg-no-repeat bg-cover text-gray-900' style={mystyle1} id='inddest'>
 
             <div className='h-full font-serifjp text-center bg-red-400/50' >
-                <h1 className='md:text-5xl text-4xl  font-semibold pt-5 md:pt-10'>THE MOST LOVED DESTINATIONS</h1>
+                <h1 className='md:text-5xl text-4xl  font-semibold pt-5 md:pt-10 font-poppins'>THE MOST LOVED DESTINATIONS</h1>
 
                 <div className={`max-w-screen-lg mx-auto  gap-5 py-5 `}>
 
