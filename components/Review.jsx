@@ -31,7 +31,7 @@ export default function Review() {
     Reviews.map((review, i) => (
 
       <div className="mb-8 mt-8 space-y-4">
-        <blockquote className="rounded-xl h-full text-lg bg-gray-50 px-4 py-3 shadow ">
+        <blockquote className="rounded-xl h-full text-lg bg-gray-50 px-4 pt-3 shadow ">
           <p className="leading-relaxed text-gray-700 font-lora">
             &ldquo;{review.review} &rdquo;
           </p>
