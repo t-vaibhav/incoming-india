@@ -12,6 +12,11 @@ import "swiper/css/effect-coverflow";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, EffectFlip, EffectCube, EffectCoverflow } from "swiper";
+import North from './North';
+import South from './South';
+import Addu from './Addu';
+import Baa from './Baa';
+import Lha from './Lha';
 
 export default function Malexp() {
     const mystyle = {
@@ -26,10 +31,24 @@ export default function Malexp() {
     const [baa, setBaa] = useState(false)
     const [addu, setAddu] = useState(false)
 
+    let mode;
+
+    if (north) {
+        mode = <North />
+    } else if (south) {
+        mode = <South />
+    } else if (lha) {
+        mode = <Lha />
+    } else if (addu) {
+        mode = <Addu />
+    } else {
+        mode = <Baa />
+    }
+
     return (
-        <section className='bg-cover bg-center bg-no-repeat' style={mystyle}>
+        <section className='bg-cover bg-center bg-no-repeat text-gray-900' style={mystyle} id='malexp'>
             <div>
-                <h1 className='text-4xl md:py-8 text-center font-serifjp py-3 font-semibold'>Experiences</h1>
+                <h1 className='text-4xl md:text-5xl md:py-8 text-center font-serifjp py-3 font-semibold'>Explore</h1>
                 <div className='flex-row px-4 sm:flex space-x-5 max-w-screen-lg mx-auto'>
                     <div className='w-full sm:w-[35%] md:w-[25%] flex items-center md:justify-start justify-center'>
 
@@ -44,67 +63,8 @@ export default function Malexp() {
                         </div>
                     </div>
 
-                    <div className='sm:w-[65%] md:w-[75%]'>
-                        <div className='h-[40vh] md:h-[50vh] flex py-2'>
-                            {/* <Image src='/media/india.jpg' height={500} width={500} className='object-cover' /> */}
-                            <Swiper
-                                effect={"coverflow"}
-                                mousewheel={true}
-                                grabCursor={true}
-                                centeredSlides={true}
+                    {mode}
 
-                                // navigation={true}
-                                autoplay={{
-                                    delay: 3500,
-                                    disableOnInteraction: false,
-                                }}
-                                cubeEffect={{
-                                    shadow: true,
-                                    slideShadows: true,
-                                    shadowOffset: 20,
-                                    shadowScale: 0.94,
-                                }}
-                                coverflowEffect={{
-                                    rotate: 80,
-                                    stretch: 0,
-                                    depth: 100,
-                                    modifier: 1,
-                                    slideShadows: true,
-                                }}
-                                pagination={true}
-                                modules={[EffectFade, Autoplay, EffectFlip, EffectCube, Pagination, EffectCoverflow]}
-                                className="swiper "
-                                spaceBetween={0}
-                                slidesPerView={1}
-                                onSlideChange={() => console.log('slide change')}
-                                onSwiper={(swiper) => console.log(swiper)}
-
-                            >
-
-                                <SwiperSlide className="relative">
-                                    <img src="/media/india.jpg" alt="taj" className="object-cover" />
-                                </SwiperSlide>
-
-
-                                <SwiperSlide className="relative">
-                                    <img src="/media/india1.jpg" alt="taj" className="object-cover" />
-                                </SwiperSlide>
-
-
-                                <SwiperSlide className="relative">
-                                    <img src="/media/india2.jpg" alt="taj" className="object-cover " />
-                                </SwiperSlide>
-
-
-                                <SwiperSlide className="relative">
-                                    <img src="/media/taj.jpg" alt="taj" className="object-cover" />
-                                </SwiperSlide>
-                            </Swiper>
-                        </div>
-                        <div className='max-h-[35vh] md:max-h-[35vh] overflow-y-auto py-2'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, non. Aliquam, dolorum rerum cumque quae numquam aliquid, laudantium exercitationem ratione dolorem modi necessitatibus neque perspiciatis! Reprehenderit eum cumque iusto ex, excepturi, assumenda perspiciatis minus quod et consectetur rem nulla repudiandae eos consequatur. Veritatis corporis in provident accusamus. Molestias, est rem? Dolore molestiae dolorem nemo ipsa cupiditate exercitationem at aspernatur pariatur maxime quod. Saepe sequi cumque velit officia odio deserunt tempora, enim eligendi! Dolorem vel aperiam dolor similique earum, harum nobis eveniet. Libero esse obcaecati hic nulla in asperiores aperiam dolore, soluta temporibus error totam iure numquam tenetur vero consequuntur quasi ipsam non ipsum. Placeat, maiores.
-                        </div>
-                    </div>
                 </div>
             </div>
         </section >

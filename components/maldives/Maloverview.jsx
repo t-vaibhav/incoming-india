@@ -9,18 +9,18 @@ export default function Maloverview() {
 
 
     return (
-        <div style={mystyle} className='bg-center bg-cover bg-no-repeat'>
+        <div style={mystyle} className='bg-center bg-cover bg-no-repeat' id='malover'>
             <div className='bg-orange-100/80 md:h-[100vh] h-full font-serifjp pt-10'>
                 <div className=' max-w-screen-lg mx-auto text-center'>
 
-                    <h1 className='sm:text-5xl text-4xl text-black font-bold pt-5 md:pt-10'>INDIA</h1>
+                    <h1 className='sm:text-5xl text-4xl text-black font-bold pt-5 md:pt-10'>MALDIVES</h1>
                     <div className='flex justify-center py-5 md:py-5'>
                         <div className='border-[1px] border-orange-600 w-[300px]'></div>
                     </div>
                     <div className='py-5 px-3'>
-                        <p className='font-medium sm:text-lg text-base md:pb-5 text-gray-900'>India is a vast and diverse country with a rich history and culture. It is home to a variety of landscapes, from the snow-capped Himalayas in the north to the tropical beaches of the south. As a tourist, you can explore ancient forts and palaces, visit colorful bazaars and bustling cities, and experience the spiritual practices and festivals of this vibrant country.</p>
-                        <p className='font-medium sm:text-lg text-base md:pb-5  text-gray-900'>One of the most popular tourist destinations in India is the Golden Triangle, which includes the cities of Delhi, Agra, and Jaipur. In Delhi, you can visit the Red Fort, Qutub Minar, and Humayun's Tomb, while in Agra, you can see the iconic Taj Mahal. Jaipur, known as the "Pink City," is famous for its beautiful palaces and forts, such as the Hawa Mahal and Amber Fort. Other must-see destinations include the beaches of Goa, the backwaters of Kerala, and the hill stations of Darjeeling and Shimla.</p>
-                        <p className='font-medium sm:text-lg text-base md:pb-5  text-gray-900'>However, India is not just about sightseeing. It is also a country of delicious food, colorful festivals, and warm hospitality. From the spicy street food of Mumbai to the rich biryanis of Hyderabad, India has something for every palate. The country is also home to a variety of festivals, such as Diwali, Holi, and Eid, which are celebrated with much enthusiasm and joy. Above all, India's people are known for their hospitality and warmth, and as a tourist, you are sure to feel welcome and at home here.</p>
+                        <p className='font-medium sm:text-lg text-base md:pb-5 text-gray-900'>The Maldives is a stunning archipelago of over 1,000 coral islands scattered across the Indian Ocean. Known for its crystal-clear turquoise waters, pristine beaches, and vibrant marine life, it is a dream destination for any traveler seeking an idyllic tropical paradise. Whether you're looking for a romantic getaway, a family vacation, or a solo adventure, the Maldives offers something for everyone. The Maldives is also a perfect place to unwind and relax in the luxurious resorts that are located on some of the most pristine beaches in the world.</p>
+                        <p className='font-medium sm:text-lg text-base md:pb-5  text-gray-900'>One of the biggest draws of the Maldives is its world-renowned snorkeling and diving opportunities. The coral reefs surrounding the islands are home to an incredible array of marine life, including colorful fish, sea turtles, and even whale sharks. Visitors can explore these underwater wonderlands with the help of experienced guides, or simply don a mask and fins and dive in on their own. Besides, the Maldives also offers a wide range of other water-based activities like windsurfing, kayaking, and fishing.</p>
+                        <p className='font-medium sm:text-lg text-base md:pb-5  text-gray-900'>Beyond the stunning beaches and crystal-clear waters, the Maldives also offers a rich cultural heritage that is well worth exploring. Visitors can immerse themselves in the local Maldivian culture by visiting traditional fishing villages, learning about local crafts and cuisine, and attending cultural festivals. With its perfect blend of natural beauty and cultural richness, the Maldives is a truly unforgettable destination that is sure to leave visitors with lasting memories. The Maldives also offers a perfect combination of adventure and relaxation, making it an ideal destination for anyone looking for an escape from the hustle and bustle of everyday life.</p>
                     </div>
                 </div>
             </div>

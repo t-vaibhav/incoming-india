@@ -5,6 +5,7 @@ import Moretovisitmal from "@/components/maldives/Moretovisitmal";
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Malgallery from "@/components/maldives/Malgallery";
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
                 <Malhero />
                 <Malnav />
                 <Malexp />
+                <Malgallery />
                 <Moretovisitmal />
                 <Footer />
             </main>
