@@ -21,10 +21,10 @@ export default function Malexp() {
     }
 
     const [north, setNorth] = useState(true)
-    const [west, setWest] = useState(false)
-    const [central, setCentral] = useState(false)
-    const [east, setEast] = useState(false)
     const [south, setSouth] = useState(false)
+    const [lha, setLha] = useState(false)
+    const [baa, setBaa] = useState(false)
+    const [addu, setAddu] = useState(false)
 
     return (
         <section className='bg-cover bg-center bg-no-repeat' style={mystyle}>
@@ -35,14 +35,13 @@ export default function Malexp() {
 
                         <div>
                             <div className='grid-cols-2 grid sm:block'>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer  text-base md:text-lg  ${north ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(true), setEast(false), setCentral(false), setSouth(false), setWest(false) }}>Northern India</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-lg  ${west ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(false), setCentral(false), setSouth(false), setWest(true) }}>Western India</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-lg  ${central ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(false), setCentral(true), setSouth(false), setWest(false) }}>Central India</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-lg  ${east ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(true), setCentral(false), setSouth(false), setWest(false) }}>Eastern India</div>
+                                <div className={`text-center px-2 md:py-1 cursor-pointer  text-base md:text-xl  ${north ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(true), setAddu(false), setLha(false), setSouth(false), setBaa(false) }}>North Atoll</div>
+                                <div className={`text-center text-base md:py-1 md:text-xl cursor-pointer ${south ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setAddu(false), setLha(false), setSouth(true), setBaa(false) }}>South Atoll</div>
+                                <div className={`text-center px-2 md:py-1 cursor-pointer text-base md:text-xl  ${baa ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setAddu(false), setLha(false), setSouth(false), setBaa(true) }}>Baa Atoll</div>
+                                <div className={`text-center px-2 md:py-1 cursor-pointer text-base md:text-xl  ${lha ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setAddu(false), setLha(true), setSouth(false), setBaa(false) }}>Lhaviyani Atoll</div>
                             </div>
-                            <div className={`text-center text-base md:py-1 md:text-lg cursor-pointer ${south ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(false), setCentral(false), setSouth(true), setWest(false) }}>Southern India</div>
+                            <div className={`text-center px-2 md:py-1 cursor-pointer text-base md:text-xl  ${addu ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setAddu(true), setLha(false), setSouth(false), setBaa(false) }}>Addu Atoll</div>
                         </div>
-
                     </div>
 
                     <div className='sm:w-[65%] md:w-[75%]'>
@@ -108,6 +107,6 @@ export default function Malexp() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }

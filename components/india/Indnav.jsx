@@ -32,7 +32,7 @@ export default function Indnav() {
     return (
         <section>
 
-            <nav className={`${color ? 'fixed top-[60px] h-[30px] bg-white right-0 left-0' : 'h-[60px]'} bg-white z-10 w-screen flex justify-center items-center font-serifjp`}>
+            <nav className={`${color ? 'fixed top-[60px] h-[30px] bg-white right-0 left-0' : 'h-[60px]'} bg-white z-10 w-full flex justify-center items-center font-serifjp`}>
                 <ul className='flex sm:space-x-12 space-x-5'>
                     <a href="#indover"><li className={`${ind ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(true), setDest(false), setGallery(false), setAct(false) }}> India</li></a>
                     <a href="#inddest"><li className={`${dest ? 'text-orange-500 border-b-2 border-b-orange-500' : ''} cursor-pointer`} onClick={() => { setInd(false), setDest(true), setGallery(false), setAct(false) }} >Destinations</li></a>

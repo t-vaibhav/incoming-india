@@ -8,7 +8,7 @@ export default function Welcome() {
     }
     return (
         <section className=' md:h-[80vh] w-full bg-center bg-cover bg-no-repeat font-serifjp' style={mystyle}>
-            <div className='bg-orange-100/80 h-[80vh] text-center px-2 md:pt-10'>
+            <div className='bg-orange-100/80 h-[80vh] text-center px-2 md:pt-10 pt-6'>
                 <div className=' max-w-screen-lg mx-auto'>
 
                     <h1 className='sm:text-5xl text-4xl text-black font-poppins font-semibold  py-3 md:py-8'>Welcome to our World!</h1>

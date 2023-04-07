@@ -27,7 +27,7 @@ export default function Insights() {
   return (
     <div>
       <div
-        className="w-screen h-[100vh] flex justify-center"
+        className="w-full h-[100vh] flex justify-center"
         id="insights"
       >
         <h1 className="text-white text-6xl text-center m-auto font-alkatra">
