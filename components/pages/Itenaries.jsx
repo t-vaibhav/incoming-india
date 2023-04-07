@@ -40,7 +40,7 @@ export default function Itenary() {
         }}
         autoplay={{
           delay: 2000,
-          disableOnInteraction: true
+          disableOnInteraction: false
         }}
         modules={[EffectFade, Navigation, Pagination, Autoplay]}
         className="mySwiper"

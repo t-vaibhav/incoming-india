@@ -23,7 +23,7 @@ export default function Section() {
             loop={true}
             centeredSlides={true}
             speed={800}
-            autoplay={{ delay: 1500 }}
+            autoplay={{ delay: 2000 }}
             modules={[Autoplay]}
           >
             {langs.map((Lang, i) => (
@@ -33,8 +33,8 @@ export default function Section() {
                     <div className="relative text-5xl w-full text-white flex  h-1/2 ">
                       <Image
                         alt=""
-                        width={184}
-                        height={144}
+                        width={288}
+                        height={192}
                         src={Lang.url}
                         className=" text-5xl grid place-items-center h-full w-full object-cover rounded-t-xl"
                       />
