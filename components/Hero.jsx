@@ -10,7 +10,7 @@ export default function Hero() {
         <section className='relative '>
             <div>
                 <video autoPlay muted loop id="myVideo" className='h-[100vh] w-[100vw] object-cover opacity-100  top-0 -z-50 relative' >
-                    <source src="/media/india44.webm" type="video/mp4" />
+                    <source src="/media/india44.mp4" type="video/mp4" />
                     Your browser does not support HTML5 video.
                 </video>
             </div>
