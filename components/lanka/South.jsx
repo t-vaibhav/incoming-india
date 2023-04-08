@@ -23,6 +23,7 @@ export default function South() {
                     mousewheel={true}
                     grabCursor={true}
                     centeredSlides={true}
+                    loop={true}
 
                     // navigation={true}
                     autoplay={{
@@ -53,22 +54,27 @@ export default function South() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/lanka/south/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india1.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/lanka/south/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india2.jpg" alt="taj" className="object-cover " />
+                        <img src="/media/lanka/south/03.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/taj.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/lanka/south/04.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/lanka/south/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
                 </Swiper>
             </div>

@@ -32,6 +32,7 @@ export default function Nepgallery() {
                 mousewheel={true}
                 grabCursor={true}
                 navigation={true}
+                loop={true}
                 autoplay={{
                     delay: 3500,
                     disableOnInteraction: false,
@@ -46,34 +47,43 @@ export default function Nepgallery() {
             >
 
                 <SwiperSlide className="relative">
-                    <img src="/media/india.jpg" alt="taj" className="object-contain" />
-                    <div className="absolute bottom-0 left-0 right-0">
-
-                    </div>
+                    <img src="/media/nepal/gallery/01.webp" alt="taj" className="object-contain" />
                 </SwiperSlide>
 
-
                 <SwiperSlide className="relative">
-                    <img src="/media/india1.jpg" alt="taj" className="object-contain" />
-                    <div className="absolute bottom-0 left-0 right-0">
-
-                    </div>
+                    <img src="/media/nepal/gallery/02.webp" alt="taj" className="object-contain" />
                 </SwiperSlide>
 
-
                 <SwiperSlide className="relative">
-                    <img src="/media/india2.jpg" alt="taj" className="object-contain" />
-                    <div className="absolute bottom-0 left-0 right-0">
-
-                    </div>
+                    <img src="/media/nepal/gallery/03.webp" alt="taj" className="object-contain" />
                 </SwiperSlide>
 
+                <SwiperSlide className="relative">
+                    <img src="/media/nepal/gallery/04.webp" alt="taj" className="object-contain" />
+                </SwiperSlide>
 
                 <SwiperSlide className="relative">
-                    <img src="/media/india3.jpg" alt="taj" className="object-contain" />
-                    <div className="absolute bottom-0 left-0 right-0">
+                    <img src="/media/nepal/gallery/05.webp" alt="taj" className="object-contain" />
+                </SwiperSlide>
 
-                    </div>
+                <SwiperSlide className="relative">
+                    <img src="/media/nepal/gallery/06.webp" alt="taj" className="object-contain" />
+                </SwiperSlide>
+
+                <SwiperSlide className="relative">
+                    <img src="/media/nepal/gallery/07.webp" alt="taj" className="object-contain" />
+                </SwiperSlide>
+
+                <SwiperSlide className="relative">
+                    <img src="/media/nepal/gallery/08.webp" alt="taj" className="object-contain" />
+                </SwiperSlide>
+
+                <SwiperSlide className="relative">
+                    <img src="/media/nepal/gallery/09.webp" alt="taj" className="object-contain" />
+                </SwiperSlide>
+
+                <SwiperSlide className="relative">
+                    <img src="/media/nepal/gallery/10.webp" alt="taj" className="object-contain" />
                 </SwiperSlide>
 
 

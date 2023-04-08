@@ -56,59 +56,33 @@ export default function Baa() {
 
                 >
 
+
+
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/01.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/maldives/exp/03.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/02.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/maldives/exp/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/03.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/maldives/exp/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
-
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/04.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/maldives/exp/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
-
 
                     <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/05.jpg" height={500} width={800} alt="taj" className="object-cover" />
+                        <img src="/media/maldives/exp/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/06.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
 
 
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/07.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/08.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/09.jpg" alt="taj" height={500} width={800} className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/10.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <Image src="/media/india/northernind/11.jpg" height={500} width={800} alt="taj" className="object-cover" />
-                    </SwiperSlide>
 
 
 

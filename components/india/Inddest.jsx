@@ -33,7 +33,7 @@ export default function Inddest() {
     return (
         <section className='bg-center bg-no-repeat bg-cover text-gray-900' style={mystyle1} id='inddest'>
 
-            <div className='h-full font-serifjp text-center bg-red-400/50' >
+            <div className='h-full font-serifjp text-center bg-orange-500/30' >
                 <h1 className='md:text-5xl text-4xl  font-semibold pt-5 md:pt-10 font-poppins'>THE MOST LOVED DESTINATIONS</h1>
 
                 <div className={`max-w-screen-lg mx-auto  gap-5 py-5 `}>
@@ -45,6 +45,7 @@ export default function Inddest() {
                                     effect={"cube"}
                                     mousewheel={true}
                                     grabCursor={true}
+                                    loop={true}
                                     // navigation={true}
                                     autoplay={{
                                         delay: 3500,
@@ -66,23 +67,28 @@ export default function Inddest() {
 
                                 >
 
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/india.jpg" alt="taj" className="object-cover" />
+                                    <SwiperSlide className="object-cover object-cover">
+                                        <img src="/media/india/dest/taj/01.webp" alt="taj" className="object-cover" />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/india1.jpg" alt="taj" className="object-cover" />
+                                    <SwiperSlide className="object-cover ">
+                                        <img src="/media/india/dest/taj/02.webp" alt="taj" className="object-cover" />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/india2.jpg" alt="taj" className="object-cover " />
+                                    <SwiperSlide className="object-cover ">
+                                        <img src="/media/india/dest/taj/03.webp" alt="taj" className="object-cover " />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/taj.jpg" alt="taj" className="object-cover" />
+                                    <SwiperSlide className="object-cover ">
+                                        <img src="/media/india/dest/taj/04.webp" alt="taj" className="object-cover" />
+                                    </SwiperSlide>
+
+
+                                    <SwiperSlide className="object-cover ">
+                                        <img src="/media/india/dest/taj/05.webp" alt="taj" className="object-cover" />
                                     </SwiperSlide>
                                 </Swiper>
                             </div>
@@ -103,6 +109,7 @@ export default function Inddest() {
                                     effect={"cube"}
                                     mousewheel={true}
                                     grabCursor={true}
+                                    loop={true}
                                     // navigation={true}
                                     autoplay={{
                                         delay: 3500,
@@ -125,32 +132,28 @@ export default function Inddest() {
                                 >
 
                                     <SwiperSlide className="relative">
-                                        <img src="/media/udaipur5.jpg" alt="udaipur" className="object-contain" />
+                                        <img src="/media/india/dest/udaipur/01.webp" alt="udaipur" className="object-cover" />
                                     </SwiperSlide>
 
 
                                     <SwiperSlide className="relative">
-                                        <Image src='/media/lakepalace1.jpeg' alt='udaipur' height={500} width={500} className='object-cover h-full' />
+                                        <img src='/media/india/dest/udaipur/02.webp' alt='udaipur' className='object-cover h-full' />
                                     </SwiperSlide>
 
                                     <SwiperSlide className="relative">
-                                        <img src="/media/udaipur2.jpg" alt="udaipur" className="object-contain" />
+                                        <img src="/media/india/dest/udaipur/03.webp" alt="udaipur" className="object-cover" />
+                                    </SwiperSlide>
+
+                                    <SwiperSlide className="relative object-cover">
+                                        <img src="/media/india/dest/udaipur/04.webp" alt="udaipur" className="object-cover h-full" />
                                     </SwiperSlide>
 
                                     <SwiperSlide className="relative">
-                                        <Image src='/media/lakepalace2.jpeg' alt='udaipur' height={500} width={500} className='object-cover h-full' />
+                                        <img src='/media/india/dest/udaipur/05.webp' alt='udaipur' className='object-cover h-full' />
                                     </SwiperSlide>
 
                                     <SwiperSlide className="relative">
-                                        <img src="/media/udaipur3.jpg" alt="udaipur" className="object-contain" />
-                                    </SwiperSlide>
-
-                                    <SwiperSlide className="relative">
-                                        <Image src='/media/lakepalace3.jpeg' alt='udaipur' height={500} width={500} className='object-cover h-full' />
-                                    </SwiperSlide>
-
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/udaipur4.jpg" alt="udaipur" className="object-contain" />
+                                        <img src="/media/india/dest/udaipur/06.webp" alt="udaipur" className="object-cover h-full" />
                                     </SwiperSlide>
 
 
@@ -171,12 +174,13 @@ export default function Inddest() {
 
 
                     <div>
-                        <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] h-full'>
-                            <div className='xl:w-2/5 md:w-1/2 w-full flex px-2'>
+                        <div className='flex-row md:flex justify-around py-5 md:py-10 md:min-h-[55vh] h-full'>
+                            <div className='xl:w-2/5 md:w-1/2 w-full h-fullpx-2'>
                                 <Swiper
                                     effect={"cube"}
                                     mousewheel={true}
                                     grabCursor={true}
+                                    loop={true}
                                     // navigation={true}
                                     autoplay={{
                                         delay: 3500,
@@ -198,32 +202,23 @@ export default function Inddest() {
 
                                 >
 
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/india.jpg" alt="taj" className="object-contain" />
-                                        <div className="absolute bottom-0 left-0 right-0">
-
-                                        </div>
+                                    <SwiperSlide className=" object-cover">
+                                        <img src="/media/india/dest/unity/01.webp" alt="taj" className="object-cover" />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/india1.jpg" alt="taj" className="object-contain" />
-                                        <div className="absolute bottom-0 left-0 right-0">
-
-                                        </div>
+                                    <SwiperSlide className="object-cover ">
+                                        <img src="/media/india/dest/unity/02.webp" alt="taj" className="object-cover" />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="relative">
-                                        <img src="/media/india2.jpg" alt="taj" className="object-contain" />
-                                        <div className="absolute bottom-0 left-0 right-0">
-
-                                        </div>
+                                    <SwiperSlide className="object-cover ">
+                                        <img src="/media/india/dest/unity/03.webp" alt="taj" className="object-cover " />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="relative">
-                                        <Image src='/media/taj.jpg' height={500} width={500} className='object-cover h-full' />
+                                    <SwiperSlide className="object-cover ">
+                                        <img src="/media/india/dest/unity/04.webp" alt="taj" className="object-cover" />
                                     </SwiperSlide>
                                 </Swiper>
                             </div>

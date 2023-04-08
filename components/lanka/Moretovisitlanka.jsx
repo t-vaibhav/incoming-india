@@ -19,10 +19,11 @@ export default function Moretovisitlanka() {
     }
 
     return (
-        <section className='bg-center bg-cover bg-no-repeat py-5' style={mystyle} id='lankamore'>
+        <section className='bg-center bg-cover bg-no-repeat py-5 text-black' style={mystyle} id='lankamore'>
             <div>
                 <div className='max-w-screen-lg mx-auto'>
-                    <h1 className='text-center text-4xl font-serifjp py-5 font-semibold'>More to Explore!</h1>
+                    <h1 className='text-center text-4xl md:text-5xl font-poppins py-5 font-semibold'>More to Explore!</h1>
+
                     <div className="h-[50vh] py-5">
 
                         <Swiper
@@ -43,39 +44,47 @@ export default function Moretovisitlanka() {
                             className="mySwiper "
                         >
                             <SwiperSlide>
-                                <div className="relative object-cover h-full">
-                                    <Image src='/media/bhutan.jpg' fill={true} className="object-cover" />
-                                    <div className="bg-black/80 w-full  text-white absolute bottom-6">
-                                        <h3 className="text-3xl">Bhutan</h3>
+                                <a href="/bhutan">
+                                    <div className="relative object-cover h-full">
+                                        <Image src='/media/bhutan.jpg' fill={true} className="object-cover" />
+                                        <div className="bg-black/80 w-full  text-white absolute bottom-6">
+                                            <h3 className="text-3xl">Bhutan</h3>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                <div className="relative object-cover h-full">
-                                    <Image src='/media/maldives.jpg' fill={true} className="object-cover" />
-                                    <div className="bg-black/80 w-full  text-white absolute bottom-6">
-                                        <h3 className="text-3xl">Maldives</h3>
+                                <a href="/maldives">
+                                    <div className="relative object-cover h-full">
+                                        <Image src='/media/maldives1.webp' fill={true} className="object-cover" />
+                                        <div className="bg-black/80 w-full  text-white absolute bottom-6">
+                                            <h3 className="text-3xl">Maldives</h3>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                <div className="relative object-cover h-full">
-                                    <Image src='/media/india.jpg' fill={true} className="object-cover" />
-                                    <div className="bg-black/80 w-full  text-white absolute bottom-6">
-                                        <h3 className="text-3xl">India</h3>
+                                <a href="/india">
+                                    <div className="relative object-cover h-full">
+                                        <Image src='/media/india1.webp' fill={true} className="object-cover" />
+                                        <div className="bg-black/80 w-full  text-white absolute bottom-6">
+                                            <h3 className="text-3xl">India</h3>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                <div className="relative object-cover h-full">
-                                    <Image src='/media/nepal.jpg' fill={true} className="object-cover" />
-                                    <div className="bg-black/80 w-full  text-white absolute bottom-6">
-                                        <h3 className="text-3xl">Nepal</h3>
+                                <a href="/nepal">
+                                    <div className="relative object-cover h-full">
+                                        <Image src='/media/nepal1.webp' fill={true} className="object-cover" />
+                                        <div className="bg-black/80 w-full  text-white absolute bottom-6">
+                                            <h3 className="text-3xl">Nepal</h3>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </SwiperSlide>
 
                         </Swiper>

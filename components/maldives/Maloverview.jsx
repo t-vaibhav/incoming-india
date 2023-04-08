@@ -9,11 +9,11 @@ export default function Maloverview() {
 
 
     return (
-        <div style={mystyle} className='bg-center bg-cover bg-no-repeat' id='malover'>
+        <div style={mystyle} className='bg-center bg-cover bg-no-repeat text-black' id='malover'>
             <div className='bg-orange-100/80 md:h-[100vh] h-full font-serifjp pt-10'>
                 <div className=' max-w-screen-lg mx-auto text-center'>
 
-                    <h1 className='sm:text-5xl text-4xl text-black font-bold pt-5 md:pt-10'>MALDIVES</h1>
+                    <h1 className='sm:text-5xl text-4xl text-black  font-poppins font-semibold pt-5 md:pt-10'>MALDIVES</h1>
                     <div className='flex justify-center py-5 md:py-5'>
                         <div className='border-[1px] border-orange-600 w-[300px]'></div>
                     </div>

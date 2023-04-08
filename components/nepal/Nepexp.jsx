@@ -40,14 +40,14 @@ export default function Nepexp() {
 
 
     return (
-        <section className='bg-cover bg-center bg-no-repeat' style={mystyle} id='nepexp'>
+        <section className='bg-cover bg-center bg-no-repeat text-black' style={mystyle} id='nepexp'>
             <div>
-                <h1 className='text-4xl md:text-5xl md:py-8 text-center font-serifjp py-3 font-semibold'>Explore</h1>
-                <div className='flex-row px-4 sm:flex space-x-5 max-w-screen-lg mx-auto'>
+                <h1 className='text-4xl md:text-5xl md:py-8 text-center font-poppins py-3 font-semibold'>Explore</h1>
+                <div className='flex-row px-4 sm:flex md:space-x-5 max-w-screen-lg mx-auto'>
                     <div className='w-full sm:w-[35%] md:w-[25%] flex items-center md:justify-start justify-center'>
 
-                        <div>
-                            <div className='grid-cols-2 grid sm:block'>
+                        <div className='space-y-1'>
+                            <div className='grid-cols-2 grid sm:block space-y-1'>
                                 <div className={`text-center px-5 md:py-1 cursor-pointer  text-sm md:text-xl  ${kathmandu ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setKathmandu(true), setAnna(false), setEverest(false) }}>Kathmandu Region</div>
                                 <div className={`text-center px-5 md:py-1 cursor-pointer text-sm md:text-xl  ${everest ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setKathmandu(false), setAnna(false), setEverest(true) }}>Everest Region</div>
                             </div>

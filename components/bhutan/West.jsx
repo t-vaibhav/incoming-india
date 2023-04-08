@@ -26,6 +26,7 @@ export default function West() {
                     mousewheel={true}
                     grabCursor={true}
                     centeredSlides={true}
+                    loop={true}
 
                     // navigation={true}
                     autoplay={{
@@ -56,22 +57,27 @@ export default function West() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/bhutan/eastern/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india1.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/bhutan/western/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india2.jpg" alt="taj" className="object-cover " />
+                        <img src="/media/bhutan/western/02.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/taj.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/bhutan/western/03.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/bhutan/western/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
                 </Swiper>
             </div>

@@ -54,47 +54,47 @@ export default function Kathmandu() {
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/01.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/02.jpg" alt="taj" className="object-cover " />
+                        <img src="/media/nepal/kathmandu/02.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/03.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/04.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/05.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/06.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/06.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/07.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/07.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/08.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/08.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/09.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/nepal/kathmandu/09.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

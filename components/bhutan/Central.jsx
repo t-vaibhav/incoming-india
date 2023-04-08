@@ -56,22 +56,37 @@ export default function Central() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/bhutan/central/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india1.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/bhutan/central/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india2.jpg" alt="taj" className="object-cover " />
+                        <img src="/media/bhutan/central/03.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/taj.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/bhutan/central/04.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/bhutan/central/05.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/bhutan/central/06.webp" alt="taj" className="object-cover " />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <img src="/media/bhutan/central/07.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
                 </Swiper>
             </div>

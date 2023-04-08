@@ -34,6 +34,7 @@ export default function Indgallery() {
                         mousewheel={true}
                         grabCursor={true}
                         navigation={true}
+                        loop={true}
                         autoplay={{
                             delay: 3500,
                             disableOnInteraction: false,
@@ -48,34 +49,63 @@ export default function Indgallery() {
                     >
 
                         <SwiperSlide className="relative">
-                            <img src="/media/india.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
-
-                            </div>
+                            <img src="/media/india/gallery/01.webp" alt="taj" className="object-contain" />
                         </SwiperSlide>
 
-
                         <SwiperSlide className="relative">
-                            <img src="/media/india1.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
-
-                            </div>
+                            <img src="/media/india/gallery/02.webp" alt="taj" className="object-contain" />
                         </SwiperSlide>
 
-
                         <SwiperSlide className="relative">
-                            <img src="/media/india2.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
-
-                            </div>
+                            <img src="/media/india/gallery/03.webp" alt="taj" className="object-contain" />
                         </SwiperSlide>
 
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/04.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
 
                         <SwiperSlide className="relative">
-                            <img src="/media/india3.jpg" alt="taj" className="object-contain" />
-                            <div className="absolute bottom-0 left-0 right-0">
+                            <img src="/media/india/gallery/05.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
 
-                            </div>
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/06.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/07.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/08.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/09.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/10.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/11.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/12.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/13.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/14.webp" alt="taj" className="object-contain" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/india/gallery/15.webp" alt="taj" className="object-contain" />
                         </SwiperSlide>
 
 

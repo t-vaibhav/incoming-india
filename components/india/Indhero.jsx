@@ -28,7 +28,7 @@ import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, 
 
 
 const mystyle = {
-    backgroundImage: 'url("/media/india-cover.jpg")',
+    backgroundImage: 'url("/media/india-cover.webp")',
     height: '100vh',
     backgroundAttachment: 'fixed',
 }

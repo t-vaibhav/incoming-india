@@ -5,7 +5,7 @@ import { RiArrowDropDownLine } from "react-icons/ri"
 export default function Nephero() {
 
     const mystyle = {
-        backgroundImage: "url('/media/maldives-cover.jpg')",
+        backgroundImage: "url('/media/maldives-cover.webp')",
         height: '100vh',
         backgroundAttachment: 'fixed',
     }
@@ -13,11 +13,11 @@ export default function Nephero() {
     return (
         <section id="nephero" className="bg-center bg-cover bg-no-repeat" style={mystyle}>
 
-            <div className="h-screen bg-black/40 flex justify-center items-center relative">
+            <div className="h-screen bg-black/40 flex justify-center items-center relative px-3">
 
                 <div>
                     <h1 className="text-4xl md:text-7xl text-white font-semibold font-poppins  tracking-normal text-center hero-shadow">MALDIVES</h1>
-                    <p className="text-2xl text-white font-poppins font-semibold hero-shadow">Paradise on Earth, where turquoise waters meet white sands.</p>
+                    <p className="md:text-2xl text-xl text-center text-white font-poppins font-semibold">Paradise on Earth, where turquoise waters meet white sands.</p>
                 </div>
                 <div className='text-center text-white absolute bottom-1'>
                     <p className="">Scroll Down!</p>

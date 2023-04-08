@@ -87,8 +87,8 @@ function Footer() {
           <p className="w-[300px]">
             DSM-439, 4th Floor, DLF Towers, Shivaji Marg, New Delhi - 110015 (India)
           </p>
-          <p>+91 9891242028</p>
-          <p>+91 11 40196111/222/333</p>
+          {/* <p>+91 9891242028</p> */}
+          {/* <p>+91 11 40196111/222/333</p> */}
           <p>sundeep@aaiedutourz.com</p>
         </div>
       </footer>

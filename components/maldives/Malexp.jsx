@@ -46,10 +46,10 @@ export default function Malexp() {
     }
 
     return (
-        <section className='bg-cover bg-center bg-no-repeat text-gray-900' style={mystyle} id='malexp'>
+        <section className='bg-cover bg-center bg-no-repeat text-black' style={mystyle} id='malexp'>
             <div>
-                <h1 className='text-4xl md:text-5xl md:py-8 text-center font-serifjp py-3 font-semibold'>Explore</h1>
-                <div className='flex-row px-4 sm:flex space-x-5 max-w-screen-lg mx-auto'>
+                <h1 className='text-4xl md:py-8 text-center  font-poppins md:text-5xl py-3 font-semibold'>Explore</h1>
+                <div className='flex-row px-4 sm:flex md:space-x-5 max-w-screen-lg mx-auto'>
                     <div className='w-full sm:w-[35%] md:w-[25%] flex items-center md:justify-start justify-center'>
 
                         <div>
