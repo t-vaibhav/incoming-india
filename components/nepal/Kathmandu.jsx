@@ -54,47 +54,47 @@ export default function Kathmandu() {
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/02.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/nepal/kathmandu/02.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/06.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/06.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/07.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/07.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/08.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/08.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/kathmandu/09.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/kathmandu/09.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
