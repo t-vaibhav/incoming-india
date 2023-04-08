@@ -19,7 +19,7 @@ import Central from './Central';
 export default function Bhuexp() {
     const mystyle = {
         backgroundImage: 'url("/media/ingbg2.png")',
-        height: '100vh',
+        height: '100%',
         backgroundAttachment: 'fixed',
     }
 
@@ -40,7 +40,7 @@ export default function Bhuexp() {
     }
 
     return (
-        <section className='bg-cover bg-center bg-no-repeat text-black' style={mystyle} id='bhutanexp'>
+        <section className='bg-cover min-h-[100vh] bg-center bg-no-repeat text-black' style={mystyle} id='bhutanexp'>
             <div>
                 <h1 className='text-4xl md:text-5xl md:py-8 text-center font-poppins py-3 font-semibold'>Explore</h1>
 

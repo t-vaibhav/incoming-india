@@ -57,7 +57,7 @@ function Footer() {
           <a className="link link-hover">Presence</a>
           <a className="link link-hover">Insights</a>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        {/* <form ref={form} onSubmit={sendEmail}>
           <span className="footer-title text-[#ffffff]">Contact Us</span>
           <input
             type="text"
@@ -81,7 +81,7 @@ function Footer() {
             value="Send"
             className="bg-slate-700 hover:bg-slate-800 hover:text-white px-2 py-1 rounded-lg hover:cursor-pointer"
           />
-        </form>
+        </form> */}
         <div>
           <span className="footer-title text-[#ffffff] ">Address</span>
           <p className="w-[300px]">

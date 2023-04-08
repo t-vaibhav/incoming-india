@@ -95,7 +95,7 @@ export default function Cultural() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] md:text-lg overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 md:max-h-[35vh] md:text-lg overflow-y-auto py-2'>
                 The cultural triangle of Sri Lanka, comprising the ancient cities of Anuradhapura, Polonnaruwa, and Kandy, is a UNESCO World Heritage Site that showcases the country's rich history and cultural heritage. It boasts stunning architectural wonders, traditional rituals, and important Buddhist shrines. Visitors can witness traditional dance performances and art exhibitions that showcase Sri Lanka's vibrant culture. The region's tranquil atmosphere and stunning landscapes make it an ideal destination for relaxation and reflection, while also being a hub of wildlife and natural beauty.
             </div>
         </div>

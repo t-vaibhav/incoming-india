@@ -84,7 +84,7 @@ export default function South() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Escape to the serene and idyllic South Atoll in Maldives, where palm-fringed beaches, clear turquoise waters, and stunning coral reefs await. With its laid-back vibe and stunning natural beauty, South Atoll is the perfect destination for those seeking relaxation and tranquility. Stay in luxurious beachfront bungalows or overwater villas, indulge in mouth-watering cuisine, and take part in exciting water sports such as snorkeling and diving. Immerse yourself in the local culture by visiting nearby fishing villages, or simply bask in the warm sunshine and let your worries drift away.
             </div>
         </div>

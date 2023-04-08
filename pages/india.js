@@ -20,13 +20,13 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <Navbar />
+                {/* <Navbar /> */}
                 <Indhero />
                 <Indnav />
                 <Indexp />
                 <Indgallery />
                 <Moretovisit />
-                <Footer />
+                {/* <Footer /> */}
             </main>
         </>
     );

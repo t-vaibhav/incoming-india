@@ -100,7 +100,7 @@ export default function Kathmandu() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Kathmandu Valley Region is a traveler's delight with its vibrant culture, rich history, and stunning architecture. The region is home to seven UNESCO World Heritage Sites, including the iconic Swayambhunath Stupa, Pashupatinath Temple, and Durbar Squares of Kathmandu, Patan, and Bhaktapur. Visitors can wander through the narrow streets, try the delicious street food, and shop for handicrafts at local markets. With its warm hospitality and a blend of tradition and modernity, Kathmandu Valley Region promises an unforgettable experience for foreign tourists.            </div>
         </div>
     )

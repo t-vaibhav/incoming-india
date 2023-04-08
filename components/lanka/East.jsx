@@ -77,7 +77,7 @@ export default function East() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:max-h-[35vh] md:text-lg overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 md:max-h-[35vh] md:text-lg overflow-y-auto py-2'>
                 The east coast regions of Sri Lanka are a hidden gem waiting to be discovered by travelers. The pristine beaches, clear blue waters, and lush green forests offer a perfect getaway for those seeking serenity and relaxation. The region is also rich in cultural diversity, with influences from both the ancient and colonial eras. Visitors can enjoy a variety of water sports and wildlife activities, including whale watching, snorkeling, and bird watching. With a variety of accommodation options available, from luxury resorts to homestays, the east coast regions of Sri Lanka are the perfect destination for a memorable vacation.
             </div>
         </div>

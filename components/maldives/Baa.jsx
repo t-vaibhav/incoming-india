@@ -88,7 +88,7 @@ export default function Baa() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Bask in the natural beauty of Baa Atoll, Maldives, where crystal-clear waters, pristine beaches, and lush greenery blend seamlessly to create a paradise like no other. The atoll is a UNESCO Biosphere Reserve, boasting an abundance of marine life and coral reefs that are waiting to be explored. Stay in luxurious eco-resorts that blend seamlessly with the stunning natural surroundings, indulge in sumptuous cuisine, and take part in thrilling water sports such as diving and snorkeling. Discover the unique culture and traditions of the local island communities and create memories that will last a lifetime in this breathtaking tropical paradise.            </div>
         </div>
 

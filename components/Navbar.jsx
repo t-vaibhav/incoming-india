@@ -102,7 +102,7 @@ export default function Navbar() {
 
 
                     <li className='flex  hover:text-orange-300'><a href="/insights">INSIGHTS</a></li >
-                    <li className='flex  hover:text-orange-300'><a href="#">CONTACT US</a></li >
+                    <li className='flex  hover:text-orange-300'><a href="/contact">CONTACT US</a></li >
                 </ul >
 
             </div >

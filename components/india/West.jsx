@@ -110,7 +110,7 @@ export default function West() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh]  text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5   text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Welcome to Western India, where the sun, sand, and sea come together to create a mesmerizing experience! Relax on the pristine beaches of Goa, explore the majestic palaces of Rajasthan, and marvel at the intricate carvings of the Ajanta and Ellora Caves. Indulge in the vibrant culture and delicious cuisine of Maharashtra, Gujarat, and Rajasthan. Take a safari through the Ranthambore National Park and spot the majestic Bengal tiger. Witness the colorful festivals and immerse yourself in the warm hospitality of Western India. Come, discover the enchanting beauty of this region and make memories to last a lifetime!            </div>
         </div>
 

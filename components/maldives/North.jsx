@@ -84,7 +84,7 @@ export default function North() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:text-lg text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 md:text-lg text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 With its crystal-clear waters and pristine white sand beaches, North Atoll in the Maldives is a tropical paradise like no other. Immerse yourself in a world of luxury and relaxation, where every need is catered for and every desire fulfilled. Snorkel among vibrant coral reefs, bask in the warm sunshine, and indulge in delicious cuisine while surrounded by breathtaking natural beauty. Whether you're seeking adventure or simply looking to unwind, North Atoll is the perfect destination for an unforgettable vacation.
             </div>
         </div>

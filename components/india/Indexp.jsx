@@ -21,7 +21,7 @@ import East from './East';
 export default function Indexp() {
     const mystyle = {
         backgroundImage: 'url("/media/ingbg2.png")',
-        height: '100vh',
+        height: '100%',
         backgroundAttachment: 'fixed',
     }
 
@@ -48,11 +48,11 @@ export default function Indexp() {
     }
 
     return (
-        <section className='bg-cover bg-center bg-no-repeat text-black' style={mystyle} id='indexplore'>
+        <section className='bg-cover md:min-h-[100vh] bg-center bg-no-repeat text-black' style={mystyle} id='indexplore'>
             <div>
                 <h1 className='text-4xl md:text-5xl md:py-8 text-center font-poppins py-3 font-semibold'>Explore</h1>
                 <div className='flex-row px-4 sm:flex md:space-x-5 max-w-screen-lg mx-auto'>
-                    <div className='w-full sm:w-[35%] md:w-[25%] flex items-center md:justify-start justify-center'>
+                    <div className='w-full sm:w-[35%] md:w-[25%] h-full flex items-center md:justify-start justify-center'>
                         <div>
                             <div className='grid-cols-2 grid sm:block'>
                                 <div className={`text-center px-5 md:py-1 cursor-pointer  text-base md:text-xl  ${north ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(true), setEast(false), setCentral(false), setSouth(false), setWest(false) }}>Northern India</div>

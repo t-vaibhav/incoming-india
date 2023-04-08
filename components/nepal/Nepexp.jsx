@@ -19,7 +19,7 @@ import Kathmandu from './Kathmandu';
 export default function Nepexp() {
     const mystyle = {
         backgroundImage: 'url("/media/ingbg2.png")',
-        height: '100vh',
+        height: '100%',
         backgroundAttachment: 'fixed',
     }
 
@@ -40,7 +40,7 @@ export default function Nepexp() {
 
 
     return (
-        <section className='bg-cover bg-center bg-no-repeat text-black' style={mystyle} id='nepexp'>
+        <section className='bg-cover min-h-[100vh] bg-center bg-no-repeat text-black' style={mystyle} id='nepexp'>
             <div>
                 <h1 className='text-4xl md:text-5xl md:py-8 text-center font-poppins py-3 font-semibold'>Explore</h1>
                 <div className='flex-row px-4 sm:flex md:space-x-5 max-w-screen-lg mx-auto'>

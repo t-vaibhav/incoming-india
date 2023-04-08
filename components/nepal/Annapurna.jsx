@@ -74,7 +74,7 @@ export default function Annapurna() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] md:text-lg md:max-h-[37vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 md:text-lg md:max-h-[37vh] overflow-y-auto py-2'>
                 The Annapurna Region in Nepal is a paradise for nature lovers, trekkers, and cultural enthusiasts. The region offers stunning vistas of the Annapurna mountain range, including the majestic Annapurna I and the iconic Machhapuchhre peak. Visitors can explore the diverse landscapes, from lush forests to barren deserts, and experience the unique traditions and lifestyle of ethnic communities like Gurungs and Thakalis. The region is also home to the beautiful Phewa Lake, where visitors can enjoy boating and witness the stunning reflections of the mountains on the water. The Annapurna Circuit and Annapurna Base Camp treks are some of the most popular trekking trails in the world, promising an unforgettable adventure.
             </div>
         </div>

@@ -108,7 +108,7 @@ export default function East() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh]  text-lg md:max-h-[35vh] overflow-y-auto py-2'>\
+            <div className='h-full md:pb-0 pb-5  text-lg md:max-h-[35vh] overflow-y-auto py-2'>\
                 Welcome to the eastern part of India, where diverse cultures and natural wonders await! Explore the majestic Himalayas in Darjeeling, witness the beauty of the Sun Temple in Konark, and take a boat ride through the tranquil waters of Chilika Lake. Indulge in the mouth-watering cuisine of Kolkata and experience the colorful Durga Puja festival. Visit the ancient Buddhist monasteries in Sikkim and witness the royal heritage of Rajasthan. Come, discover the rich history and hospitality of Eastern India and create memories to cherish for a lifetime!
             </div>
         </div>

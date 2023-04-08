@@ -18,8 +18,8 @@ import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, 
 export default function North() {
     return (
 
-        <div className='sm:w-[65%] md:w-[75%]'>
-            <div className='h-[40vh] md:h-[50vh] flex py-2'>
+        <div className='sm:w-[65%] min-h-full md:w-[75%]'>
+            <div className='h-full md:h-[50vh] flex py-2'>
                 {/* <Image src='/media/india.jpg' height={500} width={500} className='object-cover' /> */}
                 <Swiper
                     effect={"coverflow"}
@@ -114,7 +114,7 @@ export default function North() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='min-h-full text-lg md:max-h-[35vh] md:overflow-y-auto py-2 md:pb-0 pb-5'>
                 Welcome to Northern India, a land of diverse cultures, traditions, and landscapes. Explore the grandeur of the Taj Mahal, witness the serene Ganges river, savor the spicy street food, and get enchanted by the vibrant colors of the local bazaars. Immerse yourself in the rich history of forts and palaces, soak in the spiritual aura of temples and ashrams, and indulge in the warm hospitality of the locals. Experience the thrill of adventure sports in the Himalayas, or simply relax in the tranquil hill stations. Come, discover the magic of Northern India, a truly unforgettable destination.
             </div>
         </div>

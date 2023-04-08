@@ -18,13 +18,13 @@ export default function Home() {
             </Head>
             <main>
 
-                <Navbar />
+                {/* <Navbar /> */}
                 <Lankahero />
                 <Lankanav />
                 <Lankaexp />
                 <Lankagallery />
                 <Moretovisitlanka />
-                <Footer />
+                {/* <Footer /> */}
             </main>
         </>
     );

@@ -92,7 +92,7 @@ export default function Central() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh]  text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5  text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Welcome to Central India, where history comes alive! Explore the iconic Taj Mahal, the breathtaking Khajuraho temples, and the ancient Sanchi Stupa. Marvel at the grandeur of the Gwalior Fort and the beauty of the Pachmarhi hills. Witness the traditional art forms of Madhya Pradesh and taste the delectable street food of Indore. Immerse yourself in the vibrant culture and hospitality of Central India and discover the hidden gems of this region. Come, create unforgettable memories in the heart of India!            </div>
         </div>
 

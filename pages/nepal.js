@@ -18,13 +18,13 @@ export default function Home() {
             </Head>
             <main>
 
-                <Navbar />
+                {/* <Navbar /> */}
                 <Nephero />
                 <Nepnav />
                 <Nepexp />
                 <Nepgallery />
                 <Moretovisitnep />
-                <Footer />
+                {/* <Footer /> */}
             </main>
         </>
     );

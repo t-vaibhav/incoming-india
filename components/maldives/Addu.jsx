@@ -92,7 +92,7 @@ export default function Addu() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Experience the vibrant and unique culture of Addu Atoll in the Maldives, where traditional island life meets modern amenities. The atoll is home to fascinating historical sites, including World War II remnants and ancient Buddhist ruins. Stay in luxurious beachfront resorts, indulge in delectable cuisine, and enjoy a range of water sports and outdoor activities. Discover the diverse marine life of the atoll's clear waters, and explore the lush greenery and stunning beaches. Immerse yourself in the local traditions and hospitality, and create unforgettable memories in this hidden gem of the Maldives.        </div>
 
         </div>

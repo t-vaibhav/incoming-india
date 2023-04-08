@@ -86,7 +86,7 @@ export default function Lha() {
 
                 </Swiper>
             </div>
-            <div className='max-h-[35vh] text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
+            <div className='h-full md:pb-0 pb-5 text-lg md:text-lg md:max-h-[35vh] overflow-y-auto py-2'>
                 Unwind in the serene and unspoiled Lhaviyani Atoll in the Maldives, where turquoise lagoons, lush vegetation, and pristine beaches await. The atoll is home to some of the best dive sites in the world, with vibrant coral gardens and an abundance of marine life. Stay in luxurious overwater villas or beachfront bungalows, indulge in mouth-watering cuisine, and relax with a range of spa treatments. Take part in exciting water sports, explore local fishing villages, or simply bask in the warm sunshine and let the natural beauty of Lhaviyani Atoll wash over you.        </div>
         </div>
     )
