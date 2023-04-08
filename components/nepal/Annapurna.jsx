@@ -53,22 +53,22 @@ export default function Annapurna() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/annapurna/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/annapurna/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/annapurna/02.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/nepal/annapurna/02.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/annapurna/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/annapurna/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/annapurna/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/annapurna/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

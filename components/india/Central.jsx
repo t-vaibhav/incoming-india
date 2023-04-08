@@ -61,32 +61,32 @@ export default function Central() {
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/01.jpg" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/centralind/01.jpg" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/02" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/centralind/02" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/06.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/centralind/06.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/07.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/centralind/07.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/centralind/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/centralind/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/centralind/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

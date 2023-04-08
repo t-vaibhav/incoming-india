@@ -57,57 +57,57 @@ export default function North() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/02.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/06.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/06.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/07.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/07.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/08.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/08.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/09.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/09.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/10.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/10.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/northernind/11.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/northernind/11.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

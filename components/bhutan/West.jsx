@@ -57,27 +57,27 @@ export default function West() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/bhutan/eastern/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/bhutan/eastern/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/bhutan/western/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/bhutan/western/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/bhutan/western/02.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/bhutan/western/02.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/bhutan/western/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/bhutan/western/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/bhutan/western/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/bhutan/western/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
                 </Swiper>
             </div>

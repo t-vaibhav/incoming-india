@@ -52,7 +52,7 @@ function Footer() {
         <div>
           <span className="footer-title text-[#ffffff]">Quick Links</span>
           <a className="link link-hover">Home</a>
-          <a className="link link-hover">Destinations</a>
+          {/* <a className="link link-hover">Destinations</a> */}
           <a className="link link-hover">Experiences</a>
           <a className="link link-hover">Presence</a>
           <a className="link link-hover">Insights</a>
@@ -87,6 +87,8 @@ function Footer() {
           <p className="w-[300px]">
             DSM-439, 4th Floor, DLF Towers, Shivaji Marg, New Delhi - 110015 (India)
           </p>
+          <span className="footer-title text-[#ffffff] mt-3 mb-1 ">Email</span>
+
           {/* <p>+91 9891242028</p> */}
           {/* <p>+91 11 40196111/222/333</p> */}
           <p>sundeep@aaiedutourz.com</p>

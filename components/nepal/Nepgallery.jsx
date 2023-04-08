@@ -34,7 +34,7 @@ export default function Nepgallery() {
                 navigation={true}
                 loop={true}
                 autoplay={{
-                    delay: 3500,
+                    delay: 2000,
                     disableOnInteraction: false,
                 }}
                 modules={[Navigation, EffectFade, Autoplay, EffectFlip]}
