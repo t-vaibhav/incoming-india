@@ -68,7 +68,7 @@ export default function Navbar() {
                                     <a href="/india"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>India</li></a>
                                     <a href="/nepal"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Nepal</li></a>
                                     <a href="/bhutan"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Bhutan</li> </a>
-                                    <a href="/lanka">Sri<li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'> Lanka</li></a>
+                                    <a href="/lanka"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Sri Lanka</li></a>
                                     <a href="/maldives"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Maldives</li></a>
                                 </div>
                             </ul>
