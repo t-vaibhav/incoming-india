@@ -62,19 +62,19 @@ export default function Navbar() {
                     </li>
 
                     <li className='flex items-center listitem relative '>
-                        <span className='cursor-pointer ' href="#"><a href="https://www.youtube.com" className='hover:text-orange-300'> DESTINATIONS</a>
+                        <span className='cursor-pointer ' href="#"> DESTINATIONS
                             <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'}`} >
                                 <div className='w-full flex-row justify-center'>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/india">India</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/nepal">Nepal</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/bhutan">Bhutan</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/lanka">Sri Lanka</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'><a href="/maldives">Maldives</a></li>
+                                    <a href="/india"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>India</li></a>
+                                    <a href="/nepal"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Nepal</li></a>
+                                    <a href="/bhutan"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Bhutan</li> </a>
+                                    <a href="/lanka">Sri<li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'> Lanka</li></a>
+                                    <a href="/maldives"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Maldives</li></a>
                                 </div>
                             </ul>
                         </span >
                         <RiArrowDropDownLine className='text-3xl down-arrow duration-500' />
-                    </li>
+                    </li >
 
                     <li className='flex items-center listitem relative  hover:text-orange-300'>
                         <span className='cursor-pointer'>EXPERIENCES
