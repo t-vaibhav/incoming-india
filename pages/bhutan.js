@@ -20,13 +20,13 @@ export default function Home() {
             </Head>
             <main>
 
-                <Navbar />
+                {/* <Navbar /> */}
                 <Bhuhero />
                 <Bhunav />
                 <Bhuexp />
                 <Bhutangallery />
                 <Moretovisitbhu />
-                <Footer />
+                {/* <Footer /> */}
             </main>
         </>
     );

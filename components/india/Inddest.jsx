@@ -49,7 +49,7 @@ export default function Inddest() {
                                     loop={true}
                                     // navigation={true}
                                     autoplay={{
-                                        delay: 3500,
+                                        delay: 2800,
                                         disableOnInteraction: false,
                                     }}
                                     cubeEffect={{
@@ -116,7 +116,7 @@ export default function Inddest() {
                                     loop={true}
                                     // navigation={true}
                                     autoplay={{
-                                        delay: 3500,
+                                        delay: 3300,
                                         disableOnInteraction: false,
                                     }}
                                     cubeEffect={{
@@ -188,7 +188,7 @@ export default function Inddest() {
                                     loop={true}
                                     // navigation={true}
                                     autoplay={{
-                                        delay: 3500,
+                                        delay: 3000,
                                         disableOnInteraction: false,
                                     }}
                                     cubeEffect={{
