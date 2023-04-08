@@ -25,26 +25,50 @@ export default function Indexp() {
         backgroundAttachment: 'fixed',
     }
 
-    const [north, setNorth] = useState(true)
-    const [west, setWest] = useState(false)
-    const [central, setCentral] = useState(false)
-    const [east, setEast] = useState(false)
-    const [south, setSouth] = useState(false)
+    // const [north, setNorth] = useState(true)
+    // const [west, setWest] = useState(false)
+    // const [central, setCentral] = useState(false)
+    // const [east, setEast] = useState(false)
+    // const [south, setSouth] = useState(false)
+
+
+    const [partOfIndia, setPartOfIndia] = useState("north")
 
 
 
     let mode;
 
-    if (north) {
-        mode = <North />
-    } else if (west) {
-        mode = <West />
-    } else if (east) {
-        mode = <East />
-    } else if (central) {
-        mode = <Central />
-    } else {
-        mode = <South />
+    // if (north) {
+    //     mode = <North />
+    // } else if (west) {
+    //     mode = <West />
+    // } else if (east) {
+    //     mode = <East />
+    // } else if (central) {
+    //     mode = <Central />
+    // } else {
+    //     mode = <South />
+    // }
+
+    switch (partOfIndia) {
+        case "north":
+            mode = <North />            
+            break;
+        case "east":
+            mode = <East />            
+            break;
+        case "west":
+            mode = <West />            
+            break;
+        case "south":
+            mode = <South />            
+            break;
+        case "central":
+            mode = <Central />            
+            break;
+    
+        default:
+            break;
     }
 
     return (
@@ -55,12 +79,12 @@ export default function Indexp() {
                     <div className='w-full sm:w-[35%] md:w-[25%] h-full flex items-center md:justify-start justify-center'>
                         <div>
                             <div className='grid-cols-2 grid sm:block'>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer  text-base md:text-xl  ${north ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(true), setEast(false), setCentral(false), setSouth(false), setWest(false) }}>Northern India</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${west ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(false), setCentral(false), setSouth(false), setWest(true) }}>Western India</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${central ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(false), setCentral(true), setSouth(false), setWest(false) }}>Central India</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${east ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(true), setCentral(false), setSouth(false), setWest(false) }}>Eastern India</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer  text-base md:text-xl  ${partOfIndia == "north" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("north") }}>Northern India</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partOfIndia == "west" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("west") }}>Western India</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partOfIndia == "central" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("central") }}>Central India</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partOfIndia == "east" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("east") }}>Eastern India</div>
                             </div>
-                            <div className={`text-center text-base md:py-1 md:text-xl cursor-pointer ${south ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setNorth(false), setEast(false), setCentral(false), setSouth(true), setWest(false) }}>Southern India</div>
+                            <div className={`text-center text-base md:py-1 md:text-xl cursor-pointer ${partOfIndia == "south" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("south")}}>Southern India</div>
                         </div>
 
                     </div>
