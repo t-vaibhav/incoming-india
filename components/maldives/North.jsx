@@ -57,27 +57,27 @@ export default function North() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/maldives/north/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/maldives/north/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/maldives/north/02.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/maldives/north/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/maldives/north/03.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/maldives/north/03.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/maldives/exp/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/maldives/exp/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/maldives/exp/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/maldives/exp/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

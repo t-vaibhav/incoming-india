@@ -53,27 +53,27 @@ export default function Hilly() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/hilly/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/hilly/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/hilly/02.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/hilly/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/hilly/03.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/lanka/hilly/03.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/hilly/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/hilly/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/hilly/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/hilly/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
                 </Swiper>
             </div>

@@ -38,9 +38,10 @@ export default function Inddest() {
 
                 <div className={`max-w-screen-lg mx-auto  gap-5 py-5 `}>
 
+                        {/* taj mahal starts */}
                     <div className=''>
                         <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] md:max-h-[55vh]  h-full '>
-                            <div className='xl:w-2/5 md:w-1/2  flex px-2'>
+                            <div className='xl:w-2/5 md:w-1/2  flex px-2 h-[40vh] sm:h-auto pb-7 sm:pb-0'>
                                 <Swiper
                                     effect={"cube"}
                                     mousewheel={true}
@@ -48,7 +49,7 @@ export default function Inddest() {
                                     loop={true}
                                     // navigation={true}
                                     autoplay={{
-                                        delay: 3500,
+                                        delay: 2800,
                                         disableOnInteraction: false,
                                     }}
                                     cubeEffect={{
@@ -67,28 +68,28 @@ export default function Inddest() {
 
                                 >
 
-                                    <SwiperSlide className="object-cover">
-                                        <img src="/media/india/dest/taj/01.webp" alt="taj" className="object-cover" />
+                                    <SwiperSlide className="object-cover w-full h-full">
+                                        <Image fill={true} src="/media/india/dest/taj/01.webp" alt="taj" className="object-cover h-52 w-72" />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="object-cover ">
-                                        <img src="/media/india/dest/taj/02.webp" alt="taj" className="object-cover" />
+                                    <SwiperSlide className="object-cover  w-full h-full">
+                                        <Image fill={true} src="/media/india/dest/taj/02.webp" alt="taj" className="object-cover h-52 w-72" />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="object-cover">
-                                        <img src="/media/india/dest/taj/03.webp" alt="taj" className="object-cover " />
+                                    <SwiperSlide className="object-cover w-full h-full">
+                                        <Image fill={true} src="/media/india/dest/taj/03.webp" alt="taj" className="object-cover h-52 w-72 " />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="object-cover">
-                                        <img src="/media/india/dest/taj/04.webp" alt="taj" className="object-cover" />
+                                    <SwiperSlide className="object-cover w-full h-full">
+                                        <Image fill={true} src="/media/india/dest/taj/04.webp" alt="taj" className="object-cover h-52 w-72" />
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="object-cover ">
-                                        <img src="/media/india/dest/taj/05.webp" alt="taj" className="object-cover" />
+                                    <SwiperSlide className="object-cover  w-full h-full">
+                                        <Image fill={true} src="/media/india/dest/taj/05.webp" alt="taj" className="object-cover h-52 w-72" />
                                     </SwiperSlide>
                                 </Swiper>
                             </div>
@@ -101,10 +102,13 @@ export default function Inddest() {
                             </div>
                         </div>
                     </div>
+                    {/* taj mahal ends  */}
 
+
+                    {/* udaipur starts */}
                     <div>
                         <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] md:max-h-[55vh] h-full'>
-                            <div className='xl:w-2/5 md:w-1/2 w-full flex px-2'>
+                            <div className='xl:w-2/5 md:w-1/2 w-full flex px-2 pb-7 sm:pb-0 h-[40vh]'>
                                 <Swiper
                                     effect={"cube"}
                                     mousewheel={true}
@@ -112,7 +116,7 @@ export default function Inddest() {
                                     loop={true}
                                     // navigation={true}
                                     autoplay={{
-                                        delay: 3500,
+                                        delay: 3300,
                                         disableOnInteraction: false,
                                     }}
                                     cubeEffect={{
@@ -132,28 +136,28 @@ export default function Inddest() {
                                 >
 
                                     <SwiperSlide className="relative">
-                                        <img src="/media/india/dest/udaipur/01.webp" alt="udaipur" className="object-cover" />
+                                        <Image fill={true} src="/media/india/dest/udaipur/01.webp" alt="udaipur" className="object-cover" />
                                     </SwiperSlide>
 
 
                                     <SwiperSlide className="relative">
-                                        <img src='/media/india/dest/udaipur/02.webp' alt='udaipur' className='object-cover h-full' />
+                                        <Image fill={true} src='/media/india/dest/udaipur/02.webp' alt='udaipur' className='object-cover h-full' />
                                     </SwiperSlide>
 
                                     <SwiperSlide className="relative">
-                                        <img src="/media/india/dest/udaipur/03.webp" alt="udaipur" className="object-cover" />
+                                        <Image fill={true} src="/media/india/dest/udaipur/03.webp" alt="udaipur" className="object-cover" />
                                     </SwiperSlide>
 
                                     <SwiperSlide className="relative object-cover">
-                                        <img src="/media/india/dest/udaipur/04.webp" alt="udaipur" className="object-cover h-full" />
+                                        <Image fill={true} src="/media/india/dest/udaipur/04.webp" alt="udaipur" className="object-cover h-full" />
                                     </SwiperSlide>
 
                                     <SwiperSlide className="relative">
-                                        <img src='/media/india/dest/udaipur/05.webp' alt='udaipur' className='object-cover h-full' />
+                                        <Image fill={true} src='/media/india/dest/udaipur/05.webp' alt='udaipur' className='object-cover h-full' />
                                     </SwiperSlide>
 
                                     <SwiperSlide className="relative">
-                                        <img src="/media/india/dest/udaipur/06.webp" alt="udaipur" className="object-cover h-full" />
+                                        <Image fill={true} src="/media/india/dest/udaipur/06.webp" alt="udaipur" className="object-cover h-full" />
                                     </SwiperSlide>
 
 
@@ -170,19 +174,21 @@ export default function Inddest() {
 
                         </div>
                     </div>
+                    {/* udaipur ends */}
 
 
-
+{/* statue of unity starts  */}
                     <div>
                         <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] md:max-h-[57vh] h-full'>
-                            <div className='xl:w-2/5 md:w-1/2 w-full px-2 '>
+                            <div className='xl:w-2/5 md:w-1/2 w-full px-2 h-[40vh] pb-7 sm:pb-0 sm:h-auto'>
                                 <Swiper
                                     effect={"cube"}
                                     mousewheel={true}
                                     grabCursor={true}
+                                    loop={true}
                                     // navigation={true}
                                     autoplay={{
-                                        delay: 3500,
+                                        delay: 3000,
                                         disableOnInteraction: false,
                                     }}
                                     cubeEffect={{
@@ -202,38 +208,40 @@ export default function Inddest() {
                                 >
 
                                     <SwiperSlide className="">
-                                        <img src="/media/india/dest/unity/01.webp" alt="taj" className="object-cover " />
+                                        <Image fill={true} src="/media/india/dest/unity/01.webp" alt="taj" className="object-cover " />
 
                                     </SwiperSlide>
 
 
-                                    <SwiperSlide className="">
-                                        <img src="/media/india/dest/unity/02.webp" alt="taj" className="object-cover " />
+                                    {/* <SwiperSlide className="">
+                                        <Image fill={true} src="/media/india/dest/unity/02.webp" alt="taj" className="object-cover " />
+
+                                    </SwiperSlide> */}
+
+
+                                    <SwiperSlide className="relative">
+                                        <Image fill={true} src="/media/india/dest/unity/03.webp" alt="taj" className="object-cover " />
 
                                     </SwiperSlide>
 
 
                                     <SwiperSlide className="relative">
-                                        <img src="/media/india/dest/unity/03.webp" alt="taj" className="object-cover " />
-
-                                    </SwiperSlide>
-
-
-                                    <SwiperSlide className="relative">
-                                        <img src='/media/india/dest/unity/04.webp' className='object-cover' />
+                                        <Image fill={true} src='/media/india/dest/unity/04.webp' className='object-cover' />
                                     </SwiperSlide>
                                 </Swiper>
                             </div>
 
-                            <div className='md:w-3/5 overflow-y-auto px-2'>
+                            <div className='md:w-3/5 o px-2'>
                                 <h1 className='text-3xl md:text-4xl py-3 font-poppins font-semibold'>Statue Of Unity</h1>
-                                <div className='max-h-[45vh] text-lg'>
+                                <div className='overflow-y-auto text-lg sm:max-h-[40vh] h-full'>
                                     The Statue of Unity is a towering monument located in the western Indian state of Gujarat. It is the world's tallest statue, standing at a height of 182 meters. The statue is dedicated to Sardar Vallabhbhai Patel, a prominent Indian freedom fighter and the first Deputy Prime Minister of India. It offers breathtaking panoramic views of the surrounding landscape and the Narmada River. Visitors can also explore the museum and exhibition hall located within the monument to learn about Sardar Patel's life and contribution to India's history. A visit to the Statue of Unity is a must for anyone visiting India.
                                 </div>
                             </div>
 
                         </div>
                     </div>
+
+                    {/* statue of unity ends  */}
                 </div>
             </div>
         </section >

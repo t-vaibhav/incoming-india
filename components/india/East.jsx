@@ -61,47 +61,47 @@ export default function East() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/easternind/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/07.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/easternind/07.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/02.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/easternind/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/easternind/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/easternind/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/04.webp" alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-
-
-                    <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/06.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/easternind/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/india/easternind/08.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/india/easternind/06.webp" alt="taj" className="object-cover" />
+                    </SwiperSlide>
+
+
+
+
+                    <SwiperSlide className="relative">
+                        <Image fill={true} src="/media/india/easternind/08.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 

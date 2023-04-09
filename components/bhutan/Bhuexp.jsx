@@ -24,19 +24,30 @@ export default function Bhuexp() {
     }
 
 
-    const [west, setWest] = useState(true)
-    const [central, setCentral] = useState(false)
-    const [east, setEast] = useState(false)
+    // const [west, setWest] = useState(true)
+    // const [central, setCentral] = useState(false)
+    // const [east, setEast] = useState(false)
+
+    const [partofbhutan, setPartofbhutan] = useState("west")
 
 
     let mode;
 
-    if (west) {
-        mode = <West />
-    } else if (east) {
-        mode = <East />
-    } else {
-        mode = <Central />
+
+
+    switch (partofbhutan) {
+        case "west":
+            mode = <West />;            
+            break;
+        case "east":
+            mode = <East />;            
+            break;
+        case "central":
+            mode = <Central />;            
+            break;
+    
+        default:
+            break;
     }
 
     return (
@@ -49,10 +60,10 @@ export default function Bhuexp() {
 
                         <div>
                             <div className='grid-cols-2 grid sm:block'>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${west ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(false), setCentral(false), setWest(true) }}>Western Bhutan</div>
-                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${east ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(true), setCentral(false), setWest(false) }}>Eastern Bhutan</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partofbhutan == "west" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartofbhutan("west") }}>Western Bhutan</div>
+                                <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partofbhutan == "east" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartofbhutan("east") }}>Eastern Bhutan</div>
                             </div>
-                            <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${central ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setEast(false), setCentral(true), setWest(false) }}>Central Bhutan</div>
+                            <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partofbhutan == "central" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartofbhutan("central") }}>Central Bhutan</div>
                         </div>
 
                     </div>

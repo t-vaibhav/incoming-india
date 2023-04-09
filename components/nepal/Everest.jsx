@@ -53,27 +53,27 @@ export default function Everest() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/everest/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/everest/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/everest/02.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/nepal/everest/02.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/everest/03.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/everest/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/everest/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/everest/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/nepal/everest/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/nepal/everest/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
                 </Swiper>

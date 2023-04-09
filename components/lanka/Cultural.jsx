@@ -53,45 +53,45 @@ export default function Cultural() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/cultural/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/02.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/cultural/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/03.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/lanka/cultural/03.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/cultural/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/05.webp" alt="taj" className="object-cover" />
-                    </SwiperSlide>
-
-
-                    <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/06.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/cultural/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/07.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/lanka/cultural/06.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/08.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/cultural/07.webp" alt="taj" className="object-cover " />
+                    </SwiperSlide>
+
+
+                    <SwiperSlide className="relative">
+                        <Image fill={true} src="/media/lanka/cultural/08.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/cultural/09.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/cultural/09.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
                 </Swiper>
             </div>

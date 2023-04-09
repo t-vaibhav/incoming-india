@@ -53,27 +53,27 @@ export default function East() {
                 >
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/east/01.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/east/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/east/02.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/east/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/east/03.webp" alt="taj" className="object-cover " />
+                        <Image fill={true} src="/media/lanka/east/03.webp" alt="taj" className="object-cover " />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/east/04.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/east/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <img src="/media/lanka/east/05.webp" alt="taj" className="object-cover" />
+                        <Image fill={true} src="/media/lanka/east/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
                 </Swiper>
             </div>
