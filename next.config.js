@@ -9,7 +9,8 @@ const nextConfig = {
       "images.unsplash.com",
       "flowbite.s3.amazonaws.com",
       "media.istockphoto.com",
-      "plus.unsplash.com"
+      "plus.unsplash.com",
+      "i.ibb.co"
     ],
   },
 }

@@ -28,7 +28,7 @@ export default function Malgallery() {
     return (
         <section id='malgallery'>
             <div className=''>
-                <div className=" flex justify-center items-center h-[100vh]">
+                <div className=" flex justify-center items-center h-[50vh] md:h-[100vh]">
                     <Swiper
                         effect={"fade"}
                         mousewheel={true}
