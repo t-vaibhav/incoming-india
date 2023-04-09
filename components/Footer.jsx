@@ -91,7 +91,7 @@ function Footer() {
 
           {/* <p>+91 9891242028</p> */}
           {/* <p>+91 11 40196111/222/333</p> */}
-          <p>sundeep@aaiedutourz.com</p>
+          <p>info@incomingindia.co.in</p>
         </div>
       </footer>
     </div>

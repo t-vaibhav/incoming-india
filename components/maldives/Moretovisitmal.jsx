@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Moretovisitmal() {
     const mystyle = {
-        backgroundImage: 'url("/media/indbg3.png")',
+        backgroundImage: 'url("/media/morebg.webp")',
         height: '100%',
 
     }

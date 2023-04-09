@@ -25,7 +25,7 @@ export default function Inddest() {
     });
 
     const mystyle1 = {
-        backgroundImage: 'url("/media/destbg.jpg")',
+        backgroundImage: 'url("/media/destbg.webp")',
         height: '100%',
         backgroundAttachment: 'fixed',
     }
@@ -38,7 +38,7 @@ export default function Inddest() {
 
                 <div className={`max-w-screen-lg mx-auto  gap-5 py-5 `}>
 
-                        {/* taj mahal starts */}
+                    {/* taj mahal starts */}
                     <div className=''>
                         <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] md:max-h-[55vh]  h-full '>
                             <div className='xl:w-2/5 md:w-1/2  flex px-2 h-[40vh] sm:h-auto pb-7 sm:pb-0'>
@@ -177,7 +177,7 @@ export default function Inddest() {
                     {/* udaipur ends */}
 
 
-{/* statue of unity starts  */}
+                    {/* statue of unity starts  */}
                     <div>
                         <div className='flex-row md:flex justify-around py-5 md:py-10 min-h-[55vh] md:max-h-[57vh] h-full'>
                             <div className='xl:w-2/5 md:w-1/2 w-full px-2 h-[40vh] pb-7 sm:pb-0 sm:h-auto'>

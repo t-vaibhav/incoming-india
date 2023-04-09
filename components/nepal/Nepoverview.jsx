@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nepoverview() {
     const mystyle = {
-        backgroundImage: 'url("/media/indbg4.jpg")',
+        backgroundImage: 'url("/media/overbg.webp")',
         height: '100%',
         backgroundAttachment: 'fixed',
     }

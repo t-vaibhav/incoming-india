@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Welcome() {
     const mystyle = {
-        backgroundImage: 'url("/media/welcome3.jpg")',
+        backgroundImage: 'url("/media/welcomebg.webp")',
         height: "80vh",
         backgroundAttachment: "fixed",
     }

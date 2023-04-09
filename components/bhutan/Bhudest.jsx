@@ -25,7 +25,7 @@ export default function Bhudest() {
     });
 
     const mystyle1 = {
-        backgroundImage: 'url("/media/indbg1.png")',
+        backgroundImage: 'url("/media/destbg.webp")',
         height: '100%',
         // backgroundAttachment: 'fixed',
     }

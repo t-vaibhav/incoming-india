@@ -20,7 +20,7 @@ import East from './East';
 
 export default function Indexp() {
     const mystyle = {
-        backgroundImage: 'url("/media/ingbg2.png")',
+        backgroundImage: 'url("/media/expbg.webp")',
         height: '100%',
         backgroundAttachment: 'fixed',
     }
@@ -52,21 +52,21 @@ export default function Indexp() {
 
     switch (partOfIndia) {
         case "north":
-            mode = <North />            
+            mode = <North />
             break;
         case "east":
-            mode = <East />            
+            mode = <East />
             break;
         case "west":
-            mode = <West />            
+            mode = <West />
             break;
         case "south":
-            mode = <South />            
+            mode = <South />
             break;
         case "central":
-            mode = <Central />            
+            mode = <Central />
             break;
-    
+
         default:
             break;
     }
@@ -84,7 +84,7 @@ export default function Indexp() {
                                 <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partOfIndia == "central" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("central") }}>Central India</div>
                                 <div className={`text-center px-5 md:py-1 cursor-pointer text-base md:text-xl  ${partOfIndia == "east" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("east") }}>Eastern India</div>
                             </div>
-                            <div className={`text-center text-base md:py-1 md:text-xl cursor-pointer ${partOfIndia == "south" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("south")}}>Southern India</div>
+                            <div className={`text-center text-base md:py-1 md:text-xl cursor-pointer ${partOfIndia == "south" ? 'border-b-2 border-b-orange-500 text-orange-500' : ''}`} onClick={() => { setPartOfIndia("south") }}>Southern India</div>
                         </div>
 
                     </div>

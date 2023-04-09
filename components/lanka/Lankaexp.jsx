@@ -20,7 +20,7 @@ import Cultural from './Cultural';
 
 export default function Lankaexp() {
     const mystyle = {
-        backgroundImage: 'url("/media/ingbg2.png")',
+        backgroundImage: 'url("/media/expbg.webp")',
         height: '100%',
         backgroundAttachment: 'fixed',
     }
