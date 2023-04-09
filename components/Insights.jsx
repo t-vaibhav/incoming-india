@@ -30,7 +30,7 @@ export default function Insights() {
         className="w-full h-[100vh] flex justify-center"
         id="insights"
       >
-        <h1 className="text-white text-6xl text-center m-auto font-alkatra">
+        <h1 className="text-white text-6xl text-center m-auto font-poppins">
           INSIGHTS
         </h1>
       </div>
