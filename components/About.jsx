@@ -22,8 +22,8 @@ export default function About() {
             </div>
             <div class="flex min-h-screen flex-col items-center justify-center">
                 <div className='my-6 mx-6 md:mx-36'>
-                    <h1 className='text-center mt-4 text-6xl mb-6 font-bold text-slate-800'>Why Us</h1>
-                    <p className='text-center text-slate-700 my-4 md:mx-20 font-roboto font-bold text-2xl'>Our focus is to create journeys that are unique, dynamic and beneficial for all involved; the traveler and the local communities. We ensure a privileged access to a country which challenges as much as it empowers.</p>
+                    <h1 className='text-center mt-4 text-4xl md:text-6xl mb-6 font-bold text-slate-800'>Why Us</h1>
+                    <p className='text-center text-slate-700 my-4 md:mx-18 font-roboto font-bold text-lg md:text-2xl'>Our focus is to create journeys that are unique, dynamic and beneficial for all involved; the traveler and the local communities. We ensure a privileged access to a country which challenges as much as it empowers.</p>
                 </div>
                 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 mb-4">
                     <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
