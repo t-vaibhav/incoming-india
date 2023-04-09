@@ -49,7 +49,7 @@ export default function Navbar() {
             <div className='hidden lg:block'>
                 <ul className={`flex items-center text-sm space-x-10 font-medium`}>
                     <li className='flex items-center listitem relative  hover:text-orange-300'>
-                        <span className='cursor-pointer' href="#">ABOUT US
+                        <span className='cursor-pointer' href="/about">ABOUT US
                             {/* <ul className={`hidden sublist bg-black/60 ${color ? ' pt-5' : 'pt-0'}`}>
                                 <div className='w-full flex-row justify-center'>
                                     <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[7rem] border-b-2'><a href="#">Why Us</a></li>
