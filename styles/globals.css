@@ -66,6 +66,8 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
 * {
   /* @apply font-poppins; */
@@ -139,4 +141,18 @@ html {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, hsla(31, 100%, 50%, 1) 0%, hsla(31, 100%, 91%, 1) 38%, hsla(0, 0%, 100%, 1) 53%, hsla(122, 100%, 93%, 1) 68%, hsla(122, 100%, 50%, 1) 100%);
   border-radius: 10px;
+}
+
+#about {
+  background-image: url(https://i.ibb.co/0m9XdVM/stepan-sargsyan-hxk3i-YQyj-G0-unsplash-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#whyus {
+  background-image: url(https://i.ibb.co/BTxjcK1/scott-trento-xr-Bxb-Pi-K2w8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
