@@ -16,7 +16,7 @@ module.exports = {
         'serifjp': ['Noto Serif JP', 'serif'],
         'EBG': ['EB Garamond', 'serif'],
         'poppins': ['Poppins', 'sans-serif'],
-
+        'roboto': ['Roboto Condensed', 'sans-serif']
       },
     },
   },
