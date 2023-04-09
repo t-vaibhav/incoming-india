@@ -1,7 +1,7 @@
 export default [
   {
     review:
-      "If you're looking for a travel agency that truly understands India and can help you experience it in all its glory, look no further than Incoming India. Their team of experts is incredibly knowledgeable and passionate about sharing the beauty and complexity of this amazing country with visitors. From the stunning architecture of the Red Fort to the tranquil beaches of Goa, Incoming India helped me see the best of India in just a few short weeks. I would recommend them to anyone looking for an authentic and unforgettable Indian experience.",
+      "Expertly planned and flawlessly executed, Inccoming India provided outstanding service and attention to detail, making our trip to India truly unforgettable.",
     name: "Sarah Fernandez",
     position: "Mexico",
     image:
@@ -9,7 +9,7 @@ export default [
   },
   {
     review:
-      "As someone who had never been to India before, I was a little intimidated by the thought of planning a trip there. But with Incoming India by my side, I felt completely at ease. Their team took care of every detail, from booking my flights and accommodations to arranging local tours and activities. I appreciated their attention to detail and the way they personalized my trip to fit my unique interests and preferences. Thanks to Incoming India, I was able to explore the colorful streets of Jodhpur, taste the delicious flavors of Punjabi cuisine, and witness the majesty of the Taj Mahal. I couldn't have asked for a better experience."
+      "The staff's professionalism and efficiency made our travel experience stress-free and enjoyable. Highly recommended for their exceptional level of service."
     ,
     name: "David Andersson",
     position: "Sweden",
@@ -18,7 +18,7 @@ export default [
   },
   {
     review:
-      "India is a country of incredible diversity and depth, which is why it's so important to work with a travel agency that truly knows the region. Incoming India's team of experts has an intimate knowledge of India's history, culture, and geography, which made my trip so much more meaningful. From the stunning forts of Rajasthan to the serene temples of Tamil Nadu, I felt like I was getting a truly authentic Indian experience thanks to their guidance and expertise. I would highly recommend Incoming India to anyone looking to explore this incredible country.",
+      "Our trip to India was personalized to our preferences and offered great value thanks to Incoming India's customized itinerary. Highly recommend for a fantastic experience.",
     name: "Maria Petrovic",
     position: "Serbia",
     image:

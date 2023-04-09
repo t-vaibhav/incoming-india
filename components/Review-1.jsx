@@ -1,26 +1,26 @@
 import React from "react";
 import Image from "next/image";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
+// import { useEffect } from "react";
+// import { useInView } from "react-intersection-observer";
+// import { motion, useAnimation } from "framer-motion";
 import Reviews from "./utilities/Reviews";
 
 export default function Review() {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({ threshold: 0.4 });
+  // const controls = useAnimation();
+  // const [ref, inView] = useInView({ threshold: 0.4 });
 
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
+  // useEffect(() => {
+  //   if (inView) {
+  //     controls.start("visible");
+  //   }
+  // }, [controls, inView]);
   return (
     <div className="bg-gradient-to-r from-[#e3cea4] via-[#d2c0a0] to-[#f3e6cb] pt-6">
       <section>
         <h1 className="text-center font-alkatra text-[#82704c] font-bold text-xl md:text-4xl mb-8">
           Words From Our Delighted Customers
         </h1>
-        <motion.div
+        <div
           className="mx-auto max-w-screen-xl px-4 pb-16 pt-0 sm:px-6 lg:px-8"
           ref={ref}
           animate={controls}
@@ -55,7 +55,7 @@ export default function Review() {
               </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </section>
     </div>
   );
