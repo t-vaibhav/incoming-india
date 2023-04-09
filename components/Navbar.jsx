@@ -18,7 +18,7 @@ export default function Navbar() {
 
 
     const mystyle = {
-        backgroundImage: 'url("/media/navbg1.jpg")',
+        backgroundImage: 'url("/media/navbg1.webp")',
         height: "100vh",
         backgroundAttachment: "fixed",
     }

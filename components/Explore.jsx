@@ -54,7 +54,7 @@ export default function Explore() {
             height: "100",
         }
 
-        const path2 = `url('/media/navbg1.jpg')`
+        const path2 = `url('/media/navbg1.webp')`
         const style2 = {
             backgroundImage: path2,
             height: "100",
