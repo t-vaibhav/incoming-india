@@ -105,8 +105,21 @@ html {
 } */
 
 #sectionDiv {
-  background-image: url(https://i.ibb.co/WfMy9W2/1315439.jpg);
+  background-image: url("/media/sectionbg.webp");
   background-size: cover;
+}
+
+#insights {
+  background-image: url(https://iili.io/HORUoej.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#insight-section {
+  background-image: url("/media/inbg.webp");
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 /* width */

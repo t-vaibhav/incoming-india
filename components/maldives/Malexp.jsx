@@ -20,7 +20,7 @@ import Lha from './Lha';
 
 export default function Malexp() {
     const mystyle = {
-        backgroundImage: 'url("/media/ingbg2.png")',
+        backgroundImage: 'url("/media/expbg.webp")',
         height: '100%',
         backgroundAttachment: 'fixed',
     }

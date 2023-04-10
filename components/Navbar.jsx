@@ -18,7 +18,7 @@ export default function Navbar() {
 
 
     const mystyle = {
-        backgroundImage: 'url("/media/navbg1.jpg")',
+        backgroundImage: 'url("/media/navbg1.webp")',
         height: "100vh",
         backgroundAttachment: "fixed",
     }
@@ -48,18 +48,9 @@ export default function Navbar() {
 
             <div className='hidden lg:block'>
                 <ul className={`flex items-center text-sm space-x-10 font-medium`}>
-                    <li className='flex items-center listitem relative  hover:text-orange-300'>
-                        <span className='cursor-pointer' href="/about">ABOUT US
-                            {/* <ul className={`hidden sublist bg-black/60 ${color ? ' pt-5' : 'pt-0'}`}>
-                                <div className='w-full flex-row justify-center'>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[7rem] border-b-2'><a href="#">Why Us</a></li>
-                                    <li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 w-[7rem] border-b-2'><a href="#">Our Team</a></li>
-                                </div>
-                            </ul> */}
-                        </span >
-                        {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
-
-                    </li>
+                    <a href="/about"> <li className='flex items-center listitem relative  hover:text-orange-300'>
+                        ABOUT US
+                    </li></a>
 
                     <li className='flex items-center listitem relative '>
                         <span className='cursor-pointer ' href="#"> DESTINATIONS
@@ -76,7 +67,7 @@ export default function Navbar() {
                         <RiArrowDropDownLine className='text-3xl down-arrow duration-500' />
                     </li >
 
-                    <li className='flex items-center listitem relative  hover:text-orange-300'>
+                    <a href="/experiences"><li className='flex items-center listitem relative  hover:text-orange-300'>
                         <span className='cursor-pointer'>EXPERIENCES
                             {/* <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'} z-20`}>
                                 <div className='w-full flex-row justify-center'>
@@ -92,15 +83,10 @@ export default function Navbar() {
                             </ul> */}
                         </span >
                         {/* <RiArrowDropDownLine className='text-3xl down-arrow duration-500' /> */}
-                    </li>
-
-                    <li className='flex items-center listitem relative  hover:text-orange-300'>
-                        <span className='cursor-pointer' href="#"><a href="#">PRESENCE</a>
-
-                        </span >
-                    </li>
+                    </li></a>
 
 
+                    <a href="/"><li className='flex items-center listitem relative  hover:text-orange-300'>PRESENCE</li></a>
                     <li className='flex  hover:text-orange-300'><a href="/insights">INSIGHTS</a></li >
                     <li className='flex  hover:text-orange-300'><a href="/contact">CONTACT US</a></li >
                 </ul >

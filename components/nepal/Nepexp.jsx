@@ -18,7 +18,7 @@ import Kathmandu from './Kathmandu';
 
 export default function Nepexp() {
     const mystyle = {
-        backgroundImage: 'url("/media/ingbg2.png")',
+        backgroundImage: 'url("/media/expbg.webp")',
         height: '100%',
         backgroundAttachment: 'fixed',
     }

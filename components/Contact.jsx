@@ -95,11 +95,11 @@ export default function Contact() {
                                                 <div className="shrink-0 flex flex-row">
                                                     <div className="p-4 rounded-md w-14 h-14 flex items-center justify-center scale-150">
                                                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                                             <g id="SVGRepo_iconCarrier">
-                                                                <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                <rect x="3" y="5" width="18" height="14" rx="2" stroke="#F97316" stroke-width="2" stroke-linecap="round"></rect>
+                                                                <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#F97316" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <rect x="3" y="5" width="18" height="14" rx="2" stroke="#F97316" strokeWidth="2" stroke-linecap="round"></rect>
                                                             </g>
                                                         </svg>
                                                     </div>

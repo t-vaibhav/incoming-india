@@ -18,7 +18,7 @@ import Central from './Central';
 
 export default function Bhuexp() {
     const mystyle = {
-        backgroundImage: 'url("/media/ingbg2.png")',
+        backgroundImage: 'url("/media/expbg.webp")',
         height: '100%',
         backgroundAttachment: 'fixed',
     }
@@ -37,15 +37,15 @@ export default function Bhuexp() {
 
     switch (partofbhutan) {
         case "west":
-            mode = <West />;            
+            mode = <West />;
             break;
         case "east":
-            mode = <East />;            
+            mode = <East />;
             break;
         case "central":
-            mode = <Central />;            
+            mode = <Central />;
             break;
-    
+
         default:
             break;
     }

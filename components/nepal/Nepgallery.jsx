@@ -27,67 +27,72 @@ import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, 
 export default function Nepgallery() {
     return (
         <section id='nepgallery'>
-            <Swiper
-                effect={"fade"}
-                mousewheel={true}
-                grabCursor={true}
-                navigation={true}
-                loop={true}
-                autoplay={{
-                    delay: 2000,
-                    disableOnInteraction: false,
-                }}
-                modules={[Navigation, EffectFade, Autoplay, EffectFlip]}
-                className="swiper "
-                spaceBetween={0}
-                slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
+            <div>
+                <div className="flex justify-center items-center h-[50vh] md:h-[100vh]">
 
-            >
+                    <Swiper
+                        effect={"fade"}
+                        mousewheel={true}
+                        grabCursor={true}
+                        navigation={true}
+                        loop={true}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
+                        }}
+                        modules={[Navigation, EffectFade, Autoplay, EffectFlip]}
+                        className="swiper "
+                        spaceBetween={0}
+                        slidesPerView={1}
+                        onSlideChange={() => console.log('slide change')}
+                        onSwiper={(swiper) => console.log(swiper)}
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/01.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                    >
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/02.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/01.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/03.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/02.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/04.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/03.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/05.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/04.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/06.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/05.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/07.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/06.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/08.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/07.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/09.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/08.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
-                <SwiperSlide className="relative">
-                    <img src="/media/nepal/gallery/10.webp" alt="taj" className="object-contain" />
-                </SwiperSlide>
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/09.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
+
+                        <SwiperSlide className="relative">
+                            <img src="/media/nepal/gallery/10.webp" alt="taj" className="object-cover" />
+                        </SwiperSlide>
 
 
-            </Swiper>
+                    </Swiper>
+                </div>
+            </div>
         </section>
     )
 }

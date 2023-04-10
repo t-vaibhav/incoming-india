@@ -16,8 +16,8 @@ export default function Nephero() {
             <div className="h-screen bg-black/40 flex justify-center items-center relative px-3">
 
                 <div>
-                    <h1 className="text-4xl md:text-7xl text-white font-semibold font-poppins  tracking-normal text-center hero-shadow">MALDIVES</h1>
-                    <p className="md:text-2xl text-xl text-center text-white font-poppins font-semibold">Paradise on Earth, where turquoise waters meet white sands.</p>
+                    <h1 className="text-4xl md:text-6xl text-white font-semibold font-poppins  tracking-wide hero-shadow text-center hero-shadow">MALDIVES</h1>
+                    <p className="md:text-2xl text-xl text-center  text-white font-poppins tracking-wide hero-shadow font-semibold">Paradise on Earth, where turquoise waters meet white sands.</p>
                 </div>
                 <div className='text-center text-white absolute bottom-1'>
                     <p className="">Scroll Down!</p>
