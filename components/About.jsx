@@ -17,13 +17,13 @@ export default function About() {
     }
     return (
         <div id="about" className=''>
-            <div className='flex flex-col items-center h-[64vh] lg:h-[100vh]' id='whyus'>
+            <div className='flex justify-center text-white items-center h-[100vh]' id='whyus'>
                 <h1 className='text-4xl md:text-6xl font-semibold font-poppins tracking-wide hero-shadow'>ABOUT US</h1>
             </div>
-            <div class="flex min-h-screen flex-col items-center justify-center">
+            <div class="flex min-h-screen flex-col items-center justify-center text-black">
                 <div className='my-6 mx-6 md:mx-36'>
-                    <h1 className='text-center mt-4 text-4xl md:text-6xl mb-6 font-bold text-slate-800'>Why Us</h1>
-                    <p className='text-center text-slate-700 my-4 md:mx-18 font-roboto font-bold text-lg md:text-2xl'>Our focus is to create journeys that are unique, dynamic and beneficial for all involved; the traveler and the local communities. We ensure a privileged access to a country which challenges as much as it empowers.</p>
+                    <h1 className='text-center mt-4 text-4xl md:text-6xl mb-6 font-bold text-black'>Why Us</h1>
+                    <p className='text-center text-black my-4 md:mx-18 font-roboto font-bold text-lg md:text-2xl'>Our focus is to create journeys that are unique, dynamic and beneficial for all involved; the traveler and the local communities. We ensure a privileged access to a country which challenges as much as it empowers.</p>
                 </div>
                 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 mb-4">
                     <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
