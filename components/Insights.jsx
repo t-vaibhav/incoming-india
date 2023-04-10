@@ -6,12 +6,15 @@ import Protection from "../assets/protection.jpg"
 import Recreation from "../assets/recreation.jpg"
 import Traditions from "../assets/traditions.jpg"
 import Transit from "../assets/transit.jpg"
+<<<<<<< Updated upstream
 import React, { useState, useEffect } from "react";
 
 
 
 
 
+=======
+>>>>>>> Stashed changes
 export default function Insights() {
 
   React.useEffect(() => {
@@ -34,12 +37,21 @@ export default function Insights() {
         className="w-full h-[100vh] flex justify-center"
         id="insights"
       >
+<<<<<<< Updated upstream
         <h1 className="text-white text-6xl text-center m-auto font-poppins tracking-wide hero-shadow font-semibold">
           INSIGHTS
         </h1>
       </div>
       <div id="insight-section" className='bg-yellow-100'>
         <nav className={`${color ? ' fixed top-[60px] lg:h-[30px] h-[50px] bg-white right-0 left-0' : 'h-[60px]'} bg-white z-10 w-full flex justify-center items-center font-serifjp`}>
+=======
+        <h1 className="md:text-6xl text-6xl font-poppins font-semibold tracking-wide text-white hero-shadow my-auto">
+          Insights
+        </h1>
+      </div>
+      <div id="insight-section" className='bg-yellow-100/0'>
+        <nav className={`${color ? ' fixed top-[60px] lg:h-[30px] h-[50px] bg-white right-0 left-0' : 'h-[60px]'} bg-white z-10 w-[100vw] flex justify-center items-center font-serifjp`}>
+>>>>>>> Stashed changes
           <ul className='lg:flex flex-row justify-center md:space-x-12 text-sm sm:text-md lg:text-lg'>
             <div className='justify-center flex '>
               <div className='lg:space-x-12 space-x-5 flex'>
@@ -77,6 +89,12 @@ export default function Insights() {
         </div>
 
 
+<<<<<<< Updated upstream
+=======
+
+
+
+>>>>>>> Stashed changes
         <div className="flex flex-col-reverse lg:flex-row font-lora bg-purple-400/30" id='2'>
           <div className="w-full lg:w-1/2 flex items-center justify-center my-4 mb-6">
             <div>
@@ -94,9 +112,13 @@ export default function Insights() {
             />
           </div>
         </div>
+<<<<<<< Updated upstream
 
 
         <div className="flex flex-col lg:flex-row font-lora bg-violet-500/40 pb-4" id='3'>
+=======
+        <div className="flex flex-col lg:flex-row font-lora bg-violet-700/20" id='3'>
+>>>>>>> Stashed changes
           <div className="w-full lg:w-1/2">
             <Image
               src={Protection}
@@ -135,8 +157,11 @@ export default function Insights() {
         </div>
 
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
         <div className="flex flex-col lg:flex-row font-lora bg-green-500/20" id='5'>
           <div className="w-full lg:w-1/2">
             <Image
