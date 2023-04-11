@@ -9,7 +9,9 @@ import Script from 'next/script'
 export default function App({ Component, pageProps }) {
   return (
     <>
-
+      <Head>
+        <meta name="google-site-verification" content="3C7mOz9MS1nYV3ccEZy6GHGOc5hiIE6wsEenCkFLii8" />
+      </Head>
 
       <Script strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-LVNW4PHSTL" />
       <Script id='google-analytics' strategy="afterInteractive">
