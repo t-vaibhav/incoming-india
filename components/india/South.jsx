@@ -57,54 +57,54 @@ export default function South() {
                 >
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/01.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/01.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/02.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/02.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/03.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/03.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/04.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/04.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/05.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/05.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/06.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/06.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     {/* <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/08.jpg" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/08.jpg" alt="taj" className="object-cover" />
                     </SwiperSlide> */}
 
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/07.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/07.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
                     <SwiperSlide className="relative">
-                        <Image fill={true} src="/media/india/southernind/08.webp" alt="taj" className="object-cover" />
+                        <img src="/media/india/southernind/08.webp" alt="taj" className="object-cover" />
                     </SwiperSlide>
 
 
 
                 </Swiper>
             </div>
-            <div className='h-full text-lg md:max-h-[35vh] overflow-y-auto py-2 md:pb-0 pb-5'>
+            <div className='h-full md:pb-0 pb-5 text-lg md:max-h-[35vh] overflow-y-auto py-2 '>
                 Welcome to South India, where every corner is a sensory delight! Discover ancient temples, pristine beaches, lush greenery, and mouth-watering cuisine. Lose yourself in the intricate designs of the famous Hampi ruins or the awe-inspiring Meenakshi Temple. Take a houseboat ride through the serene backwaters of Kerala or explore the bustling city of Bangalore. Indulge in the flavors of dosas, idlis, and spicy curries while sipping on a refreshing coconut water. Come experience the warmth and hospitality of South India and create memories that will last a lifetime!            </div>
         </div>
 
