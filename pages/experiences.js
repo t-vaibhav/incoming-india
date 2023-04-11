@@ -203,7 +203,7 @@ export default function Home() {
                         <div className="flex-row md:flex">
                             <img src='/media/beech.jpg' className=" object-cover md:h-[70vh]  w-full md:w-1/2 sm:h-[50vh] h-[40vh]" />
                             <div className="w-full md:w-1/2 px-2 ">
-                                <h1 className="text-center md:py-10 py-5 text-3xl md:text-5xl text-black hero- font-poppins font-semibold">Beeches & Islands</h1>
+                                <h1 className="text-center md:py-10 py-5 text-3xl md:text-5xl text-black hero- font-poppins font-semibold">Beaches & Islands</h1>
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
