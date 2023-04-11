@@ -56,7 +56,7 @@ export default function Home() {
                                 <div className='lg:space-x-12 space-x-5 flex'>
                                     <li className={` cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`}> <a href="#cuisines">Cuisines</a></li>
                                     <li className={` cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`}><a href="#mountains">Mountains</a></li>
-                                    <li className={` cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`}> <a href="#trains">Royality</a></li>
+                                    <li className={` cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`}> <a href="#trains">Royalty</a></li>
                                     <li className={` cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`}> <a href="#forts-temples">Forts</a></li>
                                     <li className={` cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`}> <a href="#wildlife">Wildlife</a></li>
                                 </div>
@@ -66,7 +66,7 @@ export default function Home() {
                                 <li className={`cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`} > <a href="#oceans">Oceans</a></li>
                                 <li className={`cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`} > <a href="#lakes">Lakes & Boats</a></li>
                                 <li className={`cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`} > <a href="#honeymoon">Honeymoon</a></li>
-                                <li className={`cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`} > <a href="#family">family</a></li>
+                                <li className={`cursor-pointer hover:text-orange-500 hover:border-b-2 hover:border-b-orange-500`} > <a href="#family">Family</a></li>
                             </div>
                         </ul>
                     </nav >
