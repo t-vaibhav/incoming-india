@@ -88,8 +88,6 @@ export default function Nepgallery() {
                         <SwiperSlide className="relative">
                             <img src="/media/nepal/gallery/10.webp" alt="taj" className="object-cover" />
                         </SwiperSlide>
-
-
                     </Swiper>
                 </div>
             </div>
