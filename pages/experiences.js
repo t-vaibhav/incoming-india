@@ -80,7 +80,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     India is a treasure trove of majestic mountains that offer some of the most breathtaking views in the world. Mountain tours in India are a must-do for adventure enthusiasts, with options like trekking in the Himalayas, exploring the Western Ghats or climbing the peaks in the North-Eastern states. These tours offer an opportunity to experience the diverse landscape and culture of India. The tours are led by experienced guides who provide insights into the local flora and fauna, customs, and traditions. With cozy homestays and campsite accommodations, these tours allow you to experience the mountains up close and personal, making for a truly unforgettable adventure.
                                 </p>
 
@@ -101,7 +101,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     India is a food lover's paradise, offering a diverse range of delicious cuisines that vary from region to region. From the tangy and spicy street food of Mumbai to the rich and aromatic curries of North India, Indian cuisine is a delight for the taste buds. The use of spices and herbs, along with a variety of cooking techniques, gives each dish a unique flavor and aroma. Vegetarian cuisine is a specialty of India, with a range of dishes like dal, paneer, and chole that are loved by locals and visitors alike. The diversity of Indian cuisine makes it a must-try for food enthusiasts visiting the country.                                </p>
 
                                 {/* <div className="flex items-center justify-center pt-5">
@@ -121,7 +121,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     India is a land of diverse landscapes, cultures, and traditions, making it a perfect honeymoon destination. With a plethora of options available, honeymoon packages in India cater to every need, whether you want a relaxing beach vacation or an adventurous mountain trek. The country's rich heritage and vibrant culture offer a unique and unforgettable experience for newlyweds. From the romantic backwaters of Kerala to the majestic forts of Rajasthan, India has something for everyone. Indulge in luxurious accommodations, delicious cuisine, and create memories to last a lifetime with your loved one.
                                 </p>
 
@@ -141,7 +141,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     Train tours in India are a unique and luxurious way to explore the country's rich cultural heritage and diverse landscape. The opulent trains like the Palace on Wheels, Maharajas' Express, and Deccan Odyssey offer five-star accommodations, exquisite dining, and exceptional service. The tours take you to some of the most iconic destinations in India, including the Taj Mahal, Rajasthan's royal cities, and the wildlife sanctuaries of Central India. The onboard amenities like spas, bars, and lounges ensure a comfortable and memorable journey. These tours offer a glimpse into India's rich history, architecture, and culture, making it an experience of a lifetime.
                                 </p>
 
@@ -166,7 +166,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     Wildlife tours in India are a thrilling way to explore the country's rich biodiversity and natural beauty. India is home to a vast array of wildlife, including tigers, elephants, lions, rhinoceros, and many more. The wildlife tours take you to some of the most iconic national parks and wildlife sanctuaries, including Ranthambore, Bandhavgarh, and Kanha. These tours provide an opportunity to witness animals in their natural habitat, guided by experienced naturalists and trackers. The tours also offer an opportunity to experience the local culture and cuisine, making it a unique and unforgettable experience. Whether you're a nature lover or an adventure enthusiast, wildlife tours in India are a must-do.
                                 </p>
 
@@ -186,7 +186,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     Nestled in the lap of the Himalayas, India offers a plethora of options for those seeking to deepen their yoga and meditation practice. From the serene beaches of Goa to the peaceful backwaters of Kerala, there are numerous locations to choose from. However, Rishikesh stands out as a mecca for yoga and meditation enthusiasts. With a rich spiritual heritage and a wide range of yoga and meditation retreats, Rishikesh has something for everyone. Whether you're a beginner or an advanced practitioner, Rishikesh provides an ideal environment for deepening your practice and exploring the spiritual side of yoga and meditation.
                                 </p>
 
@@ -207,7 +207,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     India is home to some of the most spectacular beaches and islands, making it a popular destination for beach lovers and adventure enthusiasts. The beaches of Goa, Kerala, and Andaman and Nicobar Islands are renowned for their natural beauty and serenity. The turquoise waters, pristine sand, and palm-lined shores provide an idyllic setting for relaxation and rejuvenation. The islands of Andaman and Nicobar offer a unique blend of adventure and relaxation, with activities like scuba diving, snorkeling, and sea-walking. The tours provide an opportunity to experience the local culture and cuisine, making it a memorable and authentic experience. Whether you're seeking solitude or adventure, beach and island tours in India offer a perfect getaway.
                                 </p>
 
@@ -230,7 +230,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     India is home to some of the most beautiful lakes, making it a perfect destination for those seeking to enjoy the serene beauty of nature. The famous lakes in Udaipur, Nainital, and Kashmir are known for their stunning natural beauty and offer a perfect setting for relaxation and rejuvenation. Houseboats and cruises in India provide an opportunity to explore the picturesque landscapes and experience the local culture. The houseboats in the backwaters of Kerala provide a unique and luxurious experience, while river cruises in the Brahmaputra and Ganges offer a chance to explore the scenic beauty of India's waterways. Whether you're seeking a relaxing vacation or an adventure, the lakes, houseboats, and cruises in India offer a perfect escape.                                </p>
 
                                 {/* <div className="flex items-center justify-center pt-5">
@@ -249,7 +249,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     India is a land of diverse landscapes, cultures, and traditions, making it a perfect honeymoon destination. With a plethora of options available, honeymoon packages in India cater to every need, whether you want a relaxing beach vacation or an adventurous mountain trek. The country's rich heritage and vibrant culture offer a unique and unforgettable experience for newlyweds. From the romantic backwaters of Kerala to the majestic forts of Rajasthan, India has something for everyone. Indulge in luxurious accommodations, delicious cuisine, and create memories to last a lifetime with your loved one.
                                 </p>
 
@@ -268,7 +268,7 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="border-b-[3px] border-b-indigo-900 w-1/2 mb-5 md:mb-10"></div>
                                 </div>
-                                <p className="text-lg md:text-xl md:px-10 px-2">
+                                <p className="classNametext-lg md:text-lg md:px-10 px-2">
                                     Travelling with family in India can be a delightful experience, offering an opportunity to bond and create unforgettable memories. The country's diverse landscape and rich cultural heritage provide a perfect backdrop for family adventures. From the iconic monuments of Delhi, Agra, and Jaipur to the serene backwaters of Kerala, India offers a range of destinations to choose from. The family-friendly tours provide an opportunity to experience local culture, food, and customs, creating a learning experience for children. With a range of accommodations, from budget-friendly to luxurious, travelling with family in India is comfortable and affordable. The warm hospitality and friendly locals make India a perfect destination for family travel.                                </p>
 
                                 {/* <div className="flex items-center justify-center pt-5">

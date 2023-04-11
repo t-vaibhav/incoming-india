@@ -90,45 +90,45 @@ export default function Navbar() {
                             <div className='flex justify-center text-center'>
                                 <div className='space-y-2 '>
 
-                                    <a href="/about"><li className={` font-poppins w-[15rem] z-10 duration-500 cursor-pointer `} >
+                                    <a href="/about"><li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer `} >
                                         <div className={`flex justify-between  py-2 `}>
                                             ABOUT US
                                         </div>
                                     </li ></a>
 
                                     <li className={`${dest ? '' : ''} font-poppins w-[15rem] z-10 duration-500 cursor-pointer`}>
-                                        <div className={`flex justify-between  py-2 ${dest ? 'border-b-orange-300' : ''}`} onClick={() => { setDest(!dest) }}>
+                                        <div className={`flex justify-between hover:text-orange-300 py-2 ${dest ? 'border-b-orange-300' : ''}`} onClick={() => { setDest(!dest) }}>
                                             DESTINATIONS
                                             <RiArrowDropDownLine className={`text-4xl ${dest ? 'rotate-180' : ''} duration-500`} />
                                         </div>
                                         <ul className={`${dest ? 'block' : 'hidden'} -z-10 duration-500 text-xl text-center py-2 space-y-2`}>
-                                            <li>India</li>
-                                            <li>Nepal</li>
-                                            <li>Bhutan</li>
-                                            <li>Sri Lanka</li>
-                                            <li>Maldives</li>
+                                            <a href="/india"><li className='hover:text-orange-300'>India</li></a>
+                                            <a href="/nepal"><li className='hover:text-orange-300'>Nepal</li></a>
+                                            <a href="/bhutan"><li className='hover:text-orange-300'>Bhutan</li></a>
+                                            <a href="/lanka"><li className='hover:text-orange-300'>Sri Lanka</li></a>
+                                            <a href="/maldives"><li className='hover:text-orange-300'>Maldives</li></a>
                                         </ul>
                                     </li >
 
-                                    <a href="/experiences"><li className={` font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
+                                    <a href="/experiences"><li className={` hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
                                         <div className={`flex justify-between  py-4 `}>
                                             EXPERIENCES
                                         </div>
                                     </li ></a>
 
-                                    <a href=""> <li className={` font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
+                                    <a href=""> <li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
                                         <div className='flex justify-between py-4'>
                                             PRESENCE
                                         </div>
                                     </li ></a>
 
-                                    <a href="/insights"> <li className={` font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
+                                    <a href="/insights"> <li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
                                         <div className='flex justify-between  py-4'>
                                             INSIGHTS
                                         </div>
                                     </li ></a>
 
-                                    <a href="/contact"><li className={` font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
+                                    <a href="/contact"><li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
                                         <div className='flex justify-between   py-4'>
                                             CONTACT US
                                         </div>

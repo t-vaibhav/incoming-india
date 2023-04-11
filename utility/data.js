@@ -25,7 +25,7 @@ export const list2 = [
         content: "Maldives, a tropical paradise of turquoise waters, white sandy beaches, and coral reefs teeming with marine life. Escape to a world of luxury, tranquility, and natural beauty, where every moment feels like a dream come true.",
     },
     {
-        img: 'lanka1.webp',
+        img: 'lanka2.webp',
         title: 'SRI LANKA',
         content: "Sri Lanka, the teardrop island, is a paradise of pristine beaches, lush forests, ancient temples, and rich cultural heritage. Experience the warmth of its people, savor the flavors of its cuisine, and embark on a journey of discovery that will leave you enchanted",
     },
