@@ -7,6 +7,15 @@ import Image from 'next/image'
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVNW4PHSTL"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LVNW4PHSTL');
+      </script>
+
       < Component {...pageProps} />
       <div className='hero-shadow text-3xl fixed md:bottom-8 bottom-8 right-8 bg-white rounded-full  md:right-8 h-16 w-16 p-2 z-50 hover:scale-110 duration-300'>
         <a href="https://wa.me/919891242028" >
