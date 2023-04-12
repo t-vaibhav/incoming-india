@@ -1,4 +1,4 @@
-import Contact from "@/public/Contact/Contact";
+import Contact from "@/components/Contact";
 import Head from "next/head";
 
 

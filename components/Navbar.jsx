@@ -35,11 +35,11 @@ export default function Navbar() {
 
     return (
         <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-50 px-10 flex w-[100vw] items-center justify-between text-gray-200 hover:text-white`}>
-            <div className=''>
-                <a href="/"><Image src={"/media/logo.png"} height={"50"} width={"50"} alt={"logo"} /></a>
+            <div className='md:pl-10'>
+                <a href="/"><Image src={"/media/main_logo.png"} height={"70"} width={"70"} alt={"logo"} /></a>
             </div>
 
-            <div className='hidden lg:block'>
+            <div className='hidden lg:block pr-10'>
                 <ul className={`flex items-center text-sm space-x-10 font-medium`}>
                     <a href="/about"> <li className='flex items-center listitem relative  hover:text-orange-300'>
                         ABOUT US

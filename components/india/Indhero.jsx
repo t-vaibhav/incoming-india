@@ -29,14 +29,14 @@ import { EffectCards, Navigation, EffectFade, Autoplay, Mousewheel, Pagination, 
 
 const mystyle = {
     backgroundImage: 'url("/media/india-cover.webp")',
-    height: '100vh',
+    height: '100%',
     backgroundAttachment: 'fixed',
 }
 
 export default function Indhero() {
 
     return (
-        <section id="indhero" className="bg-center bg-cover bg-no-repeat" style={mystyle}>
+        <section id="indhero" className="bg-center bg-cover bg-no-repeat sm:h-[100vh] h-[60vh]" style={mystyle}>
             <div className="h-screen bg-black/40 flex justify-center items-center relative px-3">
 
                 <div>

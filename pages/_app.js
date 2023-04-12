@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="google-site-verification" content="3C7mOz9MS1nYV3ccEZy6GHGOc5hiIE6wsEenCkFLii8" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
       <Script strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-LVNW4PHSTL" />
