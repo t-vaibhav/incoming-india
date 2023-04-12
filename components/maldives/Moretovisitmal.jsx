@@ -67,7 +67,7 @@ export default function Moretovisitmal() {
                             <SwiperSlide>
                                 <a href="/lanka">
                                     <div className="relative object-cover h-full">
-                                        <Image src='/media/lanka1.webp' fill={true} className="object-cover" />
+                                        <Image src='/media/lanka2.webp' fill={true} className="object-cover" />
                                         <div className="bg-black/80 w-full  text-white absolute bottom-6">
                                             <h3 className="text-3xl">Sri Lanka</h3>
                                         </div>
