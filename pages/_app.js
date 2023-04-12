@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="google-site-verification" content="3C7mOz9MS1nYV3ccEZy6GHGOc5hiIE6wsEenCkFLii8" />
+        <meta name="google-site-verification" content="tDOmoJLQ7nIFyJiSsBX7sA7808hTRgoNZhFCZ5vk5N4" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
