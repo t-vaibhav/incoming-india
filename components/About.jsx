@@ -28,7 +28,7 @@ export default function About() {
                 <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 mb-4">
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
                         <div className="h-[480px] w-[620px]">
-                            <Image width={620} height={480} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://i.ibb.co/6NFVYxK/yasamine-june-Qi9-OT-a20so-unsplash.jpg" alt="" />
+                            <Image width={620} height={480} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://i.ibb.co/nk7mw0R/headway-5-Qg-Iuu-Bx-Kw-M-unsplash.jpg" alt="" />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
@@ -50,7 +50,7 @@ export default function About() {
                     </div>
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
                         <div className="h-[480px] w-[620px]">
-                            <Image width={620} height={480} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://i.ibb.co/n1bHhmz/setu-chhaya-UDq-JKUe2-Cf4-unsplash.jpg" alt="" />
+                            <Image width={620} height={480} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://i.ibb.co/6gxJfPT/alvaro-reyes-q-Wwp-Hwip31-M-unsplash.jpg" alt="" />
                         </div>
                         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
