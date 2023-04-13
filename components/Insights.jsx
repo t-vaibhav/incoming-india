@@ -29,7 +29,7 @@ export default function Insights() {
   }
 
   return (
-    <div>
+    <div className="text-black">
       <div
         className="w-full h-[100vh] flex justify-center"
         id="insights"
@@ -57,7 +57,7 @@ export default function Insights() {
           </ul>
         </nav >
 
-        <div className="flex flex-col lg:flex-row font-lora bg-orange-300/40 " id='1'>
+        <div className="flex flex-col lg:flex-row font-lora bg-orange-300/40" id='1'>
           <div className="w-full lg:w-1/2 ">
             <Image
               src={Documents}
