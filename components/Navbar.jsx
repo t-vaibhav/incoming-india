@@ -47,7 +47,7 @@ export default function Navbar() {
 
                     <li className='flex items-center listitem relative '>
                         <span className='cursor-pointer ' href="#"> DESTINATIONS
-                            <ul className={`hidden sublist bg-black/70 ${color ? ' pt-7' : 'pt-0'}`} >
+                            <ul className={`hidden sublist bg-black/70 ${color ? ' pt-[25px]' : 'pt-0'}`} >
                                 <div className='w-full flex-row justify-center'>
                                     <a href="/india"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>India</li></a>
                                     <a href="/nepal"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Nepal</li></a>
