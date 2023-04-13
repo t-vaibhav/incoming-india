@@ -34,9 +34,9 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`h-24 ${color ? 'bg-black h-[60px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-50 px-10 flex w-[100vw] items-center justify-between text-gray-200 hover:text-white`}>
+        <nav className={`h-24 ${color ? 'bg-black h-[70px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-50 px-10 flex w-[100vw] items-center justify-between text-gray-200 hover:text-white`}>
             <div className='md:pl-10'>
-                <a href="/"><Image src={"/media/main_logo.png"} height={"70"} width={"70"} alt={"logo"} /></a>
+                <a href="/"><Image src={"/media/main_logo.png"} height={"65"} width={"65"} alt={"logo"} /></a>
             </div>
 
             <div className='hidden lg:block pr-10'>
@@ -47,7 +47,7 @@ export default function Navbar() {
 
                     <li className='flex items-center listitem relative '>
                         <span className='cursor-pointer ' href="#"> DESTINATIONS
-                            <ul className={`hidden sublist bg-black/70 ${color ? ' pt-5' : 'pt-0'}`} >
+                            <ul className={`hidden sublist bg-black/70 ${color ? ' pt-7' : 'pt-0'}`} >
                                 <div className='w-full flex-row justify-center'>
                                     <a href="/india"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>India</li></a>
                                     <a href="/nepal"><li className='flex hover:bg-white/70 hover:text-black justify-center py-2 px-5 border-b-2 w-[7rem]'>Nepal</li></a>

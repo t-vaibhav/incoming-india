@@ -5,7 +5,7 @@
 html {
   /* width: 100vw; */
   scroll-behavior: smooth;
-  scroll-padding: 89px;
+  scroll-padding: 99px;
 }
 
 
@@ -73,7 +73,7 @@ html {
   /* @apply font-poppins; */
   /* font-family: 'poppins' !important; */
   /* border-style: none; */
-
+  font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
 .no-border {
@@ -156,7 +156,7 @@ html {
   background-attachment: fixed;
 }
 
-#insight-section{
+#insight-section {
   background-image: url(https://images.unsplash.com/photo-1617957771979-a91027b58dd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHllbGxvdyUyMGdyYWRpZW50fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
   background-repeat: none;
   background-size: cover;
