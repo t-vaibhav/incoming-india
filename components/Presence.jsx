@@ -7,17 +7,18 @@ export default function Presence() {
     <div>
       <div
         className="w-full h-[100vh] flex justify-center bg-fixed flex-col text-center"
-        id="presence"
+        id="insights"
       >
         <h1 className="text-white text-6xl text-center font-poppins tracking-wide hero-shadow font-semibold">
           PRESENCE
         </h1>
         <h3 className='md:text-3xl text-lg font-poppins font-semibold tracking-wide text-white hero-shadow my-6 mx-2'>Find the Perfect Spot to Plan Your Next Adventure</h3>
+
         <div className='flex flex-row m-0 flex-wrap justify-center mt-8'>
           {Data.map((Lang, i) => (
             <div key={i}>
-              <label htmlFor="my-modal" className="btn bg-blend-multiply backdrop-blur-lg bg-opacity-10 bg-yellow-100 text-black border-none m-4 md:mx-8 border-yellow-600 border-2 hover:bg-yellow-400">{Lang.title}</label>
-              <input type="checkbox" id="my-modal" className="modal-toggle" />
+              <label htmlFor={`my-modal${i}`} className="btn bg-blend-multiply backdrop-blur-lg bg-opacity-10 bg-yellow-100 text-black border-none m-4 md:mx-8 border-yellow-600 border-2 hover:bg-yellow-400">{Lang.title}</label>
+              <input type="checkbox" id={`my-modal${i}`} className="modal-toggle" />
               <div className="modal">
                 <div className="modal-box bg-yellow-100 text-black p-0">
                   <figure><Image width={384} height={240} src={Lang.img} alt="Shoes" className='h-fit w-screen' /></figure>
@@ -31,7 +32,7 @@ export default function Presence() {
                     <p class="text-orange-400 font-semibold text-base sm:text-lg mr-4 pr-2">{Lang.location}</p>
                   </div>
                   <div className="modal-action m-4">
-                    <label htmlFor="my-modal" className="btn bg-yellow-200 text-black border-none hover:bg-yellow-300">Close</label>
+                    <label htmlFor={`my-modal${i}`} className="btn bg-yellow-200 text-black border-none hover:bg-yellow-300">Close</label>
                   </div>
                 </div>
               </div>
