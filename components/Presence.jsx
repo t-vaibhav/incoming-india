@@ -7,7 +7,7 @@ export default function Presence() {
     <div>
       <div
         className="w-full h-[100vh] flex justify-center bg-fixed flex-col text-center"
-        id="insights"
+        id="presence"
       >
         <h1 className="text-white text-6xl text-center font-poppins tracking-wide hero-shadow font-semibold">
           PRESENCE
