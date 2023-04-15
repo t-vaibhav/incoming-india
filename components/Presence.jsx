@@ -20,7 +20,7 @@ export default function Presence() {
               <input type="checkbox" id="my-modal" className="modal-toggle" />
               <div className="modal">
                 <div className="modal-box bg-yellow-100 text-black p-0">
-                  <figure><Image width={378} height={228} src={Lang.img} alt="Shoes" className='h-fit w-screen' /></figure>
+                  <figure><Image width={384} height={240} src={Lang.img} alt="Shoes" className='h-fit w-screen' /></figure>
                   <h3 className="font-bold my-4 text-center text-orange-500 text-2xl">{Lang.title}</h3>
                   <div class="shrink-0 flex flex-row ml-2">
                     <div class="rounded-md w-14 h-14 flex items-center justify-center pb-5 pl-4">
