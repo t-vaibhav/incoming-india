@@ -9,7 +9,7 @@ const Data = [
     img: "https://i.ibb.co/vxMQ2Ds/satyaprakash-kumawat-ky1d-IWCBis-unsplash-min.jpg",
     title: "BENGULURU",
     location:
-      "Bhutan, the land of the Thunder Dragon, offers a unique blend of natural.",
+      "begaluru h bhai sahab",
   },
   {
     img: "https://i.ibb.co/zrHyp7q/abhishek-chakraborty-d2e-VURGcqjc-unsplash-min.jpg",

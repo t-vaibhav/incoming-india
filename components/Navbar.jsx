@@ -66,9 +66,9 @@ export default function Navbar() {
                     </li></a>
 
 
-                    <a href="/"><li className='flex items-center listitem relative  hover:text-orange-300'>PRESENCE</li></a>
-                    <li className='flex  hover:text-orange-300'><a href="/insights">INSIGHTS</a></li >
-                    <li className='flex  hover:text-orange-300'><a href="/contact">CONTACT US</a></li >
+                    <a href="/presence"><li className='flex items-center listitem relative  hover:text-orange-300'>PRESENCE</li></a>
+                    <a href="/insights"><li className='flex  hover:text-orange-300'>INSIGHTS</li ></a>
+                    <a href="/contact"><li className='flex  hover:text-orange-300'>CONTACT US</li ></a>
                 </ul >
 
             </div >
