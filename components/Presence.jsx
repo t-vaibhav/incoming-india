@@ -36,6 +36,7 @@ export default function Presence() {
                   </div>
                 </div>
               </div>
+
             </div>
           ))}{" "}
         </div>
