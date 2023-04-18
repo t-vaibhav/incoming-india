@@ -42,6 +42,7 @@ function Footer() {
           </svg> */}
           <Image src='/media/main_logo.png' height={80} width={80} alt="Incoming india" className="xl:ml-16 lg:ml-8 md:hidden" />
           <Image src='/media/main_logo.png' height={140} width={140} alt="Incoming india" className="xl:ml-16 lg:ml-8 md:block hidden" />
+          <span className="xl:ml-16 lg:ml-8 footer-title text-[#ffffff] mt-2"><a href="\media\Ministry fof Tourism - Certificate-Pledge.pdf" attributes-list>Tourism Certificate</a></span>
         </div>
         <div>
           <span className="footer-title text-[#ffffff]">Destinations</span>
@@ -59,6 +60,7 @@ function Footer() {
           <a className="link link-hover" href="/">Presence</a>
           <a className="link link-hover" href="/insights">Insights</a>
         </div>
+
         {/* <form ref={form} onSubmit={sendEmail}>
           <span className="footer-title text-[#ffffff]">Contact Us</span>
           <input
