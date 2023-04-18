@@ -20,6 +20,7 @@ export default function Hero() {
                     <p className='md:text-2xl text-[1.2rem]  font-poppins hero-shadow'>Discover The Magic Of India With Your Ultimate Travel Partner!</p>
                 </div>
             </div>
+
             <div className='absolute bottom-0 text-white left-0 right-0 flex items-center justify-center'>
                 <div className='text-center'>
                     <p>Scroll Down!</p>
