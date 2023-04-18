@@ -6,10 +6,10 @@ export default function Contact() {
             <div class="container mx-auto">
                 <section class="mb-32 text-gray-800">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover bg-black/60 bg-blend-overlay"
-                        style={{ backgroundPosition: "50%", backgroundImage: "url('https://i.ibb.co/tzzsT4n/chris-lawton-o0l-M8-W-7w-A-unsplash-2.jpg')", height: "300px", opacity: "80%" }}>
-                        <h1 className='text-center font-bold text-5xl md:text-7xl text-slate-50 mt-20'>CONTACT US</h1>
+                        style={{ backgroundPosition: "50%", backgroundImage: "url('https://i.ibb.co/tzzsT4n/chris-lawton-o0l-M8-W-7w-A-unsplash-2.jpg')", height: "360px", opacity: "80%" }}>
+                        <h1 className='text-white text-6xl text-center m-auto font-poppins tracking-wide hero-shadow font-semibold mt-[132px]'>CONTACT US</h1>
                     </div>
-                    <div class="container text-gray-800 px-4 md:px-12 flex justify-center">
+                    <div class="container text-gray-800 px-4 md:px-12 flex justify-center my-4">
                         <div className="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6 w-fit"
                             style={{ marginTop: "-100px", background: "hsla(0, 0%, 100%, 0.8)", backdropFilter: "blur(30px)" }}>
                             <div class="flex flex-col md:flex-row">
