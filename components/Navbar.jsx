@@ -36,7 +36,7 @@ export default function Navbar() {
     return (
         <nav className={`h-24 ${color ? 'bg-black h-[70px]' : 'bg-transparent'} duration-300 ease-in-out fixed top-0 left-0 right-0 z-50 px-10 flex w-[100vw] items-center justify-between text-gray-200 hover:text-white`}>
             <div className='md:pl-10'>
-                <a href="/"><Image src={"/media/main_logo.png"} height={"65"} width={"65"} alt={"logo"} /></a>
+                <a href="/"><Image src={"/media/main_logo.png"} height={"90"} width={"90"} alt={"logo"} /></a>
             </div>
 
             <div className='hidden lg:block pr-10'>
