@@ -82,7 +82,7 @@ export default function Navbar() {
 
 
             {/* mobile nav */}
-            <div className={`fixed top-0 right-0 ${burger ? '-translate-x-0' : 'translate-x-full'} font-poppins ease-in-out block lg:hidden duration-1000 h-full w-[100vw] bg-no-repeat bg-cover bg-center`} >
+            <div className={`fixed top-0 right-0 ${burger ? '-translate-x-0' : 'translate-x-full'} font-poppins  block lg:hidden duration-300 h-full w-[100vw] bg-no-repeat bg-cover bg-center`} >
                 <div className='flex overflow-y-auto overflow-x-visible pt-20 justify-center bg-black/80 backdrop-blur-sm h-full w-full'>
                     <ul className=' space-y-8 text-lg text-center '>
                         <div className='bg-black/80 text-gray-200 rounded-md px-5 py-10  overflow-y-auto'>
@@ -116,7 +116,7 @@ export default function Navbar() {
                                         </div>
                                     </li ></a>
 
-                                    <a href=""> <li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
+                                    <a href="/presence"> <li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
                                         <div className='flex justify-between py-4'>
                                             PRESENCE
                                         </div>
