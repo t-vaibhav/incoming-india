@@ -87,6 +87,7 @@ export default function Contact() {
               duration-150
               ease-in-out">Send</button>
                                     </form>
+
                                 </div>
                                 <div class="grow-0 shrink-0 basis-1/2 w-full xl:w-7/12">
                                     <div class="flex flex-col w-fit">
