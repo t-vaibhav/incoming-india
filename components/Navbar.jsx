@@ -90,6 +90,11 @@ export default function Navbar() {
                             <div className='flex justify-center text-center'>
                                 <div className='space-y-2 '>
 
+                                    <a href="/"><li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer `} >
+                                        <div className={`flex justify-between  py-2 `}>
+                                            HOME
+                                        </div>
+                                    </li ></a>
                                     <a href="/about"><li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer `} >
                                         <div className={`flex justify-between  py-2 `}>
                                             ABOUT US
