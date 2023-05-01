@@ -173,3 +173,7 @@ html {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.nomargin {
+  padding-top: 0 !important;
+}

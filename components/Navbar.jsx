@@ -101,12 +101,12 @@ export default function Navbar() {
                                         </div>
                                     </li ></a>
 
-                                    <li className={`${dest ? '' : ''} font-poppins w-[15rem] z-10 duration-500 cursor-pointer`}>
-                                        <div className={`flex justify-between hover:text-orange-300 py-2 ${dest ? 'border-b-orange-300' : ''}`} onClick={() => { setDest(!dest) }}>
+                                    <li className={`${dest ? '' : ''} py-2 nomargin font-poppins w-[15rem] z-10 duration-500 cursor-pointer`}>
+                                        <p className={`flex  items-center justify-between hover:text-orange-300 ${dest ? 'border-b-orange-300' : ''}`} onClick={() => { setDest(!dest) }}>
                                             DESTINATIONS
                                             <RiArrowDropDownLine className={`text-4xl ${dest ? 'rotate-180' : ''} duration-500`} />
-                                        </div>
-                                        <ul className={`${dest ? 'block' : 'hidden'} -z-10 duration-500 text-xl text-center py-2 space-y-2`}>
+                                        </p>
+                                        <ul className={`${dest ? 'block' : 'hidden'} -z-10 duration-500 text-xl text-center  space-y-2`}>
                                             <a href="/india"><li className='hover:text-orange-300'>India</li></a>
                                             <a href="/nepal"><li className='hover:text-orange-300'>Nepal</li></a>
                                             <a href="/bhutan"><li className='hover:text-orange-300'>Bhutan</li></a>
@@ -116,25 +116,25 @@ export default function Navbar() {
                                     </li >
 
                                     <a href="/experiences"><li className={` hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
-                                        <div className={`flex justify-between  py-4 `}>
+                                        <div className={`flex justify-between  py-2 `}>
                                             EXPERIENCES
                                         </div>
                                     </li ></a>
 
                                     <a href="/presence"> <li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
-                                        <div className='flex justify-between py-4'>
+                                        <div className='flex justify-between py-2'>
                                             PRESENCE
                                         </div>
                                     </li ></a>
 
                                     <a href="/insights"> <li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
-                                        <div className='flex justify-between  py-4'>
+                                        <div className='flex justify-between  py-2'>
                                             INSIGHTS
                                         </div>
                                     </li ></a>
 
                                     <a href="/contact"><li className={`hover:text-orange-300 font-poppins w-[15rem] z-10 duration-500 cursor-pointer`} >
-                                        <div className='flex justify-between   py-4'>
+                                        <div className='flex justify-between   py-2'>
                                             CONTACT US
                                         </div>
                                     </li ></a>
