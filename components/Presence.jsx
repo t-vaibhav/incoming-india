@@ -17,9 +17,9 @@ export default function Presence() {
         <div className='flex flex-row m-0 flex-wrap justify-center mt-8'>
           {Data.map((Lang, i) => (
             <div key={i}>
-              <label htmlFor={`my-modal${i}`} className="btn bg-blend-multiply backdrop-blur-lg bg-opacity-10 bg-yellow-100 text-black border-none m-4 md:mx-8 border-yellow-600 border-2 hover:bg-yellow-400">{Lang.title}</label>
+              <label htmlFor={`my-modal${i}`} className="btn bg-blend-multiply backdrop-blur-lg bg-opacity-10 bg-yellow-100 text-black border-none m-4 md:mx-8 border-yellow-600 border-2 hover:bg-yellow-400 hover:cursor-default">{Lang.title}</label>
               <input type="checkbox" id={`my-modal${i}`} className="modal-toggle" />
-              <div className="modal">
+              {/* <div className="modal">
                 <div className="modal-box bg-yellow-100 text-black p-0">
                   <figure><Image width={384} height={240} src={Lang.img} alt="Shoes" className='h-fit w-screen' /></figure>
                   <h3 className="font-bold my-4 text-center text-orange-500 text-2xl">{Lang.title}</h3>
@@ -35,7 +35,7 @@ export default function Presence() {
                     <label htmlFor={`my-modal${i}`} className="btn bg-yellow-200 text-black border-none hover:bg-yellow-300">Close</label>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           ))}{" "}

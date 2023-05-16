@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from "@emailjs/browser"
 
 export default function Contact() {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('aLydgQZEuwgpowgc8', 'template_8gpr7wp', form.current, 'P4kUP9zvBTTz4rqUL7Wi0')
+            .then((result) => {
+                console.log(result.text);
+                e.target.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     return (
-        <div>
+        <div className=''>
             <div class="container mx-auto">
                 <section class="mb-32 text-gray-800">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover bg-black/60 bg-blend-overlay"
@@ -14,9 +27,9 @@ export default function Contact() {
                             style={{ marginTop: "-100px", background: "hsla(0, 0%, 100%, 0.8)", backdropFilter: "blur(30px)" }}>
                             <div class="flex flex-col md:flex-row">
                                 <div class="grow-0 shrink-0 basis-1/2 w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
-                                    <form>
+                                    <form ref={form} onSubmit={sendEmail}>
                                         <div class="form-group mb-6">
-                                            <input type="text" class="form-control block
+                                            <input type="text" name='user_name' class="form-control block
                 w-full
                 px-3
                 py-1.5
@@ -33,7 +46,7 @@ export default function Contact() {
                                                 placeholder="Name" />
                                         </div>
                                         <div class="form-group mb-6">
-                                            <input type="email" class="form-control block
+                                            <input type="email" name='user_email' class="form-control block
                 w-full
                 px-3
                 py-1.5
@@ -50,7 +63,7 @@ export default function Contact() {
                                                 placeholder="Email address" />
                                         </div>
                                         <div class="form-group mb-6">
-                                            <textarea class="
+                                            <textarea name='message' class="
                 form-control
                 block
                 w-full
@@ -68,7 +81,7 @@ export default function Contact() {
                 focus:text-gray-700 focus:bg-white focus:bordbg-orange-500 focus:outline-none
               " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
                                         </div>
-                                        <button type="submit" class="
+                                        <button type="submit" value="Send" onClick={sendEmail} class="
               w-full
               px-6
               py-2.5
@@ -131,7 +144,6 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-
                 </section>
             </div>
         </div>
