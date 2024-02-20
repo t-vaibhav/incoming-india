@@ -69,7 +69,7 @@ export default function About() {
     return <TeamMember name={item.Name} desg={item.Designation} />;
   });
   return (
-    <div className='bg-white'>
+    <div className="aboutimage">
       <div
         className="flex text-white justify-center items-center h-[64vh] lg:h-[100vh]"
         id="about"
@@ -79,7 +79,7 @@ export default function About() {
         </h1>
       </div>
       <Profile />
-      <div className="flex min-h-screen flex-col items-center justify-center bg-white/90" id="whyus">
+      <div className="flex min-h-screen flex-col items-center justify-center aboutimage" id="whyus">
         <div className="my-6 mx-6 md:mx-36">
           <h1 className="text-center mt-4 text-4xl md:text-6xl mb-6 font-bold text-slate-800">
             Why Us
@@ -192,7 +192,7 @@ export default function About() {
         </div>
       </div>
       <section className="bg-red-100 dark:bg-gray-900  md:px-36">
-        <div className="container px-6 py-10 mx-auto text-center ">
+        <div className="container px-6 py-10 mx-auto text-center  aboutimage">
           <h2 className="sm:text-5xl text-2xl text-black font-poppins font-semibold  py-3">
             Our Team
           </h2>
