@@ -189,7 +189,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <section className="bg-red-100 dark:bg-gray-900  md:px-36">
+      <section className="bg-red-100   md:px-36">
         <div className="container px-6 py-10 mx-auto text-center ">
           <h2 className="sm:text-5xl text-2xl text-black font-poppins font-semibold  py-3">
             Our Team
