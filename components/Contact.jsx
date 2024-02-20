@@ -6,7 +6,7 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('aLydgQZEuwgpowgc8', 'template_8gpr7wp', form.current, 'P4kUP9zvBTTz4rqUL7Wi0')
+        emailjs.sendForm('aLydgQZEuwgpowgc8', 'template_8gpr7wp', form.current, 'yUC2Eqa2YOa8wpvyL')
             .then((result) => {
                 console.log(result.text);
                 e.target.reset();
@@ -14,6 +14,8 @@ export default function Contact() {
                 console.log(error.text);
             });
     };
+
+
     return (
         <div className=''>
             <div class="container mx-auto">
