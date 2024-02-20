@@ -21,7 +21,7 @@ export default function Contact() {
             <div class="container mx-auto">
                 <section class="mb-32 text-gray-800">
                     <div className="relative overflow-hidden bg-no-repeat bg-cover bg-black/60 bg-blend-overlay"
-                        style={{ backgroundPosition: "50%", backgroundImage: "url('https://i.ibb.co/tzzsT4n/chris-lawton-o0l-M8-W-7w-A-unsplash-2.jpg')", height: "360px", opacity: "80%" }}>
+                        style={{ backgroundPosition: "50%", backgroundImage: "url('https://unsplash.com/photos/black-rotary-dial-phone-on-white-surface-8gWEAAXJjtI')", height: "360px", opacity: "80%" }}>
                         <h1 className='text-white text-6xl text-center m-auto font-poppins tracking-wide hero-shadow font-semibold mt-[132px]'>CONTACT US</h1>
                     </div>
                     <div class="container text-gray-800 px-4 md:px-12 flex justify-center my-4">

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import TeamMember from "./TeamMember";
+import Profile from "./Profile"
 
 export default function About() {
   React.useEffect(() => {
@@ -68,7 +69,7 @@ export default function About() {
     return <TeamMember name={item.Name} desg={item.Designation} />;
   });
   return (
-    <div className="">
+    <div className='bg-white'>
       <div
         className="flex text-white justify-center items-center h-[64vh] lg:h-[100vh]"
         id="about"
@@ -77,6 +78,7 @@ export default function About() {
           ABOUT US
         </h1>
       </div>
+      <Profile />
       <div className="flex min-h-screen flex-col items-center justify-center bg-white/90" id="whyus">
         <div className="my-6 mx-6 md:mx-36">
           <h1 className="text-center mt-4 text-4xl md:text-6xl mb-6 font-bold text-slate-800">
