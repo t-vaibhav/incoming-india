@@ -8,10 +8,10 @@ export default function TeamMember({ name, desg }) {
         src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
         alt=""
       />
-      <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+      <h1 className="mt-4 text-2xl font-semibold text-black capitalize dark:text-white group-hover:text-white">
         {name}
       </h1>
-      <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+      <p className="mt-2 text-gray-600 capitalize dark:text-gray-300 group-hover:text-gray-300">
         {desg}
       </p>
       <div className="flex mt-3 -mx-2">
