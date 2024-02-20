@@ -68,16 +68,16 @@ export default function About() {
     return <TeamMember name={item.Name} desg={item.Designation} />;
   });
   return (
-    <div id="about" className="">
+    <div className="">
       <div
         className="flex text-white justify-center items-center h-[64vh] lg:h-[100vh]"
-        id="whyus"
+        id="about"
       >
         <h1 className="text-4xl md:text-6xl font-semibold font-poppins tracking-wide hero-shadow">
           ABOUT US
         </h1>
       </div>
-      <div className="flex min-h-screen flex-col items-center justify-center">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-white/90" id="whyus">
         <div className="my-6 mx-6 md:mx-36">
           <h1 className="text-center mt-4 text-4xl md:text-6xl mb-6 font-bold text-slate-800">
             Why Us
@@ -91,12 +91,12 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 mb-4">
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
-            <div className="h-[480px] w-[620px]">
+            <div className="h-[500px] w-[600px]">
               <Image
-                width={620}
-                height={480}
+                width={600}
+                height={500}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://i.ibb.co/nk7mw0R/headway-5-Qg-Iuu-Bx-Kw-M-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1707301280408-8a9158f7613d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGV4cGxhaW58ZW58MHwwfDB8fHww"
                 alt=""
               />
             </div>
@@ -115,12 +115,12 @@ export default function About() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
-            <div className="h-[480px] w-[620px]">
+            <div className="h-[500px] w-[600px]">
               <Image
-                width={620}
-                height={480}
+                width={600}
+                height={500}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://i.ibb.co/BBg3nR0/kees-streefkerk-O3g3s-K3x-KI-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1471958680802-1345a694ba6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cm91dGVzfGVufDB8MHwwfHx8MA%3D%3D"
                 alt=""
               />
             </div>
@@ -140,12 +140,12 @@ export default function About() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
-            <div className="h-[480px] w-[620px]">
+            <div className="h-[500px] w-[600px]">
               <Image
-                width={620}
-                height={480}
+                width={600}
+                height={500}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://i.ibb.co/6gxJfPT/alvaro-reyes-q-Wwp-Hwip31-M-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1665477886965-af177deb8bbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGV0aWFsc3xlbnwwfDB8MHx8fDA%3D"
                 alt=""
               />
             </div>
@@ -164,12 +164,12 @@ export default function About() {
             </div>
           </div>
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 mx-6 my-6">
-            <div className="h-[480px] w-[620px]">
+            <div className="h-[500px] w-[600px]">
               <Image
-                width={620}
-                height={480}
+                width={600}
+                height={500}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="https://i.ibb.co/6WrKSkj/ashim-d-silva-KF7pv-8-Oiy-Y-unsplash.jpg"
+                src="https://images.unsplash.com/photo-1705861144570-00ede2bc7e7f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFoYXJhamF8ZW58MHwwfDB8fHww"
                 alt=""
               />
             </div>
