@@ -30,7 +30,7 @@ const summitData = [
     {
         title: "Our team personifies the essence of our brand.",
         description:
-            "At Incoming India, our team is the living embodiment of our brand, fueled by a shared passion for travel and a steadfast commitment to customer success. Working collaboratively in regional teams, our top talents come together to execute a unified supplier strategy, uphold consistent service standards, and follow operating guidelines. Empowered with authority, our dynamic management team brings a personalized touch to local markets, offering customers financial security, tailored advice, and bespoke products.",
+            "At Incoming India, our team is the living embodiment of our brand, fueled by a shared passion for travel and a steadfast commitment to customer success. Working collaboratively in regional teams, our top talents come together to execute a unified supplier strategy, uphold consistent service standards, and follow operating guidelines.",
         image1: "/5.jpg",
         image2: "/6.jpg",
         live: "",
@@ -53,12 +53,12 @@ const summitData = [
 
 const Esummit = ({ title, description, image1, image2, live, now, description1 }) => (
     <div className="my-12 items-start flex flex-col mx-6 md:mx-12 lg:mx-16">
-        <h1 className="text-black text-4xl lg:text-5xl uppercase xl:mx-24 font-poppins fobnt-semibold mx-6 md:mx-0 md:mb-12 mt-12 mb-6 md:mt-24">{title}<a className=' text-base md:text-lg text-violet-400 underline underline-offset-4 mx-4' href={live}>{now}</a></h1>
+        <h1 className="text-black text-4xl lg:text-5xl uppercase xl:mx-24 font-alkatra font-semibold mx-6 md:mx-0 md:mb-12 mt-12 mb-6 md:mt-24">{title}<a className=' text-base md:text-lg text-violet-400 underline underline-offset-4 mx-4' href={live}>{now}</a></h1>
         <div className="mx-6 lg:mx-0 flex flex-col md:flex-row">
 
             <div className='flex flex-col md:basis-1/2'>
                 <div className='w-full'>
-                    <p className="text-black/60 text-base font-medium md:text-base lg:text-xl my-auto md:my-auto xl:mx-24 font-lora">{description}</p>
+                    <p className="text-black/60 text-base font-medium md:text-base lg:text-xl my-auto md:my-auto xl:mx-24 font-roboto">{description}</p>
                 </div>
                 <div className='w-full'>
                     <Image alt="" width={500} height={400} src={image1} className="md:scale-90 mx-auto xl:scale-[80%] my-8 md:my-0 rounded-2xl w-full" />
@@ -66,7 +66,7 @@ const Esummit = ({ title, description, image1, image2, live, now, description1 }
             </div>
             <div className='flex flex-col md:flex-col-reverse md:basis-1/2'>
                 <div className='w-full'>
-                    <p className="text-black/60 text-base font-medium md:text-base lg:text-xl my-auto md:my-auto xl:mx-24 font-lora">{description}</p>
+                    <p className="text-black/60 text-base font-medium md:text-base lg:text-xl my-auto md:my-auto xl:mx-24 font-roboto">{description1}</p>
                 </div>
                 <div className='w-full'>
                     <Image alt="" width={500} height={400} src={image2} className="md:scale-90 mx-auto xl:scale-[80%] my-8 md:my-0 rounded-2xl w-full" />
