@@ -53,7 +53,7 @@ const summitData = [
 
 const Esummit = ({ title, description, image1, image2, live, now, description1 }) => (
     <div className="my-12 items-start flex flex-col mx-6 md:mx-12 lg:mx-16">
-        <h1 className="text-black text-4xl lg:text-5xl uppercase xl:mx-24 font-alkatra font-semibold mx-6 md:mx-0 md:mb-12 mt-12 mb-6 md:mt-24">{title}<a className=' text-base md:text-lg text-violet-400 underline underline-offset-4 mx-4' href={live}>{now}</a></h1>
+        <h1 className="text-black text-3xl lg:text-5xl uppercase xl:mx-24 font-alkatra font-semibold mx-6 md:mx-0 md:mb-12 mt-12 mb-6 md:mt-24">{title}<a className=' text-base md:text-lg text-violet-400 underline underline-offset-4 mx-4' href={live}>{now}</a></h1>
         <div className="mx-6 lg:mx-0 flex flex-col md:flex-row">
 
             <div className='flex flex-col md:basis-1/2'>

@@ -144,7 +144,7 @@ html {
 
 #about {
   background-image: url(https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size: 100vw;
+  background-size: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -183,4 +183,12 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media screen and (min-width: 768px) {
+
+  /* Apply styles for medium screens and above */
+  #about {
+    background-size: 100vw;
+  }
 }
