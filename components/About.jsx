@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import TeamMember from "./TeamMember";
 
 export default function About() {
   React.useEffect(() => {
@@ -16,57 +15,7 @@ export default function About() {
       setColor(false);
     }
   };
-  const members = [
-    {
-      Name: "Sundeep Luthra",
-      Designation: "Founder & CEO",
-    },
-    {
-      Name: "Subhashish Sengupta",
-      Designation: "Business Head (IBT)",
-    },
-    {
-      Name: "Graeme Watson",
-      Designation: "Sales Representative for UK & SAF Market",
-    },
-    {
-      Name: "Anshika Matharu",
-      Designation: "Escalation Manager",
-    },
-    {
-      Name: "Vibhu Kapoor",
-      Designation: "Manager Travel Sales & Operations",
-    },
-    {
-      Name: "Reetu Rigu",
-      Designation: "Manager International Ticketing",
-    },
-    {
-      Name: "Sanjeev Sharma",
-      Designation: "Head (Finance)",
-    },
-    {
-      Name: "Rahul Chouhan",
-      Designation: "Team Associate",
-    },
-    {
-      Name: "Jatin",
-      Designation: "Team Consultant Admin",
-    },
-    {
-      Name: "Rahul Singh",
-      Designation: "Field Executive",
-    },
-    {
-      Name: "Rahul Singh",
-      Designation: "Pantry & Kitchen",
-    },
-  ];
 
-  const membersComponents = members.map((item, index) => {
-    console.log(item);
-    return <TeamMember name={item.Name} desg={item.Designation} />;
-  });
   return (
     <div id="about" className="">
       <div
@@ -189,21 +138,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <section className="bg-red-100   md:px-36">
-        <div className="container px-6 py-10 mx-auto text-center ">
-          <h2 className="sm:text-5xl text-2xl text-black font-poppins font-semibold  py-3">
-            Our Team
-          </h2>
-
-          <p className="font-medium sm:text-xl text-base py-5 md:py-2  md:pb-5 text-gray-900 ">
-            Meet the respectable members of our team
-          </p>
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-5 md:grid-cols-2 xl:grid-cols-4">
-            {membersComponents}
-            <TeamMember name={"vaibhav"} desg={"sad"} />
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
